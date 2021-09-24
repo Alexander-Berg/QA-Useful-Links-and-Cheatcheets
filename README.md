@@ -1,4 +1,4 @@
-# IT Useful Links
+# QA & IT Useful Links
 A lot of links for development
 ## Git Hub
 - Github docs - https://docs.github.com/en
