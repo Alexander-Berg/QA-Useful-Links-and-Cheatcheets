@@ -18,6 +18,7 @@ A lot of links for development & Testing
 - [Free programming books](https://github.com/EbookFoundation/free-programming-books)
 - [Coding interview university](https://github.com/jwasham/coding-interview-university)
 - [Basic IT terms by me](https://github.com/Alexander-Berg/QA-and-IT-Useful-Links/blob/09d7c21d0d90a69b76e0733271875552d03c580d/Basic%20IT%20terms.md)
+- [Geeks for Geeks](https://www.geeksforgeeks.org)
 ### Online courses
 - [Udemy](https://www.udemy.co)
 - [Geek Brains](https://gb.ru)
@@ -91,3 +92,5 @@ library and community for container images*
 - [IBM Devops](https://www.ibm.com/uk-en/cloud/devops?p1=Search&p4=43700052281166590&p5=b&gclid=CjwKCAiAkJKCBhAyEiwAKQBCkny6brJhBRGKPIZSkyS7egOlsR7N_qGNNv1WPkZFWPUV9oMtp6JoahoCMqYQAvD_BwE&gclsrc=aw.ds)
 - [Jet Brains IDEs](https://www.jetbrains.com/space/)
 - [Cross platform Software development](https://www.qt.io)
+- [Red Gate](https://www.red-gate.com) - *solving the database challenges*
+- 
