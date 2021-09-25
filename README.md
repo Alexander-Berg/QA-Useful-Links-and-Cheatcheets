@@ -1,5 +1,5 @@
 # QA & IT Useful Links
-A lot of links for development
+A lot of links for development & Testing
 ## Git Hub
 - [Github docs](https://docs.github.com/en)
 - [Git cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
@@ -8,6 +8,7 @@ A lot of links for development
 - [Markdown basic syntax](https://www.markdownguide.org/basic-syntax/)
 - [25 Github useful repositories](https://threadreaderapp.com/thread/1403337947550609414.html)
 - [BitBucket]( https://bitbucket.org/dashboard/overview)
+- [GitLab](https://about.gitlab.com)
 ## IT knowledge bases
 - [Awesome IT ecyclopedia](https://github.com/sindresorhus/awesome)
 - [.Net learning center](https://docs.microsoft.com/en-us/learn/browse/)
@@ -16,13 +17,15 @@ A lot of links for development
 - [Computer science Open Source Society University](https://github.com/ossu/computer-science)
 - [Free programming books](https://github.com/EbookFoundation/free-programming-books)
 - [Coding interview university](https://github.com/jwasham/coding-interview-university)
+- [Basic IT terms by me](https://github.com/Alexander-Berg/QA-and-IT-Useful-Links/blob/09d7c21d0d90a69b76e0733271875552d03c580d/Basic%20IT%20terms.md)
 ### Online courses
 - [Udemy](https://www.udemy.co)
 - [Geek Brains](https://gb.ru)
 - [Skillbox](https://skillbox.ru)
 - [Netology](https://netology.ru)
+- [Free code camp](https://www.freecodecamp.org/news/)
 ## Online Development Services
-- [AWS - *Amazon Web services*](https://aws.amazon.com/?nc2=h_lg)
+- [AWS](https://aws.amazon.com/?nc2=h_lg)  - *Amazon Web services*
 - [Glitch](https://glitch.com/) - *The simplest way to instantly create a web app*
 - [Twilio ](https://www.twilio.com)- *An API to send and receive SMS, MMS, OTT messages globally*
 - [Google cloud](https://cloud.google.com) - *Run Apps, Host Sites and Store Data*
@@ -34,5 +37,57 @@ A lot of links for development
 - [Docker](https://hub.docker.com) - *Docker Hub is the world's largest
 library and community for container images*
 - [Kubernetes](https://kubernetes.io) - *Automated container deployment, scaling, and management*
-- 
-- 
+- [Azure Cloud services](https://azure.microsoft.com)
+- [Node JS](https://nodejs.org/en/)
+## Testing Toools & Frameworks
+- [Allure Framework]() - [Allure Docs](https://docs.qameta.io/allure/)
+- [Web Driver Manager](https://github.com/bonigarcia/webdrivermanager)
+- [Cucumber](https://cucumber.io)
+- [Testcontainers](https://www.testcontainers.org)
+- [Database Rider](https://github.com/database-rider/database-rider)
+- [DBubit](http://dbunit.sourceforge.net/#:~:text=DbUnit%20is%20a%20JUnit%20extension,known%20state%20between%20test%20runs.&text=DbUnit%20has%20the%20ability%20to,to%20and%20from%20XML%20datasets.)
+- [Adminer](https://www.adminer.org)
+- [Katalon](https://www.katalon.com)
+- [Tricentis](https://www.tricentis.com)
+- [SoapUI](https://www.soapui.org)
+- [Wireshark](https://www.wireshark.org/#download)
+- [Testlodge](https://www.testlodge.com)
+- [Testlink](https://github.com/TestLinkOpenSourceTRMS/testlink-code/tree/testlink_1_9_20_fixed/)
+- [SpiraTest](https://www.inflectra.com/SpiraTest/?utm_source=GoogleAd&gclid=CjwKCAjww-CGBhALEiwAQzWxOp4AflkWxA_xt1v9CgowZxxvqzjFH-OvDwfDG9sBexxVEbNGi4HykRoC30YQAvD_BwE)
+- [Kualitee](https://www.kualitee.com)
+- [Zephyr](https://smartbear.com/test-management/zephyr/)
+- [Practitest](https://www.practitest.com)
+- [Testrail](https://www.gurock.com/testrail/?utm_source=adwords&utm_medium=cpc&utm_campaign=europe_en_competitor_2&utm_content=qtest&creative=467679754521&keyword=qtest&matchtype=e&network=g&device=c&gclid=CjwKCAjww-CGBhALEiwAQzWxOgCGW1IPjfUksM-WS9OWwmZ3lHKjrN2TmYVAzsgsFpP6ETCCQZc9sxoCi4AQAvD_BwE)
+- [Jmeter](https://jmeter.apache.org)
+- [Postman](https://www.postman.com)
+- [Report Portal](https://reportportal.io)
+- [Circe CI](https://circleci.com/?utm_source=gnb&utm_medium=SEM&utm_campaign=SEM-gnb-CICD-Eng-emea_ReportExp&utm_content=SEM-gnb-CICD-Eng-emea-continuousIntegration&utm_term=continuousIntegration&gclid=CjwKCAjwoNuGBhA8EiwAFxomA7wYAE0aaa4DEx10NIDfki8ekrNG-od6BcBnhJRS9SNJOTYb7mv9lxoCm1AQAvD_BwE)
+- [Jenkins](https://www.jenkins.io)
+- [Jira](https://www.atlassian.com/software/jira?&aceid=&adposition=&adgroup=95003651009&campaign=9124878846&creative=475726743962&device=c&keyword=jira&matchtype=e&network=g&placement=&ds_kids=p51241553529&ds_e=GOOGLE&ds_eid=700000001558501&ds_e1=GOOGLE&gclid=Cj0KCQiA962BBhCzARIsAIpWEL0dntWfHfOvWE3UlBOc88x5m-5FbfkQzGjpYLwrXyH4gx0kQwgeuOcaAlMiEALw_wcB&gclsrc=aw.ds)
+- [Blazemeter](https://www.blazemeter.com)
+- [Pytest](https://docs.pytest.org/en/latest/contents.html)
+- [Appium](https://appium.io)
+- [Cypress](https://www.cypress.io)
+- [Yarn](https://yarnpkg.com)
+- [Jests](https://jestjs.io)
+- [Postman Echo](https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65?ctx=documentation)
+- [Rest-assured JSONPath evaluate](https://rapathevaluate.herokuapp.com)
+- [Appveyor](https://www.appveyor.com)
+- [TestNG](https://testng.org/doc/index.html)
+- [Selenide](https://ru.selenide.org/documentation.html)
+- [Pytest](https://opensource.com/article/18/6/pytest-plugins)
+- ## Development Software & Drivers
+- [Chrome Driver](https://chromedriver.chromium.org)     [Mozilla Driver](https://github.com/mozilla/geckodriver)
+- [Charles](https://www.charlesproxy.com)
+- [Check Browser compatiblity](http://browsershots.org)
+- [Credit Card Number Generator & Validator](https://www.freeformatter.com/credit-card-number-generator-validator.html)
+- [SQL tryiT](https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_columns)
+- [DB Browser for SQLite](https://sqlitebrowser.org)
+- [Java Faker](https://github.com/DiUS/java-faker)
+- [Electron](https://github.com/electron/electron)
+- [Fiddler](https://www.telerik.com/fiddler)
+- [Google cloud API Managment](https://cloud.google.com/apigee)
+- [Eclipse IDE](https://www.eclipse.org/downloads/packages/)
+- [IBM Devops](https://www.ibm.com/uk-en/cloud/devops?p1=Search&p4=43700052281166590&p5=b&gclid=CjwKCAiAkJKCBhAyEiwAKQBCkny6brJhBRGKPIZSkyS7egOlsR7N_qGNNv1WPkZFWPUV9oMtp6JoahoCMqYQAvD_BwE&gclsrc=aw.ds)
+-[Jet Brains IDEs](https://www.jetbrains.com/space/)
+[Cross platform Software development](https://www.qt.io)
