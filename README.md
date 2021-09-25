@@ -89,5 +89,5 @@ library and community for container images*
 - [Google cloud API Managment](https://cloud.google.com/apigee)
 - [Eclipse IDE](https://www.eclipse.org/downloads/packages/)
 - [IBM Devops](https://www.ibm.com/uk-en/cloud/devops?p1=Search&p4=43700052281166590&p5=b&gclid=CjwKCAiAkJKCBhAyEiwAKQBCkny6brJhBRGKPIZSkyS7egOlsR7N_qGNNv1WPkZFWPUV9oMtp6JoahoCMqYQAvD_BwE&gclsrc=aw.ds)
--[Jet Brains IDEs](https://www.jetbrains.com/space/)
-[Cross platform Software development](https://www.qt.io)
+- [Jet Brains IDEs](https://www.jetbrains.com/space/)
+- [Cross platform Software development](https://www.qt.io)
