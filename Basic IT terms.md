@@ -35,4 +35,3 @@
 - [Test management tool](https://en.wikipedia.org/wiki/Test_management_tool)
 - [Map](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Map.html)
 - [XSS vulnerability](https://habr.com/ru/post/511318/)
-- 
