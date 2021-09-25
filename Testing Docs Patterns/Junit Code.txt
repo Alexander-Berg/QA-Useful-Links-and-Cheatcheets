@@ -1,0 +1,47 @@
+<dependencies>
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-api</artifactId>
+        <version>5.7.2</version>
+        <scope>test</scope>
+    </dependency>
+    </dependencies>
+
+    <build>
+    <plugins>
+        <plugin>
+
+                <groupId>org.junit.jupiter</groupId>
+                <artifactId>junit-jupiter-api</artifactId>
+                <version>5.7.2</version>
+
+
+        </plugin>
+    </plugins>
+    </build>
+
+
+
+</project>
+
+<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
+<dependency>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-surefire-plugin</artifactId>
+    <version>2.22.2</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.github.spotbugs/spotbugs -->
+<dependency>
+    <groupId>com.github.spotbugs</groupId>
+    <artifactId>spotbugs</artifactId>
+    <version>4.2.3</version>
+    <type>pom</type>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.jacoco/jacoco-maven-plugin -->
+<dependency>
+    <groupId>org.jacoco</groupId>
+    <artifactId>jacoco-maven-plugin</artifactId>
+    <version>0.8.7</version>
+</dependency>
