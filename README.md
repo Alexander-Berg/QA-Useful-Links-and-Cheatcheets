@@ -40,8 +40,8 @@ library and community for container images*
 - [Kubernetes](https://kubernetes.io) - *Automated container deployment, scaling, and management*
 - [Azure Cloud services](https://azure.microsoft.com)
 - [Node JS](https://nodejs.org/en/)
-- [Visual Studio Code IDE] (https://code.visualstudio.com)
-- [auth0](https://auth0.com} - autorization protocol
+- [Visual Studio Code IDE](https://code.visualstudio.com)
+- [auth0](https://auth0.com) - autorization protocol
 - [My SQL documentation](https://dev.mysql.com/doc/refman/8.0/en/create-table.html)
 - [Gradle](https://docs.gradle.org/current/userguide/userguide.html)
  ## Development Software & Drivers
