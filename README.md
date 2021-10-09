@@ -19,6 +19,7 @@ A lot of links for development & Testing
 - [Coding interview university](https://github.com/jwasham/coding-interview-university)
 - [Basic IT terms by me](https://github.com/Alexander-Berg/QA-and-IT-Useful-Links/blob/09d7c21d0d90a69b76e0733271875552d03c580d/Basic%20IT%20terms.md)
 - [Geeks for Geeks](https://www.geeksforgeeks.org)
+- [Java Programming Cheatsheet](https://introcs.cs.princeton.edu/java/11cheatsheet/)
 ### Online courses
 - [Udemy](https://www.udemy.co)
 - [Geek Brains](https://gb.ru)
@@ -62,6 +63,8 @@ library and community for container images*
 - [Red Gate](https://www.red-gate.com)
 - [Selenium](https://www.selenium.dev)
 - [Jetbrains Plugins](https://plugins.jetbrains.com)
+- [Timestamp](https://www.unixtimestamp.com)
+- [Byte Calculator](http://byteconvert.org)
 ## Testing Toools & Frameworks
 - [Allure Framework]() - [Allure Docs](https://docs.qameta.io/allure/)
 - [Web Driver Manager](https://github.com/bonigarcia/webdrivermanager)
