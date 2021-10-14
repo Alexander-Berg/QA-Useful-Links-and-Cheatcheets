@@ -1,0 +1,82 @@
+DROP TABLE student;
+
+CREATE TABLE student (
+    student_id INT PRIMARY KEY,
+    name VARCHAR(30) NOT NULL,
+    major VARCHAR(30) UNIQUE
+);
+DESCRIBE student;
+
+ALTER TABLE student ADD gpa DECIMAL(3, 2);
+
+ALTER TABLE student DROP gpa;
+
+INSERT INTO student(major) VALUES('Biology')
+WHERE student_id = 3;
+
+SELECT * FROM student;
+
+UPDATE student
+SET major = 'Biology'
+WHERE major = 'Biology' OR student_id = 3;
+
+DELETE FROM student
+WHERE student_id =3;
+
+SELECT *
+FROM student
+WHERE major = 'Comp Sci'
+ORDER BY student_id DESC;
+
+SELECT * fROM student;
+
+SELECT *
+FROM student
+WHERE major LIKE '%olo%';
+
+SELECT *
+FROM student
+WHERE gpa LIKE '__00';
+
+SELECT major
+FROM student
+UNION
+SELECT gpa
+FROM student;
+
+CREATE TABLE branch (
+    branch_id INT PRIMARY KEY,
+    corp_name VARCHAR(30));
+
+DESCRIBE branch;
+
+INSERT INTO branch VALUES (1,'Eden Initiative');
+
+DROP TABLE branch;
+
+select * from branch;
+
+SELECT name, major,gpa
+FROM student
+JOIN branch
+ON branch.corp_name = student.gpa;
+
+SELECT student.major, student.gpa
+FROM student
+WHERE student.student_id IN (
+    SELECT branch.branch_id
+    FROM branch
+    WHERE branch.corp_name = NOT NULL
+);
+
+FOREIGN KEY(example) REFERENCES expample(example_id) ON DELETE SET NULL
+FOREIGN KEY(example) REFERENCES expample(example_id) ON DELETE CASCADE
+
+DELIMETER $$
+CREATE
+TRIGGER my_trigger BEFORE INSERT
+ON name
+FOR EACH ROW BEGIN
+INSERT INTO trigger_test VALUES ('added_new_name');
+END$$
+DELIMETER;

@@ -39,6 +39,7 @@ A lot of links for development & Testing
 - [Docker](https://hub.docker.com) - *Docker Hub is the world's largest
 library and community for container images*
 - [Kubernetes](https://kubernetes.io) - *Automated container deployment, scaling, and management*
+<<<<<<< Updated upstream
 - [Azure Cloud services](https://azure.microsoft.com)
 - [Node JS](https://nodejs.org/en/)
 - [Visual Studio Code IDE](https://code.visualstudio.com)
@@ -130,3 +131,10 @@ library and community for container images*
 - [Skipping JaCoCo Execution Due to Missing Execution Data File](http://www.ffbit.com/blog/2014/05/21/skipping-jacoco-execution-due-to-missing-execution-data-file/)
 - [QA CI Demo](https://github.com/netology-code-samples/aqa-ci-demo)
 - [Selectors lvl 4](https://www.w3.org/TR/selectors/#context)
+=======
+<video autoplay muted loop id="myVideo">
+  <source src="src/max1.mp4" type="video/mp4">
+</video>
+- 
+- 
+>>>>>>> Stashed changes
