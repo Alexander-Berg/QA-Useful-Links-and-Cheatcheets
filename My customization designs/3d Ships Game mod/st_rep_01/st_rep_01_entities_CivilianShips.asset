@@ -1,0 +1,241 @@
+@destroyer_scale = 7.5
+@corvette_scale = 6.5
+@cruiser_scale = 10.5
+@battleship_scale = 16.0
+@missile_scale = 1.0
+@transport_scale = 9.0
+@colonizer_scale = 13.0
+@science_scale = 1.0
+@constructor_scale = 12.0
+@military_station_large = 15.0
+@orbital_station = 17
+@research_station = 13
+@mining_station = 13
+@terraforming_station = 13
+
+
+###################################################################################
+###																				###
+###								CIVILIAN SHIPS									###
+###																				###
+###################################################################################
+
+#Construction ship frame
+entity = {
+	name = "st_rep_01_constructor_entity"
+	pdxmesh = "molluscoid_01_corvette_frame_mesh"
+
+	default_state = "idle"
+	state = { name = "idle"	 						animation = "idle" animation_blend_time = 0 }
+	state = { name = "moving"						animation = "idle" animation_blend_time = 2 }
+	state = { name = "working" 						animation = "idle" looping = no next_state = working_looping }
+	state = { name = "working_looping"				animation = "idle" }
+	state = { name = "death" animation = "death3" 	animation_blend_time = 0.0 chance = 1 looping = no 
+		event = { time = 4.63 node = "ship_main" particle = "large_ship_explosion_particle" }
+	}
+
+	scale = 1.0
+
+	game_data = {
+		size = @constructor_scale
+	}
+}
+
+
+#Construction ship model assign
+entity = {
+	name = "st_rep_01_cruiser_mid_L1M1_entity"
+	pdxmesh = "st_rep_01_Neb_B_M2S2_mesh"              #mesh here
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5
+		event = { time = 0 node = "engine_medium_01" particle = "st_rep_1_0_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_02" particle = "st_rep_1_0_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_03" particle = "st_rep_1_0_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_04" particle = "st_rep_1_0_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_05" particle = "st_rep_1_0_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_06" particle = "st_rep_1_0_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_07" particle = "st_rep_1_0_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+	}
+	state = { name = "moving" state_time = 5
+		event = { time = 0 node = "engine_medium_01" particle = "st_rep_1_0_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_02" particle = "st_rep_1_0_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_03" particle = "st_rep_1_0_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_04" particle = "st_rep_1_0_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_05" particle = "st_rep_1_0_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_06" particle = "st_rep_1_0_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_07" particle = "st_rep_1_0_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+	}
+	state = { name = "death" state_time = 5 }
+	
+	scale = 0.55
+}
+
+entity = {
+	name = "st_rep_01_cruiser_stern_M1_entity"
+	pdxmesh = "empty_mesh"
+	
+	locator = { name = "medium_gun_01" rotation = { 0 0 0 } position = { 0 0 0 } }
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "moving" state_time = 5 }
+	state = { name = "death" state_time = 5 }
+}
+
+entity = {
+	name = "st_rep_01_cruiser_stern_S2_entity"
+	pdxmesh = "empty_mesh"
+	
+	locator = { name = "small_gun_01" rotation = { 0 0 0 } position = { 0 0 0 } }
+	locator = { name = "small_gun_02" rotation = { 0 0 0 } position = { 0 0 0 } }
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "moving" state_time = 5 }
+	state = { name = "death" state_time = 5 }
+}
+
+
+#Colony ship frame
+entity = {
+	name = "st_rep_01_colonizer_entity"
+	pdxmesh = "molluscoid_01_corvette_frame_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle"	 animation = "idle" }
+	state = { name = "moving"	animation = "idle" }
+	state = { name = "death" animation = "death" }
+   	game_data = {
+		size = @colonizer_scale
+	}
+	
+	scale = 1.0
+}
+
+#Colony ship model assign
+entity = {
+	name = "st_rep_01_colony_ship_entity"	
+	pdxmesh = "valor_battleship_mesh"       #mesh here
+	
+	locator = { name = "engine_medium_02" rotation = { 180 0 0 } position = { -0.456412 -0.143426 1.14484 } }
+	locator = { name = "engine_medium_01" rotation = { 180 0 0 } position = { 0.455424 -0.143058 1.14506 } }
+	locator = { name = "engine_small_02" rotation = { 180 0 0 } position = { -0.229007 -0.197104 1.55444 } }
+	locator = { name = "engine_small_01" rotation = { 180 0 0 } position = { 0.227681 -0.196088 1.55546 } }
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5
+		event = { time = 0 node = "engine_small_01" particle = "st_rep_0_36_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_small_02" particle = "st_rep_0_36_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_01" particle = "st_rep_0_2_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_02" particle = "st_rep_0_2_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		
+	}
+	state = { name = "moving" state_time = 5
+		event = { time = 0 node = "engine_small_01" particle = "st_rep_0_36_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_small_02" particle = "st_rep_0_36_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_01" particle = "st_rep_0_2_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_02" particle = "st_rep_0_2_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+	}
+	state = { name = "death" state_time = 5 }
+	
+	scale = 4.0 #
+}
+
+
+
+#Army transport ship frame
+entity = {
+	name = "st_rep_01_transport_entity"
+	pdxmesh = "molluscoid_01_corvette_frame_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle"	 animation = "idle" animation_blend_time = 4 
+		start_event = { trigger_once = yes sound = { soundeffect = "amb_starship_hum" } }
+	}
+	state = { name = "moving"	animation = "idle" animation_blend_time = 2
+		event = { trigger_once = yes sound = { soundeffect = moving_out_science } }
+	}
+	state = { name = "death" animation = "death3" animation_blend_time = 0.0 chance = 1 looping = no 
+		event = { time = 4.63 node = "ship_main" particle = "large_ship_explosion_particle" }
+	}
+ 
+	scale = 1.0
+	game_data = {
+		size = @transport_scale
+	}
+}
+
+#Army transport ship model assign
+entity = {
+	name = "st_rep_01_transport_ship_entity"
+	pdxmesh = "Acclamator_mesh"       #mesh here  Acclamator_big_mesh
+	
+	locator = { name = "engine_medium_02" rotation = { 180 0 0 } position = { -0.456412 -0.143426 1.14484 } }
+	locator = { name = "engine_medium_01" rotation = { 180 0 0 } position = { 0.455424 -0.143058 1.14506 } }
+	locator = { name = "engine_small_02" rotation = { 180 0 0 } position = { -0.229007 -0.197104 1.55444 } }
+	locator = { name = "engine_small_01" rotation = { 180 0 0 } position = { 0.227681 -0.196088 1.55546 } }
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5
+		event = { time = 0 node = "engine_small_01" particle = "st_rep_0_36_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_small_02" particle = "st_rep_0_36_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_01" particle = "st_rep_0_2_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_02" particle = "st_rep_0_2_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		
+	}
+	state = { name = "moving" state_time = 5
+		event = { time = 0 node = "engine_small_01" particle = "st_rep_0_36_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_small_02" particle = "st_rep_0_36_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_01" particle = "st_rep_0_2_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_02" particle = "st_rep_0_2_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+	}
+	state = { name = "death" state_time = 5 }
+	
+	scale = 4.0 #
+}
+
+entity = {
+	name = "st_rep_01_droppod_entity"
+	pdxmesh = "empty_mesh"
+	
+	locator = { name = "flipped_mesh" rotation = { -180 0 0 } position = { 0 0 0 } }
+	attach = { flipped_mesh = "st_rep_01_UWING_entity" }
+	
+	scale = 1.0
+}
+
+entity = {
+	name = "st_rep_01_UWING_entity"
+	pdxmesh = "UWING_mesh"
+	scale = 0.1
+}
+
+
+entity = {
+ name = "st_rep_01_science_entity"	
+	pdxmesh = "molluscoid_01_corvette_frame_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle"	 animation = "idle" animation_blend_time = 4 }
+	state = { name = "moving"	animation = "idle" animation_blend_time = 2 }
+	state = { name = "death" animation = "death3" animation_blend_time = 0.0 chance = 1 looping = no 
+		event = { time = 4.63 node = "ship_main" particle = "avian_01_large_ship_explosion_particle" }
+	}
+	
+	scale = 1.0
+}
+
+#Science ship model assign
+entity = {
+ name = "st_rep_01_science_ship_entity"
+	pdxmesh = "X70B_phantom_science_ship_mesh"       #mesh here
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "moving" state_time = 5 }
+	state = { name = "death" state_time = 5 }
+	
+	scale = 0.5
+}
+

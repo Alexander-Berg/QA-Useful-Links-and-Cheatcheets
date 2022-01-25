@@ -1,0 +1,48 @@
+objectTypes = {
+	pdxmesh = {
+		name = "Providence_mesh"
+		file = "gfx/models/ships/st_rep_01/Providence.mesh"
+		scale = 0.1
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "CAPITAL_CIS_PROVIDENCE_DIFFUSE.dds"
+			texture_normal = "CAPITAL_CIS_PROVIDENCE_NM.dds"
+			texture_specular = "CAPITAL_CIS_PROVIDENCE_DIFFUSE.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+objectTypes = {
+	pdxmesh = {
+		name = "Providence_blank_mesh"
+		file = "gfx/models/ships/st_rep_01/Providence_blank.mesh"
+		scale = 0.4
+	}
+}
+objectTypes = {
+	pdxmesh = {
+		name = "Acclamator_big_mesh"
+		file = "gfx/models/ships/st_rep_01/valor_battleship.mesh"
+		scale = 0.4
+
+		meshsettings = {
+			name = "Valor_Battleship:HullShape"
+			index = 0
+			texture_diffuse = "Rep_Dreadnaught_diffuse.dds"
+			texture_normal = "Rep_Dreadnaught_normal.dds"
+			texture_specular = "Rep_Dreadnaught_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Valor_Battleship1:LightsShape"
+			index = 0
+			texture_diffuse = "Rep_Dreadnaught_lights_diffuse.dds"
+			texture_normal = "Rep_Dreadnaught_lights_normal.dds"
+			texture_specular = "Rep_Dreadnaught_lights_specular.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+	}	
+}

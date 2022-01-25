@@ -1,0 +1,53 @@
+@research_station = 13
+@mining_station = 13
+
+entity = {
+	name = "st_rep_01_mining_station_entity"
+	pdxmesh = "st_rep_Mining_Station_mesh"
+	
+	locator = { name = "part1" 			position = { 0 	0 	0 } }
+
+	default_state = "idle"
+	state = { name = "idle" state_time = 5
+		start_event = { trigger_once = yes sound = { soundeffect = "amb_mining_station_signals" } } }
+	
+	state = { name = "death" state_time = 5 looping = no }
+	
+	scale = 1.0
+	game_data = {
+		size = @mining_station
+	}
+}
+
+
+
+entity = {
+	name = "st_rep_01_research_station_entity"
+	pdxmesh = "st_rep_Research_Station_mesh"
+
+	locator = { name = "part1" 			position = { 0 	0 	0 } }
+
+	default_state = "idle"
+	state = { name = "idle" start_event = { trigger_once = yes sound = { soundeffect = "amb_research_station_signals" } } }
+	
+	state = { name = "death"  looping = no }
+	scale = 1.0
+	
+	game_data = {
+		size = @research_station
+	}
+}
+
+entity = {
+	name = "st_rep_01_observation_station_entity"
+	pdxmesh = "st_rep_Research_Station_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" start_event = { trigger_once = yes sound = { soundeffect = "amb_research_station_signals" } } }
+	state = { name = "death"  looping = no }
+	
+	scale = 1.0
+	game_data = {
+		size = @research_station
+	}
+}

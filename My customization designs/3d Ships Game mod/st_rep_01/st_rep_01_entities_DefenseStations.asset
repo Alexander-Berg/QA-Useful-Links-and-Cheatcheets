@@ -1,0 +1,100 @@
+@military_station_large = 15.0
+
+#
+#Defense stations
+#
+entity = {
+	name = "st_rep_01_military_station_small_entity"
+	pdxmesh = "st_rep_Outpost_Station_mesh"
+	
+	locator = { name = "small_gun_01" rotation = { 0 0 0 } position = { 0 0 0 } }
+	locator = { name = "small_gun_02" rotation = { 0 0 0 } position = { 0 0 0 } }
+	locator = { name = "small_gun_03" rotation = { 0 0 0 } position = { 0 0 0 } }
+	locator = { name = "small_gun_04" rotation = { 0 0 0 } position = { 0 0 0 } }
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5
+		start_event = { trigger_once = yes sound = { soundeffect = "defense_station_idle_hum" } } }
+	
+	state = { name = "death" state_time = 2 looping = no }
+	
+	scale = 1.0
+}
+
+entity = {
+	name = "st_rep_01_military_station_medium_entity"
+	pdxmesh = "st_rep_starhold_Station_mesh"	
+	
+	locator = { name = "small_gun_01" rotation = { 0 0 0 } position = { 0 0 0 } }
+	locator = { name = "small_gun_02" rotation = { 0 0 0 } position = { 0 0 0 } }
+	locator = { name = "small_gun_03" rotation = { 0 0 0 } position = { 0 0 0 } }
+	locator = { name = "small_gun_04" rotation = { 0 0 0 } position = { 0 0 0 } }
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5
+		start_event = { trigger_once = yes sound = { soundeffect = "defense_station_idle_hum" } } }
+	
+	state = { name = "death" state_time = 5 looping = no }
+	
+	scale = 1.0
+}
+
+entity = {
+	name = "st_rep_01_military_station_large_entity"
+	pdxmesh = "st_rep_citadel_Station_mesh"
+	
+	locator = { name = "small_gun_01" rotation = { 0 0 0 } position = { 0 0 0 } }
+	locator = { name = "small_gun_02" rotation = { 0 0 0 } position = { 0 0 0 } }
+	locator = { name = "small_gun_03" rotation = { 0 0 0 } position = { 0 0 0 } }
+	locator = { name = "small_gun_04" rotation = { 0 0 0 } position = { 0 0 0 } }
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5
+		start_event = { trigger_once = yes sound = { soundeffect = "defense_station_idle_hum" } } }
+	
+	state = { name = "death" state_time = 5 looping = no }
+	
+	scale = 1.0
+	game_data = {
+		size = @military_station_large
+	}
+}
+
+#
+#Station Sections
+#
+entity = {
+	name = "st_rep_01_military_station_section_heavy_entity"
+	pdxmesh = "empty_mesh"	
+	scale = 1.0
+	
+	locator = { name = "small_gun_01" rotation = { 0 0 0 } position = { 0 0 0 } }
+	locator = { name = "small_gun_02" rotation = { 0 0 0 } position = { 0 0 0 } }
+	locator = { name = "small_gun_03" rotation = { 0 0 0 } position = { 0 0 0 } }
+	locator = { name = "small_gun_04" rotation = { 0 0 0 } position = { 0 0 0 } }
+	
+}
+
+entity = {
+	name = "st_rep_01_military_station_section_medium_entity"
+	pdxmesh = "empty_mesh"	
+	scale = 1.0
+	
+	locator = { name = "small_gun_01" rotation = { 0 0 0 } position = { 0 0 0 } }
+	locator = { name = "small_gun_02" rotation = { 0 0 0 } position = { 0 0 0 } }
+	locator = { name = "small_gun_03" rotation = { 0 0 0 } position = { 0 0 0 } }
+	locator = { name = "small_gun_04" rotation = { 0 0 0 } position = { 0 0 0 } }
+	
+}
+
+entity = {
+	name = "st_rep_01_military_station_section_light_entity"
+	pdxmesh = "empty_mesh"	
+	scale = 1.0
+	
+	locator = { name = "small_gun_01" rotation = { 0 0 0 } position = { 0 0 0 } }
+	locator = { name = "small_gun_02" rotation = { 0 0 0 } position = { 0 0 0 } }
+	locator = { name = "small_gun_03" rotation = { 0 0 0 } position = { 0 0 0 } }
+	locator = { name = "small_gun_04" rotation = { 0 0 0 } position = { 0 0 0 } }
+	
+}

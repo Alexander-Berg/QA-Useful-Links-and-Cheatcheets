@@ -1,0 +1,97 @@
+portraits = {
+	HA_promethean_1 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/promethean/1.dds"}
+	HA_promethean_2 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/promethean/2.dds"}
+	HA_promethean_3 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/promethean/3.dds"}
+	HA_promethean_4 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/promethean/4.dds"}
+	HA_promethean_5 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/promethean/5.dds"}
+	HA_promethean_6 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/promethean/6.dds"}
+	HA_promethean_7 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/promethean/7.dds"}
+	HA_promethean_8 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/promethean/8.dds"}
+	HA_promethean_9 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/promethean/9.dds"}
+	HA_promethean_10 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/promethean/10.dds"}
+	HA_promethean_11 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/promethean/11.dds"}
+	HA_promethean_12 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/promethean/12.dds"}
+	HA_promethean_13 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/promethean/13.dds"}
+	HA_promethean_14 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/promethean/14.dds"}
+	
+
+}
+
+portrait_groups = {
+	HA14_promethean = {
+	default = HA_promethean_14
+		game_setup = { 
+			add = {
+				portraits = {
+					HA_promethean_1
+					HA_promethean_2
+					HA_promethean_3
+					HA_promethean_4
+					HA_promethean_5
+					HA_promethean_6
+					HA_promethean_7
+					HA_promethean_8
+					HA_promethean_9
+					HA_promethean_10
+					HA_promethean_11
+					HA_promethean_12
+					HA_promethean_13
+					HA_promethean_14
+				}
+			}
+		}
+
+		ruler = {
+			add = {
+				portraits = {
+					HA_promethean_14
+					
+				}
+			}
+		
+		}
+
+		species = {
+			set = {
+				portraits = {
+					
+					HA_promethean_1
+					HA_promethean_2
+					HA_promethean_3
+					HA_promethean_4
+					HA_promethean_5
+					HA_promethean_6
+					HA_promethean_7
+					HA_promethean_8
+					HA_promethean_9
+					HA_promethean_10
+					HA_promethean_11
+					HA_promethean_12
+					HA_promethean_13
+					HA_promethean_14
+				}
+			}
+		}		
+
+		pop = {
+			add = {
+				portraits = {
+					HA_promethean_1
+					HA_promethean_2
+					HA_promethean_3
+					HA_promethean_4
+					HA_promethean_5
+					HA_promethean_6
+					HA_promethean_7
+					HA_promethean_8
+					HA_promethean_9
+					HA_promethean_10
+					HA_promethean_11
+					HA_promethean_12
+					HA_promethean_13
+					HA_promethean_14
+				}
+			}
+		}
+	}
+}

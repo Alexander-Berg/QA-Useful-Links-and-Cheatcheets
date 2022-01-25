@@ -1,0 +1,38 @@
+
+## Static Habitat ##
+entity = {
+	name = "rep_01_habitat_primary_entity"
+	pdxmesh = "sst_rep_01_habitat_primary_mesh"
+}
+
+## Animated Central Frame ##
+entity = {
+	name = "orbital_habitat_section_01_entity_"
+	pdxmesh = "st_rep_01_habitat_frame_mesh"
+
+	attach = { "ring_center" = "st_rep_01_habitat_primary_entity" }
+	
+	scale = 1.0
+	
+	default_state = "idle"
+	state = { name = "idle" animation = "idle" animation_blend_time = 5 animation_speed = 0.05 }
+	state = { name = "construction" animation = "construction" }
+}
+
+entity = {
+	name = "orbital_habitat_01_entity"
+	pdxmesh = "st_rep_01_habitat_primary_mesh"
+}
+
+## Animated Central Frame 1 ##
+entity = {
+	name = "orbital_station_habitat_section_entity"
+	pdxmesh = "st_rep_01_habitat_frame_mesh"
+
+	attach = { "ring_center" = "orbital_habitat_01_entity" }
+	
+	scale = 1.0
+	
+	default_state = "idle"
+	state = { name = "idle" animation = "idle" animation_blend_time = 5 animation_speed = 0.05 }
+	state = { name = "construction" animation = "construction" }

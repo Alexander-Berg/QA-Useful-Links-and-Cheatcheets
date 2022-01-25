@@ -1,0 +1,106 @@
+objectTypes = {
+	pdxmesh = {
+		name = "st_rep_Mining_Station_mesh"
+		file = "gfx/models/ships/st_rep_01/rep_refinary.mesh"
+		scale = 0.1
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "PLANETMODULE_REP_ORBITALREFINERY_DIFFUSE.dds"
+			texture_normal = "PLANETMODULE_REP_ORBITALREFINERY_NM.dds"
+			texture_specular = "PLANETMODULE_REP_ORBITALREFINERY_DIFFUSE.dds"
+			shader = "PdxMeshTerra"
+		}
+	}
+}
+
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_rep_Outpost_Station_mesh"
+		file = "gfx/models/ships/st_rep_01/rep_spaceport.mesh"
+		scale = 0.2
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "PLANETMODULE_NONE_MILITARYRESEARCH_DIFFUSE.dds"
+			texture_normal = "PLANETMODULE_NONE_MILITARYRESEARCH_NM.dds"
+			texture_specular = "PLANETMODULE_NONE_MILITARYRESEARCH_DIFFUSE.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+objectTypes = {
+	pdxmesh = {
+		name = "st_rep_starhold_Station_mesh"
+		file = "gfx/models/ships/st_rep_01/rep_hangar_defense.mesh"
+		scale = 0.35
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "PLANETMODULE_REP_HANGARDEFENSE_DIFFUSE.dds"
+			texture_normal = "PLANETMODULE_REP_HANGARDEFENSE_NM.dds"
+			texture_specular = "PLANETMODULE_REP_HANGARDEFENSE_DIFFUSE.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_rep_citadel_Station_mesh"
+		file = "gfx/models/ships/st_rep_01/rep_jovan.mesh"
+		scale = 0.2
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "PLANETMODULE_REP_JOVAN_DIFFUSE.dds"
+			texture_normal = "PLANETMODULE_REP_JOVAN_NM.dds"
+			texture_specular = "PLANETMODULE_REP_JOVAN_DIFFUSE.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_rep_Research_Station_mesh"
+		file = "gfx/models/ships/st_rep_01/Refinaryship.mesh"
+		scale = 0.1
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "PLANETMODULE_REP_ORBITALREFINERY_DIFFUSE.dds"
+			texture_normal = "PLANETMODULE_REP_ORBITALREFINERY_NM.dds"
+			texture_specular = "PLANETMODULE_REP_ORBITALREFINERY_DIFFUSE.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_rep_01_Comm_Station_mesh"
+		file = "gfx/models/ships/st_rep_01/rep_hangar_defense.mesh"
+		scale = 0.25
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "PLANETMODULE_REP_HANGARDEFENSE_DIFFUSE.dds"
+			texture_normal = "PLANETMODULE_REP_HANGARDEFENSE_NM.dds"
+			texture_specular = "PLANETMODULE_REP_HANGARDEFENSE_DIFFUSE.dds"
+			shader = "PdxMeshTerra"
+		}
+	}
+}
+
+

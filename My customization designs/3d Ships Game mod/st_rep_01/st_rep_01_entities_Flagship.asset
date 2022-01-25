@@ -1,0 +1,1055 @@
+@corvette_scale = 6.0
+@destroyer_scale = 7.0
+@cruiser_scale = 10.0
+@battleship_scale = 12.0
+@Battlecruiser_scale = 13.0
+@LightCarrier_scale = 15.0
+@Carrier_scale = 17.0
+@military_station_large = 20.0
+@Dreadnought_scale = 20.0
+@Superdreadnought_scale = 25.0
+@Flagship_scale = 30.0
+entity = {
+	name = "st_rep_01_Flagship_entity"
+	pdxmesh = "mammalian_01_titan_frame_mesh"
+	
+	attach = { part0 = "Praetor_main_entity" } #must contain unique _main_entity or no model will show 
+	
+	default_state = "idle"
+	state = { name = "idle" animation = "idle" 
+	
+		start_event = { trigger_once = yes sound = { soundeffect = "amb_titan_ship_hum_01" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "amb_titan_ship_hum_02" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "amb_titan_ship_hum_03" } }
+	
+	}
+	state = { name = "moving" animation = "idle"
+		event =  { trigger_once = yes sound = { soundeffect = "moving_out_titan" } }
+	}
+	state = { name = "death" animation = "death" looping = no 
+		event = { time = 2.5 node = "explosion_locator_01" particle = "ship_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "ship_explosion" } }
+		event = { time = 3.5 node = "explosion_locator_02" particle = "ship_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "ship_explosion" } }
+		event = { time = 5.5 node = "explosion_locator_03" particle = "ship_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "ship_explosion" } }
+		event = { time = 7.5 node = "explosion_locator_04" particle = "ship_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "ship_explosion" } }
+		event = { time = 9.5 node = "explosion_locator_05" particle = "ship_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "ship_explosion" } }
+		event = { time = 12.5 node = "ship_main" particle = "dreadnought_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "amb_titan_ship_death" } }
+	}
+
+	scale = 1.0
+	game_data = {
+		size = 10
+	}
+}
+
+#Shown Model
+entity = {
+	name = "Praetor_main_entity" #should be name of ship class eg Annhiliator_main_entity MUST be filled in in frame
+	pdxmesh = "REP_VENATOR_RED_BRIDGE_mesh"       #mesh here
+	
+	locator = { name = "small_gun_01" rotation = { 0 0 0 } position = { 0 -0.023068 -6.33284 } }
+	locator = { name = "small_gun_02" rotation = { 0 0 0 } position = { -1.37312 -0.08462 0.868901 } }
+	locator = { name = "small_gun_03" rotation = { 0 0 0 } position = { 1.37293 -0.08462 0.868901 } }
+	locator = { name = "small_gun_04" rotation = { 0 0 0 } position = { -0.521993 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_05" rotation = { 0 0 0 } position = { 0.521811 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_06" rotation = { 0 0 0 } position = { -0.526371 0.759392 1.96501 } }
+	locator = { name = "small_gun_07" rotation = { 0 0 0 } position = { -0.529722 0.759313 1.78512 } }
+	locator = { name = "small_gun_08" rotation = { 0 0 0 } position = { 0.526189 0.759392 1.96501 } }
+	locator = { name = "small_gun_09" rotation = { 0 0 0 } position = { 0.529539 0.759313 1.78512 } }
+	locator = { name = "small_gun_10" rotation = { 0 0 0 } position = { -0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_11" rotation = { 0 0 0 } position = { 0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_12" rotation = { 0 0 0 } position = { -0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_13" rotation = { 0 0 0 } position = { 0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_14" rotation = { 0 0 0 } position = { -0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_15" rotation = { 0 0 0 } position = { 0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_16" rotation = { 0 0 0 } position = { -0.844526 0.389936 1.98 } }
+	locator = { name = "small_gun_17" rotation = { 0 0 0 } position = { 0.844526 0.389936 1.98 } }
+	locator = { name = "strike_craft_locator_01" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "strike_craft_locator_02" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "xl_gun_01" rotation = { 0 0 0 } position = { 0 -0.038682 -6.261 } }
+	
+	locator = { name = "engine_large_04" rotation = { 180 0 0 } position = { -0.55 -0.09 4.49 } }
+	locator = { name = "engine_large_03" rotation = { 180 0 0 } position = { -1.14 -0.08 3.51 } }
+	locator = { name = "engine_large_02" rotation = { 180 0 0 } position = { 0.55 -0.09 4.49 } }
+	locator = { name = "engine_large_01" rotation = { 180 0 0 } position = { 1.14 -0.08 3.51 } }
+	locator = { name = "engine_medium_04" rotation = { 180 0 0 } position = { -0.21 -0.22 3.81 } }
+	locator = { name = "engine_medium_03" rotation = { 180 0 0 } position = { 0.21 -0.22 3.81 } }
+	locator = { name = "engine_medium_02" rotation = { 180 0 0 } position = { -0.46 0.25 3.67 } }
+	locator = { name = "engine_medium_01" rotation = { 180 0 0 } position = { 0.46 0.25 3.67 } }
+	locator = { name = "engine_small_02" rotation = { 180 0 0 } position = { -1.04 0.19 3.03 } }
+	locator = { name = "engine_small_01" rotation = { 180 0 0 } position = { 1.04 0.19 3.03 } }
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5
+		event = { time = 0 node = "engine_medium_01" particle = "st_rep_0_25_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_02" particle = "st_rep_0_25_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_03" particle = "st_rep_0_25_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_04" particle = "st_rep_0_25_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_small_01" particle = "st_rep_0_1_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_small_02" particle = "st_rep_0_1_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_01" particle = "st_rep_0_75_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_02" particle = "st_rep_0_75_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_03" particle = "st_rep_0_75_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_04" particle = "st_rep_0_75_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+	}
+	state = { name = "moving" state_time = 5
+		event = { time = 0 node = "engine_medium_01" particle = "st_rep_0_25_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_02" particle = "st_rep_0_25_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_03" particle = "st_rep_0_25_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_04" particle = "st_rep_0_25_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_small_01" particle = "st_rep_0_1_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_small_02" particle = "st_rep_0_1_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_01" particle = "st_rep_0_75_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_02" particle = "st_rep_0_75_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_03" particle = "st_rep_0_75_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_04" particle = "st_rep_0_75_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+	}
+	state = { name = "death" state_time = 5 }
+	
+	scale = 3.25 #
+	
+}
+
+#BOW
+
+entity = {
+	name = "st_rep_01_Flagship_bow_L1M1S2_entity"
+	pdxmesh = "empty_mesh"
+	
+	locator = { name = "small_gun_01" rotation = { 0 0 0 } position = { 0 -0.023068 -6.33284 } }
+	locator = { name = "small_gun_02" rotation = { 0 0 0 } position = { -1.37312 -0.08462 0.868901 } }
+	locator = { name = "small_gun_03" rotation = { 0 0 0 } position = { 1.37293 -0.08462 0.868901 } }
+	locator = { name = "small_gun_04" rotation = { 0 0 0 } position = { -0.521993 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_05" rotation = { 0 0 0 } position = { 0.521811 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_06" rotation = { 0 0 0 } position = { -0.526371 0.759392 1.96501 } }
+	locator = { name = "small_gun_07" rotation = { 0 0 0 } position = { -0.529722 0.759313 1.78512 } }
+	locator = { name = "small_gun_08" rotation = { 0 0 0 } position = { 0.526189 0.759392 1.96501 } }
+	locator = { name = "small_gun_09" rotation = { 0 0 0 } position = { 0.529539 0.759313 1.78512 } }
+	locator = { name = "small_gun_10" rotation = { 0 0 0 } position = { -0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_11" rotation = { 0 0 0 } position = { 0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_12" rotation = { 0 0 0 } position = { -0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_13" rotation = { 0 0 0 } position = { 0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_14" rotation = { 0 0 0 } position = { -0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_15" rotation = { 0 0 0 } position = { 0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_16" rotation = { 0 0 0 } position = { -0.844526 0.389936 1.98 } }
+	locator = { name = "small_gun_17" rotation = { 0 0 0 } position = { 0.844526 0.389936 1.98 } }
+	locator = { name = "strike_craft_locator_01" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "strike_craft_locator_02" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "xl_gun_01" rotation = { 0 0 0 } position = { 0 -0.038682 -6.261 } }
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "death" state_time = 5 looping = no }
+}
+
+entity = {
+	name = "st_rep_01_Flagship_bow_L1S4_entity"
+	pdxmesh = "empty_mesh"
+	
+	locator = { name = "small_gun_01" rotation = { 0 0 0 } position = { 0 -0.023068 -6.33284 } }
+	locator = { name = "small_gun_02" rotation = { 0 0 0 } position = { -1.37312 -0.08462 0.868901 } }
+	locator = { name = "small_gun_03" rotation = { 0 0 0 } position = { 1.37293 -0.08462 0.868901 } }
+	locator = { name = "small_gun_04" rotation = { 0 0 0 } position = { -0.521993 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_05" rotation = { 0 0 0 } position = { 0.521811 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_06" rotation = { 0 0 0 } position = { -0.526371 0.759392 1.96501 } }
+	locator = { name = "small_gun_07" rotation = { 0 0 0 } position = { -0.529722 0.759313 1.78512 } }
+	locator = { name = "small_gun_08" rotation = { 0 0 0 } position = { 0.526189 0.759392 1.96501 } }
+	locator = { name = "small_gun_09" rotation = { 0 0 0 } position = { 0.529539 0.759313 1.78512 } }
+	locator = { name = "small_gun_10" rotation = { 0 0 0 } position = { -0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_11" rotation = { 0 0 0 } position = { 0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_12" rotation = { 0 0 0 } position = { -0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_13" rotation = { 0 0 0 } position = { 0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_14" rotation = { 0 0 0 } position = { -0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_15" rotation = { 0 0 0 } position = { 0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_16" rotation = { 0 0 0 } position = { -0.844526 0.389936 1.98 } }
+	locator = { name = "small_gun_17" rotation = { 0 0 0 } position = { 0.844526 0.389936 1.98 } }
+	locator = { name = "strike_craft_locator_01" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "strike_craft_locator_02" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "xl_gun_01" rotation = { 0 0 0 } position = { 0 -0.038682 -6.261 } }
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "death" state_time = 5 looping = no }
+}
+
+entity = {
+	name = "st_rep_01_Flagship_bow_L2_entity"
+	pdxmesh = "empty_mesh"
+	
+	locator = { name = "small_gun_01" rotation = { 0 0 0 } position = { 0 -0.023068 -6.33284 } }
+	locator = { name = "small_gun_02" rotation = { 0 0 0 } position = { -1.37312 -0.08462 0.868901 } }
+	locator = { name = "small_gun_03" rotation = { 0 0 0 } position = { 1.37293 -0.08462 0.868901 } }
+	locator = { name = "small_gun_04" rotation = { 0 0 0 } position = { -0.521993 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_05" rotation = { 0 0 0 } position = { 0.521811 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_06" rotation = { 0 0 0 } position = { -0.526371 0.759392 1.96501 } }
+	locator = { name = "small_gun_07" rotation = { 0 0 0 } position = { -0.529722 0.759313 1.78512 } }
+	locator = { name = "small_gun_08" rotation = { 0 0 0 } position = { 0.526189 0.759392 1.96501 } }
+	locator = { name = "small_gun_09" rotation = { 0 0 0 } position = { 0.529539 0.759313 1.78512 } }
+	locator = { name = "small_gun_10" rotation = { 0 0 0 } position = { -0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_11" rotation = { 0 0 0 } position = { 0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_12" rotation = { 0 0 0 } position = { -0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_13" rotation = { 0 0 0 } position = { 0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_14" rotation = { 0 0 0 } position = { -0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_15" rotation = { 0 0 0 } position = { 0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_16" rotation = { 0 0 0 } position = { -0.844526 0.389936 1.98 } }
+	locator = { name = "small_gun_17" rotation = { 0 0 0 } position = { 0.844526 0.389936 1.98 } }
+	locator = { name = "strike_craft_locator_01" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "strike_craft_locator_02" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "xl_gun_01" rotation = { 0 0 0 } position = { 0 -0.038682 -6.261 } }
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "death" state_time = 5 looping = no }
+}
+
+entity = {
+	name = "st_rep_01_Flagship_bow_M1S2SHB_entity"
+	pdxmesh = "empty_mesh"
+	
+	locator = { name = "small_gun_01" rotation = { 0 0 0 } position = { 0 -0.023068 -6.33284 } }
+	locator = { name = "small_gun_02" rotation = { 0 0 0 } position = { -1.37312 -0.08462 0.868901 } }
+	locator = { name = "small_gun_03" rotation = { 0 0 0 } position = { 1.37293 -0.08462 0.868901 } }
+	locator = { name = "small_gun_04" rotation = { 0 0 0 } position = { -0.521993 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_05" rotation = { 0 0 0 } position = { 0.521811 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_06" rotation = { 0 0 0 } position = { -0.526371 0.759392 1.96501 } }
+	locator = { name = "small_gun_07" rotation = { 0 0 0 } position = { -0.529722 0.759313 1.78512 } }
+	locator = { name = "small_gun_08" rotation = { 0 0 0 } position = { 0.526189 0.759392 1.96501 } }
+	locator = { name = "small_gun_09" rotation = { 0 0 0 } position = { 0.529539 0.759313 1.78512 } }
+	locator = { name = "small_gun_10" rotation = { 0 0 0 } position = { -0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_11" rotation = { 0 0 0 } position = { 0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_12" rotation = { 0 0 0 } position = { -0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_13" rotation = { 0 0 0 } position = { 0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_14" rotation = { 0 0 0 } position = { -0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_15" rotation = { 0 0 0 } position = { 0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_16" rotation = { 0 0 0 } position = { -0.844526 0.389936 1.98 } }
+	locator = { name = "small_gun_17" rotation = { 0 0 0 } position = { 0.844526 0.389936 1.98 } }
+	locator = { name = "strike_craft_locator_01" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "strike_craft_locator_02" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "xl_gun_01" rotation = { 0 0 0 } position = { 0 -0.038682 -6.261 } }
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "death" state_time = 5 looping = no }
+}
+
+entity = {
+	name = "st_rep_01_Flagship_bow_M2S4_entity"
+	pdxmesh = "empty_mesh"
+	
+	locator = { name = "small_gun_01" rotation = { 0 0 0 } position = { 0 -0.023068 -6.33284 } }
+	locator = { name = "small_gun_02" rotation = { 0 0 0 } position = { -1.37312 -0.08462 0.868901 } }
+	locator = { name = "small_gun_03" rotation = { 0 0 0 } position = { 1.37293 -0.08462 0.868901 } }
+	locator = { name = "small_gun_04" rotation = { 0 0 0 } position = { -0.521993 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_05" rotation = { 0 0 0 } position = { 0.521811 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_06" rotation = { 0 0 0 } position = { -0.526371 0.759392 1.96501 } }
+	locator = { name = "small_gun_07" rotation = { 0 0 0 } position = { -0.529722 0.759313 1.78512 } }
+	locator = { name = "small_gun_08" rotation = { 0 0 0 } position = { 0.526189 0.759392 1.96501 } }
+	locator = { name = "small_gun_09" rotation = { 0 0 0 } position = { 0.529539 0.759313 1.78512 } }
+	locator = { name = "small_gun_10" rotation = { 0 0 0 } position = { -0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_11" rotation = { 0 0 0 } position = { 0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_12" rotation = { 0 0 0 } position = { -0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_13" rotation = { 0 0 0 } position = { 0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_14" rotation = { 0 0 0 } position = { -0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_15" rotation = { 0 0 0 } position = { 0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_16" rotation = { 0 0 0 } position = { -0.844526 0.389936 1.98 } }
+	locator = { name = "small_gun_17" rotation = { 0 0 0 } position = { 0.844526 0.389936 1.98 } }
+	locator = { name = "strike_craft_locator_01" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "strike_craft_locator_02" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "xl_gun_01" rotation = { 0 0 0 } position = { 0 -0.038682 -6.261 } }
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "death" state_time = 5 looping = no }
+}
+
+entity = {
+	name = "st_rep_01_Flagship_bow_M3S2_entity"
+	pdxmesh = "empty_mesh"
+	
+	locator = { name = "small_gun_01" rotation = { 0 0 0 } position = { 0 -0.023068 -6.33284 } }
+	locator = { name = "small_gun_02" rotation = { 0 0 0 } position = { -1.37312 -0.08462 0.868901 } }
+	locator = { name = "small_gun_03" rotation = { 0 0 0 } position = { 1.37293 -0.08462 0.868901 } }
+	locator = { name = "small_gun_04" rotation = { 0 0 0 } position = { -0.521993 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_05" rotation = { 0 0 0 } position = { 0.521811 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_06" rotation = { 0 0 0 } position = { -0.526371 0.759392 1.96501 } }
+	locator = { name = "small_gun_07" rotation = { 0 0 0 } position = { -0.529722 0.759313 1.78512 } }
+	locator = { name = "small_gun_08" rotation = { 0 0 0 } position = { 0.526189 0.759392 1.96501 } }
+	locator = { name = "small_gun_09" rotation = { 0 0 0 } position = { 0.529539 0.759313 1.78512 } }
+	locator = { name = "small_gun_10" rotation = { 0 0 0 } position = { -0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_11" rotation = { 0 0 0 } position = { 0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_12" rotation = { 0 0 0 } position = { -0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_13" rotation = { 0 0 0 } position = { 0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_14" rotation = { 0 0 0 } position = { -0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_15" rotation = { 0 0 0 } position = { 0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_16" rotation = { 0 0 0 } position = { -0.844526 0.389936 1.98 } }
+	locator = { name = "small_gun_17" rotation = { 0 0 0 } position = { 0.844526 0.389936 1.98 } }
+	locator = { name = "strike_craft_locator_01" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "strike_craft_locator_02" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "xl_gun_01" rotation = { 0 0 0 } position = { 0 -0.038682 -6.261 } }
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "death" state_time = 5 looping = no }
+}
+
+entity = {
+	name = "st_rep_01_Flagship_bow_XL1_entity"
+	pdxmesh = "empty_mesh"
+	
+	locator = { name = "small_gun_01" rotation = { 0 0 0 } position = { 0 -0.023068 -6.33284 } }
+	locator = { name = "small_gun_02" rotation = { 0 0 0 } position = { -1.37312 -0.08462 0.868901 } }
+	locator = { name = "small_gun_03" rotation = { 0 0 0 } position = { 1.37293 -0.08462 0.868901 } }
+	locator = { name = "small_gun_04" rotation = { 0 0 0 } position = { -0.521993 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_05" rotation = { 0 0 0 } position = { 0.521811 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_06" rotation = { 0 0 0 } position = { -0.526371 0.759392 1.96501 } }
+	locator = { name = "small_gun_07" rotation = { 0 0 0 } position = { -0.529722 0.759313 1.78512 } }
+	locator = { name = "small_gun_08" rotation = { 0 0 0 } position = { 0.526189 0.759392 1.96501 } }
+	locator = { name = "small_gun_09" rotation = { 0 0 0 } position = { 0.529539 0.759313 1.78512 } }
+	locator = { name = "small_gun_10" rotation = { 0 0 0 } position = { -0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_11" rotation = { 0 0 0 } position = { 0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_12" rotation = { 0 0 0 } position = { -0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_13" rotation = { 0 0 0 } position = { 0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_14" rotation = { 0 0 0 } position = { -0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_15" rotation = { 0 0 0 } position = { 0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_16" rotation = { 0 0 0 } position = { -0.844526 0.389936 1.98 } }
+	locator = { name = "small_gun_17" rotation = { 0 0 0 } position = { 0.844526 0.389936 1.98 } }
+	locator = { name = "strike_craft_locator_01" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "strike_craft_locator_02" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "xl_gun_01" rotation = { 0 0 0 } position = { 0 -0.038682 -6.261 } }
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "death" state_time = 5 looping = no }
+}
+
+entity = {
+	name = "st_rep_01_Flagship_bow_XL2_entity"
+	pdxmesh = "empty_mesh"
+	
+	locator = { name = "small_gun_01" rotation = { 0 0 0 } position = { 0 -0.023068 -6.33284 } }
+	locator = { name = "small_gun_02" rotation = { 0 0 0 } position = { -1.37312 -0.08462 0.868901 } }
+	locator = { name = "small_gun_03" rotation = { 0 0 0 } position = { 1.37293 -0.08462 0.868901 } }
+	locator = { name = "small_gun_04" rotation = { 0 0 0 } position = { -0.521993 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_05" rotation = { 0 0 0 } position = { 0.521811 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_06" rotation = { 0 0 0 } position = { -0.526371 0.759392 1.96501 } }
+	locator = { name = "small_gun_07" rotation = { 0 0 0 } position = { -0.529722 0.759313 1.78512 } }
+	locator = { name = "small_gun_08" rotation = { 0 0 0 } position = { 0.526189 0.759392 1.96501 } }
+	locator = { name = "small_gun_09" rotation = { 0 0 0 } position = { 0.529539 0.759313 1.78512 } }
+	locator = { name = "small_gun_10" rotation = { 0 0 0 } position = { -0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_11" rotation = { 0 0 0 } position = { 0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_12" rotation = { 0 0 0 } position = { -0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_13" rotation = { 0 0 0 } position = { 0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_14" rotation = { 0 0 0 } position = { -0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_15" rotation = { 0 0 0 } position = { 0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_16" rotation = { 0 0 0 } position = { -0.844526 0.389936 1.98 } }
+	locator = { name = "small_gun_17" rotation = { 0 0 0 } position = { 0.844526 0.389936 1.98 } }
+	locator = { name = "strike_craft_locator_01" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "strike_craft_locator_02" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "xl_gun_01" rotation = { 0 0 0 } position = { 0 -0.038682 -6.261 } }
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "death" state_time = 5 looping = no }
+}
+
+entity = {
+	name = "st_rep_01_Flagship_bow_XL3_entity"
+	pdxmesh = "empty_mesh"
+	
+	locator = { name = "small_gun_01" rotation = { 0 0 0 } position = { 0 -0.023068 -6.33284 } }
+	locator = { name = "small_gun_02" rotation = { 0 0 0 } position = { -1.37312 -0.08462 0.868901 } }
+	locator = { name = "small_gun_03" rotation = { 0 0 0 } position = { 1.37293 -0.08462 0.868901 } }
+	locator = { name = "small_gun_04" rotation = { 0 0 0 } position = { -0.521993 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_05" rotation = { 0 0 0 } position = { 0.521811 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_06" rotation = { 0 0 0 } position = { -0.526371 0.759392 1.96501 } }
+	locator = { name = "small_gun_07" rotation = { 0 0 0 } position = { -0.529722 0.759313 1.78512 } }
+	locator = { name = "small_gun_08" rotation = { 0 0 0 } position = { 0.526189 0.759392 1.96501 } }
+	locator = { name = "small_gun_09" rotation = { 0 0 0 } position = { 0.529539 0.759313 1.78512 } }
+	locator = { name = "small_gun_10" rotation = { 0 0 0 } position = { -0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_11" rotation = { 0 0 0 } position = { 0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_12" rotation = { 0 0 0 } position = { -0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_13" rotation = { 0 0 0 } position = { 0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_14" rotation = { 0 0 0 } position = { -0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_15" rotation = { 0 0 0 } position = { 0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_16" rotation = { 0 0 0 } position = { -0.844526 0.389936 1.98 } }
+	locator = { name = "small_gun_17" rotation = { 0 0 0 } position = { 0.844526 0.389936 1.98 } }
+	locator = { name = "strike_craft_locator_01" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "strike_craft_locator_02" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "xl_gun_01" rotation = { 0 0 0 } position = { 0 -0.038682 -6.261 } }
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "death" state_time = 5 looping = no }
+}
+
+#MID1
+
+entity = {
+	name = "st_rep_01_Flagship_mid1_L2S4_entity"
+	pdxmesh = "empty_mesh"
+	
+	locator = { name = "small_gun_01" rotation = { 0 0 0 } position = { 0 -0.023068 -6.33284 } }
+	locator = { name = "small_gun_02" rotation = { 0 0 0 } position = { -1.37312 -0.08462 0.868901 } }
+	locator = { name = "small_gun_03" rotation = { 0 0 0 } position = { 1.37293 -0.08462 0.868901 } }
+	locator = { name = "small_gun_04" rotation = { 0 0 0 } position = { -0.521993 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_05" rotation = { 0 0 0 } position = { 0.521811 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_06" rotation = { 0 0 0 } position = { -0.526371 0.759392 1.96501 } }
+	locator = { name = "small_gun_07" rotation = { 0 0 0 } position = { -0.529722 0.759313 1.78512 } }
+	locator = { name = "small_gun_08" rotation = { 0 0 0 } position = { 0.526189 0.759392 1.96501 } }
+	locator = { name = "small_gun_09" rotation = { 0 0 0 } position = { 0.529539 0.759313 1.78512 } }
+	locator = { name = "small_gun_10" rotation = { 0 0 0 } position = { -0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_11" rotation = { 0 0 0 } position = { 0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_12" rotation = { 0 0 0 } position = { -0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_13" rotation = { 0 0 0 } position = { 0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_14" rotation = { 0 0 0 } position = { -0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_15" rotation = { 0 0 0 } position = { 0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_16" rotation = { 0 0 0 } position = { -0.844526 0.389936 1.98 } }
+	locator = { name = "small_gun_17" rotation = { 0 0 0 } position = { 0.844526 0.389936 1.98 } }
+	locator = { name = "strike_craft_locator_01" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "strike_craft_locator_02" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "xl_gun_01" rotation = { 0 0 0 } position = { 0 -0.038682 -6.261 } }
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "death" state_time = 5 looping = no }
+}
+
+entity = {
+	name = "st_rep_01_Flagship_mid1_L1M4_entity"
+	pdxmesh = "empty_mesh"
+	
+	locator = { name = "small_gun_01" rotation = { 0 0 0 } position = { 0 -0.023068 -6.33284 } }
+	locator = { name = "small_gun_02" rotation = { 0 0 0 } position = { -1.37312 -0.08462 0.868901 } }
+	locator = { name = "small_gun_03" rotation = { 0 0 0 } position = { 1.37293 -0.08462 0.868901 } }
+	locator = { name = "small_gun_04" rotation = { 0 0 0 } position = { -0.521993 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_05" rotation = { 0 0 0 } position = { 0.521811 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_06" rotation = { 0 0 0 } position = { -0.526371 0.759392 1.96501 } }
+	locator = { name = "small_gun_07" rotation = { 0 0 0 } position = { -0.529722 0.759313 1.78512 } }
+	locator = { name = "small_gun_08" rotation = { 0 0 0 } position = { 0.526189 0.759392 1.96501 } }
+	locator = { name = "small_gun_09" rotation = { 0 0 0 } position = { 0.529539 0.759313 1.78512 } }
+	locator = { name = "small_gun_10" rotation = { 0 0 0 } position = { -0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_11" rotation = { 0 0 0 } position = { 0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_12" rotation = { 0 0 0 } position = { -0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_13" rotation = { 0 0 0 } position = { 0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_14" rotation = { 0 0 0 } position = { -0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_15" rotation = { 0 0 0 } position = { 0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_16" rotation = { 0 0 0 } position = { -0.844526 0.389936 1.98 } }
+	locator = { name = "small_gun_17" rotation = { 0 0 0 } position = { 0.844526 0.389936 1.98 } }
+	locator = { name = "strike_craft_locator_01" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "strike_craft_locator_02" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "xl_gun_01" rotation = { 0 0 0 } position = { 0 -0.038682 -6.261 } }
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "death" state_time = 5 looping = no }
+}
+
+entity = {
+	name = "st_rep_01_Flagship_mid1_L2M2_entity"
+	pdxmesh = "empty_mesh"
+	
+	locator = { name = "small_gun_01" rotation = { 0 0 0 } position = { 0 -0.023068 -6.33284 } }
+	locator = { name = "small_gun_02" rotation = { 0 0 0 } position = { -1.37312 -0.08462 0.868901 } }
+	locator = { name = "small_gun_03" rotation = { 0 0 0 } position = { 1.37293 -0.08462 0.868901 } }
+	locator = { name = "small_gun_04" rotation = { 0 0 0 } position = { -0.521993 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_05" rotation = { 0 0 0 } position = { 0.521811 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_06" rotation = { 0 0 0 } position = { -0.526371 0.759392 1.96501 } }
+	locator = { name = "small_gun_07" rotation = { 0 0 0 } position = { -0.529722 0.759313 1.78512 } }
+	locator = { name = "small_gun_08" rotation = { 0 0 0 } position = { 0.526189 0.759392 1.96501 } }
+	locator = { name = "small_gun_09" rotation = { 0 0 0 } position = { 0.529539 0.759313 1.78512 } }
+	locator = { name = "small_gun_10" rotation = { 0 0 0 } position = { -0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_11" rotation = { 0 0 0 } position = { 0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_12" rotation = { 0 0 0 } position = { -0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_13" rotation = { 0 0 0 } position = { 0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_14" rotation = { 0 0 0 } position = { -0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_15" rotation = { 0 0 0 } position = { 0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_16" rotation = { 0 0 0 } position = { -0.844526 0.389936 1.98 } }
+	locator = { name = "small_gun_17" rotation = { 0 0 0 } position = { 0.844526 0.389936 1.98 } }
+	locator = { name = "strike_craft_locator_01" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "strike_craft_locator_02" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "xl_gun_01" rotation = { 0 0 0 } position = { 0 -0.038682 -6.261 } }
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "death" state_time = 5 looping = no }
+}
+
+entity = {
+	name = "st_rep_01_Flagship_mid1_L3_entity"
+	pdxmesh = "empty_mesh"
+	
+	locator = { name = "small_gun_01" rotation = { 0 0 0 } position = { 0 -0.023068 -6.33284 } }
+	locator = { name = "small_gun_02" rotation = { 0 0 0 } position = { -1.37312 -0.08462 0.868901 } }
+	locator = { name = "small_gun_03" rotation = { 0 0 0 } position = { 1.37293 -0.08462 0.868901 } }
+	locator = { name = "small_gun_04" rotation = { 0 0 0 } position = { -0.521993 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_05" rotation = { 0 0 0 } position = { 0.521811 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_06" rotation = { 0 0 0 } position = { -0.526371 0.759392 1.96501 } }
+	locator = { name = "small_gun_07" rotation = { 0 0 0 } position = { -0.529722 0.759313 1.78512 } }
+	locator = { name = "small_gun_08" rotation = { 0 0 0 } position = { 0.526189 0.759392 1.96501 } }
+	locator = { name = "small_gun_09" rotation = { 0 0 0 } position = { 0.529539 0.759313 1.78512 } }
+	locator = { name = "small_gun_10" rotation = { 0 0 0 } position = { -0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_11" rotation = { 0 0 0 } position = { 0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_12" rotation = { 0 0 0 } position = { -0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_13" rotation = { 0 0 0 } position = { 0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_14" rotation = { 0 0 0 } position = { -0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_15" rotation = { 0 0 0 } position = { 0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_16" rotation = { 0 0 0 } position = { -0.844526 0.389936 1.98 } }
+	locator = { name = "small_gun_17" rotation = { 0 0 0 } position = { 0.844526 0.389936 1.98 } }
+	locator = { name = "strike_craft_locator_01" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "strike_craft_locator_02" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "xl_gun_01" rotation = { 0 0 0 } position = { 0 -0.038682 -6.261 } }
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "death" state_time = 5 looping = no }
+}
+
+entity = {
+	name = "st_rep_01_Flagship_mid1_M4SHB_entity"
+	pdxmesh = "empty_mesh"
+	
+	locator = { name = "small_gun_01" rotation = { 0 0 0 } position = { 0 -0.023068 -6.33284 } }
+	locator = { name = "small_gun_02" rotation = { 0 0 0 } position = { -1.37312 -0.08462 0.868901 } }
+	locator = { name = "small_gun_03" rotation = { 0 0 0 } position = { 1.37293 -0.08462 0.868901 } }
+	locator = { name = "small_gun_04" rotation = { 0 0 0 } position = { -0.521993 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_05" rotation = { 0 0 0 } position = { 0.521811 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_06" rotation = { 0 0 0 } position = { -0.526371 0.759392 1.96501 } }
+	locator = { name = "small_gun_07" rotation = { 0 0 0 } position = { -0.529722 0.759313 1.78512 } }
+	locator = { name = "small_gun_08" rotation = { 0 0 0 } position = { 0.526189 0.759392 1.96501 } }
+	locator = { name = "small_gun_09" rotation = { 0 0 0 } position = { 0.529539 0.759313 1.78512 } }
+	locator = { name = "small_gun_10" rotation = { 0 0 0 } position = { -0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_11" rotation = { 0 0 0 } position = { 0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_12" rotation = { 0 0 0 } position = { -0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_13" rotation = { 0 0 0 } position = { 0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_14" rotation = { 0 0 0 } position = { -0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_15" rotation = { 0 0 0 } position = { 0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_16" rotation = { 0 0 0 } position = { -0.844526 0.389936 1.98 } }
+	locator = { name = "small_gun_17" rotation = { 0 0 0 } position = { 0.844526 0.389936 1.98 } }
+	locator = { name = "strike_craft_locator_01" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "strike_craft_locator_02" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "xl_gun_01" rotation = { 0 0 0 } position = { 0 -0.038682 -6.261 } }
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "death" state_time = 5 looping = no }
+}
+
+entity = {
+	name = "st_rep_01_Flagship_mid1_S4LHB_entity"
+	pdxmesh = "empty_mesh"
+	
+	locator = { name = "small_gun_01" rotation = { 0 0 0 } position = { 0 -0.023068 -6.33284 } }
+	locator = { name = "small_gun_02" rotation = { 0 0 0 } position = { -1.37312 -0.08462 0.868901 } }
+	locator = { name = "small_gun_03" rotation = { 0 0 0 } position = { 1.37293 -0.08462 0.868901 } }
+	locator = { name = "small_gun_04" rotation = { 0 0 0 } position = { -0.521993 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_05" rotation = { 0 0 0 } position = { 0.521811 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_06" rotation = { 0 0 0 } position = { -0.526371 0.759392 1.96501 } }
+	locator = { name = "small_gun_07" rotation = { 0 0 0 } position = { -0.529722 0.759313 1.78512 } }
+	locator = { name = "small_gun_08" rotation = { 0 0 0 } position = { 0.526189 0.759392 1.96501 } }
+	locator = { name = "small_gun_09" rotation = { 0 0 0 } position = { 0.529539 0.759313 1.78512 } }
+	locator = { name = "small_gun_10" rotation = { 0 0 0 } position = { -0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_11" rotation = { 0 0 0 } position = { 0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_12" rotation = { 0 0 0 } position = { -0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_13" rotation = { 0 0 0 } position = { 0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_14" rotation = { 0 0 0 } position = { -0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_15" rotation = { 0 0 0 } position = { 0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_16" rotation = { 0 0 0 } position = { -0.844526 0.389936 1.98 } }
+	locator = { name = "small_gun_17" rotation = { 0 0 0 } position = { 0.844526 0.389936 1.98 } }
+	locator = { name = "strike_craft_locator_01" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "strike_craft_locator_02" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "xl_gun_01" rotation = { 0 0 0 } position = { 0 -0.038682 -6.261 } }
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "death" state_time = 5 looping = no }
+}
+
+#MID2
+
+entity = {
+	name = "st_rep_01_Flagship_mid2_L2S4_entity"
+	pdxmesh = "empty_mesh"
+	
+	locator = { name = "small_gun_01" rotation = { 0 0 0 } position = { 0 -0.023068 -6.33284 } }
+	locator = { name = "small_gun_02" rotation = { 0 0 0 } position = { -1.37312 -0.08462 0.868901 } }
+	locator = { name = "small_gun_03" rotation = { 0 0 0 } position = { 1.37293 -0.08462 0.868901 } }
+	locator = { name = "small_gun_04" rotation = { 0 0 0 } position = { -0.521993 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_05" rotation = { 0 0 0 } position = { 0.521811 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_06" rotation = { 0 0 0 } position = { -0.526371 0.759392 1.96501 } }
+	locator = { name = "small_gun_07" rotation = { 0 0 0 } position = { -0.529722 0.759313 1.78512 } }
+	locator = { name = "small_gun_08" rotation = { 0 0 0 } position = { 0.526189 0.759392 1.96501 } }
+	locator = { name = "small_gun_09" rotation = { 0 0 0 } position = { 0.529539 0.759313 1.78512 } }
+	locator = { name = "small_gun_10" rotation = { 0 0 0 } position = { -0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_11" rotation = { 0 0 0 } position = { 0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_12" rotation = { 0 0 0 } position = { -0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_13" rotation = { 0 0 0 } position = { 0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_14" rotation = { 0 0 0 } position = { -0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_15" rotation = { 0 0 0 } position = { 0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_16" rotation = { 0 0 0 } position = { -0.844526 0.389936 1.98 } }
+	locator = { name = "small_gun_17" rotation = { 0 0 0 } position = { 0.844526 0.389936 1.98 } }
+	locator = { name = "strike_craft_locator_01" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "strike_craft_locator_02" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "xl_gun_01" rotation = { 0 0 0 } position = { 0 -0.038682 -6.261 } }
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "death" state_time = 5 looping = no }
+}
+
+entity = {
+	name = "st_rep_01_Flagship_mid2_L1M4_entity"
+	pdxmesh = "empty_mesh"
+	
+	locator = { name = "small_gun_01" rotation = { 0 0 0 } position = { 0 -0.023068 -6.33284 } }
+	locator = { name = "small_gun_02" rotation = { 0 0 0 } position = { -1.37312 -0.08462 0.868901 } }
+	locator = { name = "small_gun_03" rotation = { 0 0 0 } position = { 1.37293 -0.08462 0.868901 } }
+	locator = { name = "small_gun_04" rotation = { 0 0 0 } position = { -0.521993 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_05" rotation = { 0 0 0 } position = { 0.521811 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_06" rotation = { 0 0 0 } position = { -0.526371 0.759392 1.96501 } }
+	locator = { name = "small_gun_07" rotation = { 0 0 0 } position = { -0.529722 0.759313 1.78512 } }
+	locator = { name = "small_gun_08" rotation = { 0 0 0 } position = { 0.526189 0.759392 1.96501 } }
+	locator = { name = "small_gun_09" rotation = { 0 0 0 } position = { 0.529539 0.759313 1.78512 } }
+	locator = { name = "small_gun_10" rotation = { 0 0 0 } position = { -0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_11" rotation = { 0 0 0 } position = { 0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_12" rotation = { 0 0 0 } position = { -0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_13" rotation = { 0 0 0 } position = { 0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_14" rotation = { 0 0 0 } position = { -0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_15" rotation = { 0 0 0 } position = { 0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_16" rotation = { 0 0 0 } position = { -0.844526 0.389936 1.98 } }
+	locator = { name = "small_gun_17" rotation = { 0 0 0 } position = { 0.844526 0.389936 1.98 } }
+	locator = { name = "strike_craft_locator_01" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "strike_craft_locator_02" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "xl_gun_01" rotation = { 0 0 0 } position = { 0 -0.038682 -6.261 } }
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "death" state_time = 5 looping = no }
+}
+
+entity = {
+	name = "st_rep_01_Flagship_mid2_L2M2_entity"
+	pdxmesh = "empty_mesh"
+	
+	locator = { name = "small_gun_01" rotation = { 0 0 0 } position = { 0 -0.023068 -6.33284 } }
+	locator = { name = "small_gun_02" rotation = { 0 0 0 } position = { -1.37312 -0.08462 0.868901 } }
+	locator = { name = "small_gun_03" rotation = { 0 0 0 } position = { 1.37293 -0.08462 0.868901 } }
+	locator = { name = "small_gun_04" rotation = { 0 0 0 } position = { -0.521993 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_05" rotation = { 0 0 0 } position = { 0.521811 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_06" rotation = { 0 0 0 } position = { -0.526371 0.759392 1.96501 } }
+	locator = { name = "small_gun_07" rotation = { 0 0 0 } position = { -0.529722 0.759313 1.78512 } }
+	locator = { name = "small_gun_08" rotation = { 0 0 0 } position = { 0.526189 0.759392 1.96501 } }
+	locator = { name = "small_gun_09" rotation = { 0 0 0 } position = { 0.529539 0.759313 1.78512 } }
+	locator = { name = "small_gun_10" rotation = { 0 0 0 } position = { -0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_11" rotation = { 0 0 0 } position = { 0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_12" rotation = { 0 0 0 } position = { -0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_13" rotation = { 0 0 0 } position = { 0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_14" rotation = { 0 0 0 } position = { -0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_15" rotation = { 0 0 0 } position = { 0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_16" rotation = { 0 0 0 } position = { -0.844526 0.389936 1.98 } }
+	locator = { name = "small_gun_17" rotation = { 0 0 0 } position = { 0.844526 0.389936 1.98 } }
+	locator = { name = "strike_craft_locator_01" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "strike_craft_locator_02" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "xl_gun_01" rotation = { 0 0 0 } position = { 0 -0.038682 -6.261 } }
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "death" state_time = 5 looping = no }
+}
+
+entity = {
+	name = "st_rep_01_Flagship_mid2_L3_entity"
+	pdxmesh = "empty_mesh"
+	
+	locator = { name = "small_gun_01" rotation = { 0 0 0 } position = { 0 -0.023068 -6.33284 } }
+	locator = { name = "small_gun_02" rotation = { 0 0 0 } position = { -1.37312 -0.08462 0.868901 } }
+	locator = { name = "small_gun_03" rotation = { 0 0 0 } position = { 1.37293 -0.08462 0.868901 } }
+	locator = { name = "small_gun_04" rotation = { 0 0 0 } position = { -0.521993 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_05" rotation = { 0 0 0 } position = { 0.521811 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_06" rotation = { 0 0 0 } position = { -0.526371 0.759392 1.96501 } }
+	locator = { name = "small_gun_07" rotation = { 0 0 0 } position = { -0.529722 0.759313 1.78512 } }
+	locator = { name = "small_gun_08" rotation = { 0 0 0 } position = { 0.526189 0.759392 1.96501 } }
+	locator = { name = "small_gun_09" rotation = { 0 0 0 } position = { 0.529539 0.759313 1.78512 } }
+	locator = { name = "small_gun_10" rotation = { 0 0 0 } position = { -0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_11" rotation = { 0 0 0 } position = { 0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_12" rotation = { 0 0 0 } position = { -0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_13" rotation = { 0 0 0 } position = { 0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_14" rotation = { 0 0 0 } position = { -0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_15" rotation = { 0 0 0 } position = { 0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_16" rotation = { 0 0 0 } position = { -0.844526 0.389936 1.98 } }
+	locator = { name = "small_gun_17" rotation = { 0 0 0 } position = { 0.844526 0.389936 1.98 } }
+	locator = { name = "strike_craft_locator_01" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "strike_craft_locator_02" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "xl_gun_01" rotation = { 0 0 0 } position = { 0 -0.038682 -6.261 } }
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "death" state_time = 5 looping = no }
+}
+
+entity = {
+	name = "st_rep_01_Flagship_mid2_M4SHB_entity"
+	pdxmesh = "empty_mesh"
+	
+	locator = { name = "small_gun_01" rotation = { 0 0 0 } position = { 0 -0.023068 -6.33284 } }
+	locator = { name = "small_gun_02" rotation = { 0 0 0 } position = { -1.37312 -0.08462 0.868901 } }
+	locator = { name = "small_gun_03" rotation = { 0 0 0 } position = { 1.37293 -0.08462 0.868901 } }
+	locator = { name = "small_gun_04" rotation = { 0 0 0 } position = { -0.521993 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_05" rotation = { 0 0 0 } position = { 0.521811 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_06" rotation = { 0 0 0 } position = { -0.526371 0.759392 1.96501 } }
+	locator = { name = "small_gun_07" rotation = { 0 0 0 } position = { -0.529722 0.759313 1.78512 } }
+	locator = { name = "small_gun_08" rotation = { 0 0 0 } position = { 0.526189 0.759392 1.96501 } }
+	locator = { name = "small_gun_09" rotation = { 0 0 0 } position = { 0.529539 0.759313 1.78512 } }
+	locator = { name = "small_gun_10" rotation = { 0 0 0 } position = { -0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_11" rotation = { 0 0 0 } position = { 0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_12" rotation = { 0 0 0 } position = { -0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_13" rotation = { 0 0 0 } position = { 0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_14" rotation = { 0 0 0 } position = { -0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_15" rotation = { 0 0 0 } position = { 0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_16" rotation = { 0 0 0 } position = { -0.844526 0.389936 1.98 } }
+	locator = { name = "small_gun_17" rotation = { 0 0 0 } position = { 0.844526 0.389936 1.98 } }
+	locator = { name = "strike_craft_locator_01" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "strike_craft_locator_02" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "xl_gun_01" rotation = { 0 0 0 } position = { 0 -0.038682 -6.261 } }
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "death" state_time = 5 looping = no }
+}
+
+entity = {
+	name = "st_rep_01_Flagship_mid2_S4LHB_entity"
+	pdxmesh = "empty_mesh"
+	
+	locator = { name = "small_gun_01" rotation = { 0 0 0 } position = { 0 -0.023068 -6.33284 } }
+	locator = { name = "small_gun_02" rotation = { 0 0 0 } position = { -1.37312 -0.08462 0.868901 } }
+	locator = { name = "small_gun_03" rotation = { 0 0 0 } position = { 1.37293 -0.08462 0.868901 } }
+	locator = { name = "small_gun_04" rotation = { 0 0 0 } position = { -0.521993 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_05" rotation = { 0 0 0 } position = { 0.521811 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_06" rotation = { 0 0 0 } position = { -0.526371 0.759392 1.96501 } }
+	locator = { name = "small_gun_07" rotation = { 0 0 0 } position = { -0.529722 0.759313 1.78512 } }
+	locator = { name = "small_gun_08" rotation = { 0 0 0 } position = { 0.526189 0.759392 1.96501 } }
+	locator = { name = "small_gun_09" rotation = { 0 0 0 } position = { 0.529539 0.759313 1.78512 } }
+	locator = { name = "small_gun_10" rotation = { 0 0 0 } position = { -0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_11" rotation = { 0 0 0 } position = { 0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_12" rotation = { 0 0 0 } position = { -0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_13" rotation = { 0 0 0 } position = { 0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_14" rotation = { 0 0 0 } position = { -0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_15" rotation = { 0 0 0 } position = { 0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_16" rotation = { 0 0 0 } position = { -0.844526 0.389936 1.98 } }
+	locator = { name = "small_gun_17" rotation = { 0 0 0 } position = { 0.844526 0.389936 1.98 } }
+	locator = { name = "strike_craft_locator_01" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "strike_craft_locator_02" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "xl_gun_01" rotation = { 0 0 0 } position = { 0 -0.038682 -6.261 } }
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "death" state_time = 5 looping = no }
+}
+
+#MID3
+
+entity = {
+	name = "st_rep_01_Flagship_mid3_L2S4_entity"
+	pdxmesh = "empty_mesh"
+	
+	locator = { name = "small_gun_01" rotation = { 0 0 0 } position = { 0 -0.023068 -6.33284 } }
+	locator = { name = "small_gun_02" rotation = { 0 0 0 } position = { -1.37312 -0.08462 0.868901 } }
+	locator = { name = "small_gun_03" rotation = { 0 0 0 } position = { 1.37293 -0.08462 0.868901 } }
+	locator = { name = "small_gun_04" rotation = { 0 0 0 } position = { -0.521993 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_05" rotation = { 0 0 0 } position = { 0.521811 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_06" rotation = { 0 0 0 } position = { -0.526371 0.759392 1.96501 } }
+	locator = { name = "small_gun_07" rotation = { 0 0 0 } position = { -0.529722 0.759313 1.78512 } }
+	locator = { name = "small_gun_08" rotation = { 0 0 0 } position = { 0.526189 0.759392 1.96501 } }
+	locator = { name = "small_gun_09" rotation = { 0 0 0 } position = { 0.529539 0.759313 1.78512 } }
+	locator = { name = "small_gun_10" rotation = { 0 0 0 } position = { -0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_11" rotation = { 0 0 0 } position = { 0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_12" rotation = { 0 0 0 } position = { -0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_13" rotation = { 0 0 0 } position = { 0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_14" rotation = { 0 0 0 } position = { -0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_15" rotation = { 0 0 0 } position = { 0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_16" rotation = { 0 0 0 } position = { -0.844526 0.389936 1.98 } }
+	locator = { name = "small_gun_17" rotation = { 0 0 0 } position = { 0.844526 0.389936 1.98 } }
+	locator = { name = "strike_craft_locator_01" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "strike_craft_locator_02" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "xl_gun_01" rotation = { 0 0 0 } position = { 0 -0.038682 -6.261 } }
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "death" state_time = 5 looping = no }
+}
+
+entity = {
+	name = "st_rep_01_Flagship_mid3_L1M4_entity"
+	pdxmesh = "empty_mesh"
+	
+	locator = { name = "small_gun_01" rotation = { 0 0 0 } position = { 0 -0.023068 -6.33284 } }
+	locator = { name = "small_gun_02" rotation = { 0 0 0 } position = { -1.37312 -0.08462 0.868901 } }
+	locator = { name = "small_gun_03" rotation = { 0 0 0 } position = { 1.37293 -0.08462 0.868901 } }
+	locator = { name = "small_gun_04" rotation = { 0 0 0 } position = { -0.521993 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_05" rotation = { 0 0 0 } position = { 0.521811 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_06" rotation = { 0 0 0 } position = { -0.526371 0.759392 1.96501 } }
+	locator = { name = "small_gun_07" rotation = { 0 0 0 } position = { -0.529722 0.759313 1.78512 } }
+	locator = { name = "small_gun_08" rotation = { 0 0 0 } position = { 0.526189 0.759392 1.96501 } }
+	locator = { name = "small_gun_09" rotation = { 0 0 0 } position = { 0.529539 0.759313 1.78512 } }
+	locator = { name = "small_gun_10" rotation = { 0 0 0 } position = { -0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_11" rotation = { 0 0 0 } position = { 0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_12" rotation = { 0 0 0 } position = { -0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_13" rotation = { 0 0 0 } position = { 0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_14" rotation = { 0 0 0 } position = { -0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_15" rotation = { 0 0 0 } position = { 0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_16" rotation = { 0 0 0 } position = { -0.844526 0.389936 1.98 } }
+	locator = { name = "small_gun_17" rotation = { 0 0 0 } position = { 0.844526 0.389936 1.98 } }
+	locator = { name = "strike_craft_locator_01" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "strike_craft_locator_02" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "xl_gun_01" rotation = { 0 0 0 } position = { 0 -0.038682 -6.261 } }
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "death" state_time = 5 looping = no }
+}
+
+entity = {
+	name = "st_rep_01_Flagship_mid3_L2M2_entity"
+	pdxmesh = "empty_mesh"
+	
+	locator = { name = "small_gun_01" rotation = { 0 0 0 } position = { 0 -0.023068 -6.33284 } }
+	locator = { name = "small_gun_02" rotation = { 0 0 0 } position = { -1.37312 -0.08462 0.868901 } }
+	locator = { name = "small_gun_03" rotation = { 0 0 0 } position = { 1.37293 -0.08462 0.868901 } }
+	locator = { name = "small_gun_04" rotation = { 0 0 0 } position = { -0.521993 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_05" rotation = { 0 0 0 } position = { 0.521811 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_06" rotation = { 0 0 0 } position = { -0.526371 0.759392 1.96501 } }
+	locator = { name = "small_gun_07" rotation = { 0 0 0 } position = { -0.529722 0.759313 1.78512 } }
+	locator = { name = "small_gun_08" rotation = { 0 0 0 } position = { 0.526189 0.759392 1.96501 } }
+	locator = { name = "small_gun_09" rotation = { 0 0 0 } position = { 0.529539 0.759313 1.78512 } }
+	locator = { name = "small_gun_10" rotation = { 0 0 0 } position = { -0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_11" rotation = { 0 0 0 } position = { 0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_12" rotation = { 0 0 0 } position = { -0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_13" rotation = { 0 0 0 } position = { 0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_14" rotation = { 0 0 0 } position = { -0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_15" rotation = { 0 0 0 } position = { 0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_16" rotation = { 0 0 0 } position = { -0.844526 0.389936 1.98 } }
+	locator = { name = "small_gun_17" rotation = { 0 0 0 } position = { 0.844526 0.389936 1.98 } }
+	locator = { name = "strike_craft_locator_01" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "strike_craft_locator_02" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "xl_gun_01" rotation = { 0 0 0 } position = { 0 -0.038682 -6.261 } }
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "death" state_time = 5 looping = no }
+}
+
+entity = {
+	name = "st_rep_01_Flagship_mid3_L3_entity"
+	pdxmesh = "empty_mesh"
+	
+	locator = { name = "small_gun_01" rotation = { 0 0 0 } position = { 0 -0.023068 -6.33284 } }
+	locator = { name = "small_gun_02" rotation = { 0 0 0 } position = { -1.37312 -0.08462 0.868901 } }
+	locator = { name = "small_gun_03" rotation = { 0 0 0 } position = { 1.37293 -0.08462 0.868901 } }
+	locator = { name = "small_gun_04" rotation = { 0 0 0 } position = { -0.521993 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_05" rotation = { 0 0 0 } position = { 0.521811 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_06" rotation = { 0 0 0 } position = { -0.526371 0.759392 1.96501 } }
+	locator = { name = "small_gun_07" rotation = { 0 0 0 } position = { -0.529722 0.759313 1.78512 } }
+	locator = { name = "small_gun_08" rotation = { 0 0 0 } position = { 0.526189 0.759392 1.96501 } }
+	locator = { name = "small_gun_09" rotation = { 0 0 0 } position = { 0.529539 0.759313 1.78512 } }
+	locator = { name = "small_gun_10" rotation = { 0 0 0 } position = { -0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_11" rotation = { 0 0 0 } position = { 0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_12" rotation = { 0 0 0 } position = { -0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_13" rotation = { 0 0 0 } position = { 0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_14" rotation = { 0 0 0 } position = { -0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_15" rotation = { 0 0 0 } position = { 0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_16" rotation = { 0 0 0 } position = { -0.844526 0.389936 1.98 } }
+	locator = { name = "small_gun_17" rotation = { 0 0 0 } position = { 0.844526 0.389936 1.98 } }
+	locator = { name = "strike_craft_locator_01" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "strike_craft_locator_02" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "xl_gun_01" rotation = { 0 0 0 } position = { 0 -0.038682 -6.261 } }
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "death" state_time = 5 looping = no }
+}
+
+entity = {
+	name = "st_rep_01_Flagship_mid3_M4SHB_entity"
+	pdxmesh = "empty_mesh"
+	
+	locator = { name = "small_gun_01" rotation = { 0 0 0 } position = { 0 -0.023068 -6.33284 } }
+	locator = { name = "small_gun_02" rotation = { 0 0 0 } position = { -1.37312 -0.08462 0.868901 } }
+	locator = { name = "small_gun_03" rotation = { 0 0 0 } position = { 1.37293 -0.08462 0.868901 } }
+	locator = { name = "small_gun_04" rotation = { 0 0 0 } position = { -0.521993 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_05" rotation = { 0 0 0 } position = { 0.521811 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_06" rotation = { 0 0 0 } position = { -0.526371 0.759392 1.96501 } }
+	locator = { name = "small_gun_07" rotation = { 0 0 0 } position = { -0.529722 0.759313 1.78512 } }
+	locator = { name = "small_gun_08" rotation = { 0 0 0 } position = { 0.526189 0.759392 1.96501 } }
+	locator = { name = "small_gun_09" rotation = { 0 0 0 } position = { 0.529539 0.759313 1.78512 } }
+	locator = { name = "small_gun_10" rotation = { 0 0 0 } position = { -0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_11" rotation = { 0 0 0 } position = { 0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_12" rotation = { 0 0 0 } position = { -0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_13" rotation = { 0 0 0 } position = { 0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_14" rotation = { 0 0 0 } position = { -0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_15" rotation = { 0 0 0 } position = { 0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_16" rotation = { 0 0 0 } position = { -0.844526 0.389936 1.98 } }
+	locator = { name = "small_gun_17" rotation = { 0 0 0 } position = { 0.844526 0.389936 1.98 } }
+	locator = { name = "strike_craft_locator_01" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "strike_craft_locator_02" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "xl_gun_01" rotation = { 0 0 0 } position = { 0 -0.038682 -6.261 } }
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "death" state_time = 5 looping = no }
+}
+
+entity = {
+	name = "st_rep_01_Flagship_mid3_S4LHB_entity"
+	pdxmesh = "empty_mesh"
+	
+	locator = { name = "small_gun_01" rotation = { 0 0 0 } position = { 0 -0.023068 -6.33284 } }
+	locator = { name = "small_gun_02" rotation = { 0 0 0 } position = { -1.37312 -0.08462 0.868901 } }
+	locator = { name = "small_gun_03" rotation = { 0 0 0 } position = { 1.37293 -0.08462 0.868901 } }
+	locator = { name = "small_gun_04" rotation = { 0 0 0 } position = { -0.521993 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_05" rotation = { 0 0 0 } position = { 0.521811 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_06" rotation = { 0 0 0 } position = { -0.526371 0.759392 1.96501 } }
+	locator = { name = "small_gun_07" rotation = { 0 0 0 } position = { -0.529722 0.759313 1.78512 } }
+	locator = { name = "small_gun_08" rotation = { 0 0 0 } position = { 0.526189 0.759392 1.96501 } }
+	locator = { name = "small_gun_09" rotation = { 0 0 0 } position = { 0.529539 0.759313 1.78512 } }
+	locator = { name = "small_gun_10" rotation = { 0 0 0 } position = { -0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_11" rotation = { 0 0 0 } position = { 0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_12" rotation = { 0 0 0 } position = { -0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_13" rotation = { 0 0 0 } position = { 0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_14" rotation = { 0 0 0 } position = { -0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_15" rotation = { 0 0 0 } position = { 0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_16" rotation = { 0 0 0 } position = { -0.844526 0.389936 1.98 } }
+	locator = { name = "small_gun_17" rotation = { 0 0 0 } position = { 0.844526 0.389936 1.98 } }
+	locator = { name = "strike_craft_locator_01" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "strike_craft_locator_02" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "xl_gun_01" rotation = { 0 0 0 } position = { 0 -0.038682 -6.261 } }
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "death" state_time = 5 looping = no }
+}
+
+
+#STREN
+
+entity = {
+	name = "st_rep_01_Flagship_stern_L1_entity"
+	pdxmesh = "empty_mesh"
+	
+	locator = { name = "small_gun_01" rotation = { 0 0 0 } position = { 0 -0.023068 -6.33284 } }
+	locator = { name = "small_gun_02" rotation = { 0 0 0 } position = { -1.37312 -0.08462 0.868901 } }
+	locator = { name = "small_gun_03" rotation = { 0 0 0 } position = { 1.37293 -0.08462 0.868901 } }
+	locator = { name = "small_gun_04" rotation = { 0 0 0 } position = { -0.521993 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_05" rotation = { 0 0 0 } position = { 0.521811 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_06" rotation = { 0 0 0 } position = { -0.526371 0.759392 1.96501 } }
+	locator = { name = "small_gun_07" rotation = { 0 0 0 } position = { -0.529722 0.759313 1.78512 } }
+	locator = { name = "small_gun_08" rotation = { 0 0 0 } position = { 0.526189 0.759392 1.96501 } }
+	locator = { name = "small_gun_09" rotation = { 0 0 0 } position = { 0.529539 0.759313 1.78512 } }
+	locator = { name = "small_gun_10" rotation = { 0 0 0 } position = { -0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_11" rotation = { 0 0 0 } position = { 0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_12" rotation = { 0 0 0 } position = { -0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_13" rotation = { 0 0 0 } position = { 0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_14" rotation = { 0 0 0 } position = { -0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_15" rotation = { 0 0 0 } position = { 0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_16" rotation = { 0 0 0 } position = { -0.844526 0.389936 1.98 } }
+	locator = { name = "small_gun_17" rotation = { 0 0 0 } position = { 0.844526 0.389936 1.98 } }
+	locator = { name = "strike_craft_locator_01" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "strike_craft_locator_02" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "xl_gun_01" rotation = { 0 0 0 } position = { 0 -0.038682 -6.261 } }
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "moving" state_time = 5 }
+	state = { name = "death" state_time = 5 looping = no }
+}
+
+entity = {
+	name = "st_rep_01_Flagship_stern_M1S2_entity"
+	pdxmesh = "empty_mesh"
+	
+	locator = { name = "small_gun_01" rotation = { 0 0 0 } position = { 0 -0.023068 -6.33284 } }
+	locator = { name = "small_gun_02" rotation = { 0 0 0 } position = { -1.37312 -0.08462 0.868901 } }
+	locator = { name = "small_gun_03" rotation = { 0 0 0 } position = { 1.37293 -0.08462 0.868901 } }
+	locator = { name = "small_gun_04" rotation = { 0 0 0 } position = { -0.521993 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_05" rotation = { 0 0 0 } position = { 0.521811 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_06" rotation = { 0 0 0 } position = { -0.526371 0.759392 1.96501 } }
+	locator = { name = "small_gun_07" rotation = { 0 0 0 } position = { -0.529722 0.759313 1.78512 } }
+	locator = { name = "small_gun_08" rotation = { 0 0 0 } position = { 0.526189 0.759392 1.96501 } }
+	locator = { name = "small_gun_09" rotation = { 0 0 0 } position = { 0.529539 0.759313 1.78512 } }
+	locator = { name = "small_gun_10" rotation = { 0 0 0 } position = { -0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_11" rotation = { 0 0 0 } position = { 0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_12" rotation = { 0 0 0 } position = { -0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_13" rotation = { 0 0 0 } position = { 0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_14" rotation = { 0 0 0 } position = { -0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_15" rotation = { 0 0 0 } position = { 0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_16" rotation = { 0 0 0 } position = { -0.844526 0.389936 1.98 } }
+	locator = { name = "small_gun_17" rotation = { 0 0 0 } position = { 0.844526 0.389936 1.98 } }
+	locator = { name = "strike_craft_locator_01" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "strike_craft_locator_02" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "xl_gun_01" rotation = { 0 0 0 } position = { 0 -0.038682 -6.261 } }
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "moving" state_time = 5 }
+	state = { name = "death" state_time = 5 looping = no }
+}
+
+entity = {
+	name = "st_rep_01_Flagship_stern_M2_entity"
+	pdxmesh = "empty_mesh"
+	
+	locator = { name = "small_gun_01" rotation = { 0 0 0 } position = { 0 -0.023068 -6.33284 } }
+	locator = { name = "small_gun_02" rotation = { 0 0 0 } position = { -1.37312 -0.08462 0.868901 } }
+	locator = { name = "small_gun_03" rotation = { 0 0 0 } position = { 1.37293 -0.08462 0.868901 } }
+	locator = { name = "small_gun_04" rotation = { 0 0 0 } position = { -0.521993 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_05" rotation = { 0 0 0 } position = { 0.521811 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_06" rotation = { 0 0 0 } position = { -0.526371 0.759392 1.96501 } }
+	locator = { name = "small_gun_07" rotation = { 0 0 0 } position = { -0.529722 0.759313 1.78512 } }
+	locator = { name = "small_gun_08" rotation = { 0 0 0 } position = { 0.526189 0.759392 1.96501 } }
+	locator = { name = "small_gun_09" rotation = { 0 0 0 } position = { 0.529539 0.759313 1.78512 } }
+	locator = { name = "small_gun_10" rotation = { 0 0 0 } position = { -0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_11" rotation = { 0 0 0 } position = { 0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_12" rotation = { 0 0 0 } position = { -0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_13" rotation = { 0 0 0 } position = { 0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_14" rotation = { 0 0 0 } position = { -0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_15" rotation = { 0 0 0 } position = { 0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_16" rotation = { 0 0 0 } position = { -0.844526 0.389936 1.98 } }
+	locator = { name = "small_gun_17" rotation = { 0 0 0 } position = { 0.844526 0.389936 1.98 } }
+	locator = { name = "strike_craft_locator_01" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "strike_craft_locator_02" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "xl_gun_01" rotation = { 0 0 0 } position = { 0 -0.038682 -6.261 } }
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "moving" state_time = 5 }
+	state = { name = "death" state_time = 5 looping = no }
+}
+
+entity = {
+	name = "st_rep_01_Flagship_stern_S4_entity"
+	pdxmesh = "empty_mesh"
+	
+	locator = { name = "small_gun_01" rotation = { 0 0 0 } position = { 0 -0.023068 -6.33284 } }
+	locator = { name = "small_gun_02" rotation = { 0 0 0 } position = { -1.37312 -0.08462 0.868901 } }
+	locator = { name = "small_gun_03" rotation = { 0 0 0 } position = { 1.37293 -0.08462 0.868901 } }
+	locator = { name = "small_gun_04" rotation = { 0 0 0 } position = { -0.521993 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_05" rotation = { 0 0 0 } position = { 0.521811 -0.024664 -5.51537 } }
+	locator = { name = "small_gun_06" rotation = { 0 0 0 } position = { -0.526371 0.759392 1.96501 } }
+	locator = { name = "small_gun_07" rotation = { 0 0 0 } position = { -0.529722 0.759313 1.78512 } }
+	locator = { name = "small_gun_08" rotation = { 0 0 0 } position = { 0.526189 0.759392 1.96501 } }
+	locator = { name = "small_gun_09" rotation = { 0 0 0 } position = { 0.529539 0.759313 1.78512 } }
+	locator = { name = "small_gun_10" rotation = { 0 0 0 } position = { -0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_11" rotation = { 0 0 0 } position = { 0.722804 0.284999 -0.441068 } }
+	locator = { name = "small_gun_12" rotation = { 0 0 0 } position = { -0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_13" rotation = { 0 0 0 } position = { 0.764752 0.322177 0.393099 } }
+	locator = { name = "small_gun_14" rotation = { 0 0 0 } position = { -0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_15" rotation = { 0 0 0 } position = { 0.831342 0.353933 1.20709 } }
+	locator = { name = "small_gun_16" rotation = { 0 0 0 } position = { -0.844526 0.389936 1.98 } }
+	locator = { name = "small_gun_17" rotation = { 0 0 0 } position = { 0.844526 0.389936 1.98 } }
+	locator = { name = "strike_craft_locator_01" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "strike_craft_locator_02" rotation = { 0 0 0 } position = { 0 -0.29203 0.43773 } }
+	locator = { name = "xl_gun_01" rotation = { 0 0 0 } position = { 0 -0.038682 -6.261 } }
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5 }
+	state = { name = "moving" state_time = 5 }
+	state = { name = "death" state_time = 5 looping = no }
+}

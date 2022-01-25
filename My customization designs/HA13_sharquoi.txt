@@ -1,0 +1,439 @@
+portraits = {
+
+	HA_sharquoi_1 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/sharquoi/sharquoi_1.dds"}
+	HA_sharquoi_2 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/sharquoi/f1.dds"}
+	HA_sharquoi_3 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/sharquoi/f2.dds"}
+	HA_sharquoi_4 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/sharquoi/f3.dds"}
+	HA_sharquoi_5 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/sharquoi/f4.dds"}
+	HA_sharquoi_6 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/sharquoi/f5.dds"}
+	HA_sharquoi_7 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/sharquoi/f6.dds"}
+	HA_sharquoi_8 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/sharquoi/f7.dds"}
+	HA_sharquoi_9 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/sharquoi/f8.dds"}
+	HA_sharquoi_10 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/sharquoi/f9.dds"}
+	HA_sharquoi_11 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/sharquoi/f11.dds"}
+	HA_sharquoi_12 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/sharquoi/f12.dds"}
+	HA_sharquoi_13 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/sharquoi/f13.dds"}
+	HA_sharquoi_14 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/sharquoi/f14.dds"}
+	HA_sharquoi_15 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/sharquoi/f15.dds"}
+	HA_sharquoi_16 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/sharquoi/f16.dds"}
+	HA_sharquoi_17 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/sharquoi/f17.dds"}
+	HA_sharquoi_18 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/sharquoi/f18.dds"}
+	HA_sharquoi_19 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/sharquoi/m1.dds"}
+	HA_sharquoi_20 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/sharquoi/m2.dds"}
+	HA_sharquoi_21 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/sharquoi/m3.dds"}
+	HA_sharquoi_22 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/sharquoi/m4.dds"}
+	HA_sharquoi_23 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/sharquoi/m5.dds"}
+	HA_sharquoi_24 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/sharquoi/m6.dds"}
+	HA_sharquoi_25 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/sharquoi/m7.dds"}
+	HA_sharquoi_26 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/sharquoi/m8.dds"}
+	HA_sharquoi_27 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/sharquoi/m9.dds"}
+	HA_sharquoi_28 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/sharquoi/m10.dds"}
+	HA_sharquoi_29 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/sharquoi/m11.dds"}
+	HA_sharquoi_30 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/sharquoi/m12.dds"}
+	HA_sharquoi_31 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/sharquoi/m13.dds"}
+	HA_sharquoi_32 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/sharquoi/m14.dds"}
+	HA_sharquoi_33 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/sharquoi/m15.dds"}
+	HA_sharquoi_34 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/sharquoi/m16.dds"}
+	HA_sharquoi_35 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/sharquoi/m17.dds"}
+	HA_sharquoi_36 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/sharquoi/.f10.dds"}
+	
+}
+
+portrait_groups = {
+	HA13_sharquoi = {
+		default = HA_sharquoi_1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					HA_sharquoi_19
+					HA_sharquoi_20
+					HA_sharquoi_21
+					HA_sharquoi_22
+					HA_sharquoi_23
+					HA_sharquoi_24
+					HA_sharquoi_25
+					HA_sharquoi_26
+					HA_sharquoi_27
+					HA_sharquoi_28
+					HA_sharquoi_29
+					HA_sharquoi_30
+					HA_sharquoi_31
+					HA_sharquoi_32
+                    HA_sharquoi_33
+					HA_sharquoi_34
+					HA_sharquoi_35
+
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					HA_sharquoi_1
+					HA_sharquoi_2
+					HA_sharquoi_3
+					HA_sharquoi_4
+					HA_sharquoi_5
+					HA_sharquoi_6
+					HA_sharquoi_7
+					HA_sharquoi_8
+					HA_sharquoi_9
+					HA_sharquoi_10
+					HA_sharquoi_11
+					HA_sharquoi_12
+					HA_sharquoi_13
+					HA_sharquoi_14
+					HA_sharquoi_15
+                    HA_sharquoi_16
+					HA_sharquoi_17
+					HA_sharquoi_18
+					HA_sharquoi_36
+					
+					
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					HA_sharquoi_1
+					
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					HA_sharquoi_1
+					HA_sharquoi_1
+					HA_sharquoi_2
+					HA_sharquoi_3
+					HA_sharquoi_4
+					HA_sharquoi_5
+					HA_sharquoi_6
+					HA_sharquoi_7
+					HA_sharquoi_8
+					HA_sharquoi_9
+					HA_sharquoi_10
+					HA_sharquoi_11
+					HA_sharquoi_12
+					HA_sharquoi_13
+					HA_sharquoi_14
+					HA_sharquoi_15
+                    HA_sharquoi_16
+					HA_sharquoi_17
+					HA_sharquoi_18
+					HA_sharquoi_36
+					HA_sharquoi_19
+					HA_sharquoi_20
+					HA_sharquoi_21
+					HA_sharquoi_22
+					HA_sharquoi_23
+					HA_sharquoi_24
+					HA_sharquoi_25
+					HA_sharquoi_26
+					HA_sharquoi_27
+					HA_sharquoi_28
+					HA_sharquoi_29
+					HA_sharquoi_30
+					HA_sharquoi_31
+					HA_sharquoi_32
+                    HA_sharquoi_33
+					HA_sharquoi_34
+					HA_sharquoi_35
+					
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					HA_sharquoi_1
+					HA_sharquoi_2
+					HA_sharquoi_3
+					HA_sharquoi_4
+					HA_sharquoi_5
+					HA_sharquoi_6
+					HA_sharquoi_7
+					HA_sharquoi_8
+					HA_sharquoi_9
+					HA_sharquoi_10
+					HA_sharquoi_11
+					HA_sharquoi_12
+					HA_sharquoi_13
+					HA_sharquoi_14
+					HA_sharquoi_15
+                    HA_sharquoi_16
+					HA_sharquoi_17
+					HA_sharquoi_18
+					HA_sharquoi_36
+					
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					HA_sharquoi_19
+					HA_sharquoi_20
+					HA_sharquoi_21
+					HA_sharquoi_22
+					HA_sharquoi_23
+					HA_sharquoi_24
+					HA_sharquoi_25
+					HA_sharquoi_26
+					HA_sharquoi_27
+					HA_sharquoi_28
+					HA_sharquoi_29
+					HA_sharquoi_30
+					HA_sharquoi_31
+					HA_sharquoi_32
+                    HA_sharquoi_33
+					HA_sharquoi_34
+					HA_sharquoi_35
+					
+				}
+			} 		
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					HA_sharquoi_1
+					HA_sharquoi_2
+					HA_sharquoi_3
+					HA_sharquoi_4
+					HA_sharquoi_5
+					HA_sharquoi_6
+					HA_sharquoi_7
+					HA_sharquoi_8
+					HA_sharquoi_9
+					HA_sharquoi_10
+					HA_sharquoi_11
+					HA_sharquoi_12
+					HA_sharquoi_13
+					HA_sharquoi_14
+					HA_sharquoi_15
+                    HA_sharquoi_16
+					HA_sharquoi_17
+					HA_sharquoi_18
+					HA_sharquoi_36
+					
+				}
+			}  
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					HA_sharquoi_19
+					HA_sharquoi_20
+					HA_sharquoi_21
+					HA_sharquoi_22
+					HA_sharquoi_23
+					HA_sharquoi_24
+					HA_sharquoi_25
+					HA_sharquoi_26
+					HA_sharquoi_27
+					HA_sharquoi_28
+					HA_sharquoi_29
+					HA_sharquoi_30
+					HA_sharquoi_31
+					HA_sharquoi_32
+                    HA_sharquoi_33
+					HA_sharquoi_34
+					HA_sharquoi_35
+					
+				}
+			}  
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					HA_sharquoi_1
+					HA_sharquoi_2
+					HA_sharquoi_3
+					HA_sharquoi_4
+					HA_sharquoi_5
+					HA_sharquoi_6
+					HA_sharquoi_7
+					HA_sharquoi_8
+					HA_sharquoi_9
+					HA_sharquoi_10
+					HA_sharquoi_11
+					HA_sharquoi_12
+					HA_sharquoi_13
+					HA_sharquoi_14
+					HA_sharquoi_15
+                    HA_sharquoi_16
+					HA_sharquoi_17
+					HA_sharquoi_18
+					HA_sharquoi_36
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					HA_sharquoi_19
+					HA_sharquoi_20
+					HA_sharquoi_21
+					HA_sharquoi_22
+					HA_sharquoi_23
+					HA_sharquoi_24
+					HA_sharquoi_25
+					HA_sharquoi_26
+					HA_sharquoi_27
+					HA_sharquoi_28
+					HA_sharquoi_29
+					HA_sharquoi_30
+					HA_sharquoi_31
+					HA_sharquoi_32
+                    HA_sharquoi_33
+					HA_sharquoi_34
+					HA_sharquoi_35
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					HA_sharquoi_1
+					HA_sharquoi_2
+					HA_sharquoi_3
+					HA_sharquoi_4
+					HA_sharquoi_5
+					HA_sharquoi_6
+					HA_sharquoi_7
+					HA_sharquoi_8
+					HA_sharquoi_9
+					HA_sharquoi_10
+					HA_sharquoi_11
+					HA_sharquoi_12
+					HA_sharquoi_13
+					HA_sharquoi_14
+					HA_sharquoi_15
+                    HA_sharquoi_16
+					HA_sharquoi_17
+					HA_sharquoi_18
+					HA_sharquoi_36
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					HA_sharquoi_19
+					HA_sharquoi_20
+					HA_sharquoi_21
+					HA_sharquoi_22
+					HA_sharquoi_23
+					HA_sharquoi_24
+					HA_sharquoi_25
+					HA_sharquoi_26
+					HA_sharquoi_27
+					HA_sharquoi_28
+					HA_sharquoi_29
+					HA_sharquoi_30
+					HA_sharquoi_31
+					HA_sharquoi_32
+                    HA_sharquoi_33
+					HA_sharquoi_34
+					HA_sharquoi_35
+					
+				}
+			} 		
+
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					HA_sharquoi_1
+					HA_sharquoi_2
+					HA_sharquoi_3
+					HA_sharquoi_4
+					HA_sharquoi_5
+					HA_sharquoi_6
+					HA_sharquoi_7
+					HA_sharquoi_8
+					HA_sharquoi_9
+					HA_sharquoi_10
+					HA_sharquoi_11
+					HA_sharquoi_12
+					HA_sharquoi_13
+					HA_sharquoi_14
+					HA_sharquoi_15
+                    HA_sharquoi_16
+					HA_sharquoi_17
+					HA_sharquoi_18
+					HA_sharquoi_36
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					HA_sharquoi_19
+					HA_sharquoi_20
+					HA_sharquoi_21
+					HA_sharquoi_22
+					HA_sharquoi_23
+					HA_sharquoi_24
+					HA_sharquoi_25
+					HA_sharquoi_26
+					HA_sharquoi_27
+					HA_sharquoi_28
+					HA_sharquoi_29
+					HA_sharquoi_30
+					HA_sharquoi_31
+					HA_sharquoi_32
+                    HA_sharquoi_33
+					HA_sharquoi_34
+					HA_sharquoi_35
+					
+					
+				}
+			}
+		}		
+	
+	}
+}
+
+

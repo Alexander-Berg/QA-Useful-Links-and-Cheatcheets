@@ -1,0 +1,486 @@
+objectTypes = {
+	pdxmesh = {
+		name = "st_Rebel_01_MC40_L2_mesh"
+		file = "gfx/models/ships/st_rebel_02/st_Rebel_01_MC40_L2.mesh"
+		scale = 0.4
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "st_Rebel_01_MC40_hull_diffuse.dds"
+			texture_normal = "st_Rebel_01_MC40_hull_normal.dds"
+			texture_specular = "st_Rebel_01_MC40_hull_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 1
+			texture_diffuse = "st_Rebel_01_MC40_Engines_diffuse.dds"
+			texture_normal = "st_Rebel_01_MC40_Engines_normal.dds"
+			texture_specular = "st_Rebel_01_MC40_Engines_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 2
+			texture_diffuse = "st_Rebel_01_MC40_Bumps_diffuse.dds"
+			texture_normal = "st_Rebel_01_MC40_Bumps_normal.dds"
+			texture_specular = "st_Rebel_01_MC40_Bumps_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 3
+			texture_diffuse = "st_Rebel_01_MCNEB_Lights_diffuse.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 4
+			texture_diffuse = "st_Rebel_01_MC_HDTLT_diffuse.dds"
+			texture_normal = "st_Rebel_01_MC_HDTLT_normal.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 5
+			texture_diffuse = "st_Rebel_01_MTLT_diffuse.dds"
+			texture_normal = "st_Rebel_01_MTLT_normal.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 6
+			texture_diffuse = "st_Rebel_01_LLT_diffuse.dds"
+			texture_normal = "st_Rebel_01_LLT_normal.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_Rebel_01_Ass_MKII_L1M3_mesh"
+		file = "gfx/models/ships/st_rebel_02/st_Rebel_01_Ass_MKII_L1M3.mesh"
+		scale = 0.2
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "st_Rebel_01_AssaultFrigate_diffuse.dds"
+			texture_normal = "st_Rebel_01_AssaultFrigate_normal.dds"
+			texture_specular = "st_Rebel_01_AssaultFrigate_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 1
+			texture_diffuse = "st_Rebel_01_Costum_Lights_diffuse.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 2
+			texture_diffuse = "st_Rebel_01_MC_HDTLT_diffuse.dds"
+			texture_normal = "st_Rebel_01_MC_HDTLT_normal.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 3
+			texture_diffuse = "st_Rebel_01_MC40_Engines_diffuse.dds"
+			texture_normal = "st_Rebel_01_MC40_Engines_normal.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_Rebel_01_KDY_L1M1_mesh"
+		file = "gfx/models/ships/st_rebel_02/st_Rebel_01_KDY_L1M1.mesh"
+		scale = 0.3
+
+		meshsettings = {
+			name = "RC_aftBowShape"
+			index = 0
+			texture_diffuse = "st_Rebel_01_Republic_aftbow_diffuse.dds"
+			texture_normal = "st_Rebel_01_Republic_aftbow_normal.dds"
+			texture_specular = "st_Rebel_01_Republic_aftbow_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "RC_aftBowShape"
+			index = 1
+			texture_diffuse = "st_Rebel_01_Republic_armor_diffuse.dds"
+			texture_normal = "st_Rebel_01_Republic_armor_normal.dds"
+			texture_specular = "st_Rebel_01_Republic_armor_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "RC_aftBowShape"
+			index = 2
+			texture_diffuse = "st_Rebel_01_Republic_engine_diffuse.dds"
+			texture_normal = "st_Rebel_01_Republic_engine_normal.dds"
+			texture_specular = "st_Rebel_01_Republic_engine_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "RC_aftBowShape"
+			index = 3
+			texture_diffuse = "st_Rebel_01_MC_Lights_diffuse.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+
+		meshsettings = {
+			name = "RC_aftBowShape"
+			index = 4
+			texture_diffuse = "st_Rebel_01_QHTLT_diffuse.dds"
+			texture_normal = "st_Rebel_01_QHTLT_normal.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "RC_aftBowShape"
+			index = 5
+			texture_diffuse = "st_Rebel_01_MTLT_diffuse.dds"
+			texture_normal = "st_Rebel_01_MTLT_normal.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "RC_aftBowShape"
+			index = 6
+			texture_diffuse = "st_Rebel_01_Republic_bridge_diffuse.dds"
+			texture_normal = "st_Rebel_01_Republic_bridge_normal.dds"
+			texture_specular = "st_Rebel_01_Republic_bridge_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "RC_aftBowShape"
+			index = 7
+			texture_diffuse = "st_Rebel_01_HIC_diffuse.dds"
+			texture_normal = "st_Rebel_01_HIC_normal.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_Rebel_01_NebulaSD_2LM2_mesh"
+		file = "gfx/models/ships/st_rebel_02/st_Rebel_01_NebulaSD_2LM2.mesh"
+		scale = 0.4
+
+		meshsettings = {
+			name = "Hull_PrimaryShape"
+			index = 0
+			texture_diffuse = "st_Rebel_01_Nebula_Main_diffuse.dds"
+			texture_normal = "st_Rebel_01_Nebula_Main_normal.dds"
+			texture_specular = "st_Rebel_01_Nebula_Main_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_PrimaryShape"
+			index = 1
+			texture_diffuse = "st_Rebel_01_Nebula_Second_diffuse.dds"
+			texture_normal = "st_Rebel_01_Nebula_Second_normal.dds"
+			texture_specular = "st_Rebel_01_Nebula_Second_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_PrimaryShape"
+			index = 2
+			texture_diffuse = "st_Rebel_01_Nebula_Engines_diffuse.dds"
+			texture_normal = "st_Rebel_01_Nebula_Engines_normal.dds"
+			texture_specular = "st_Rebel_01_Nebula_Engines_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_PrimaryShape"
+			index = 3
+			texture_diffuse = "st_Rebel_01_Nebula_Lights_diffuse.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+
+		meshsettings = {
+			name = "Hull_PrimaryShape"
+			index = 4
+			texture_diffuse = "st_Rebel_01_Nebula_Main_diffuse.dds"
+			texture_normal = "st_Rebel_01_Nebula_Main_normal.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_Rebel_01_AssMKI_L1M1_mesh"
+		file = "gfx/models/ships/st_rebel_02/st_Rebel_01_AssMKI_L1M1.mesh"
+		scale = 0.25
+
+		meshsettings = {
+			name = "Hull_FrontShape"
+			index = 0
+			texture_diffuse = "st_Rebel_01_Assaultmk_ I_Hull_diffuse.dds"
+			texture_normal = "st_Rebel_01_Assaultmk_ I_Hull_normal.dds"
+			texture_specular = "st_Rebel_01_Assaultmk_ I_Hull_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_FrontShape"
+			index = 1
+			texture_diffuse = "st_Rebel_01_Assaultmk_I_Armor_diffuse.dds"
+			texture_normal = "st_Rebel_01_Assaultmk_I_Armor_normal.dds"
+			texture_specular = "st_Rebel_01_Assaultmk_I_Armor_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_FrontShape"
+			index = 2
+			texture_diffuse = "st_Rebel_01_Assaultmk_I_Bubble_diffuse.dds"
+			texture_normal = "st_Rebel_01_Assaultmk_I_Bubble_normal.dds"
+			texture_specular = "st_Rebel_01_Assaultmk_I_Bubble_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_FrontShape"
+			index = 3
+			texture_diffuse = "st_Rebel_01_MTLT_diffuse.dds"
+			texture_normal = "st_Rebel_01_MTLT_normal.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_FrontShape"
+			index = 4
+			texture_diffuse = "st_Rebel_01_Assaultmk_ I_Junk_diffuse.dds"
+			texture_normal = "st_Rebel_01_Assaultmk_ I_Junk_normal.dds"
+			texture_specular = "st_Rebel_01_Assaultmk_ I_Junk_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_FrontShape"
+			index = 5
+			texture_diffuse = "st_Rebel_01_Assaultmk_ I_Hull_middle_diffuse.dds"
+			texture_normal = "st_Rebel_01_Assaultmk_ I_Hull_middle_normal.dds"
+			texture_specular = "st_Rebel_01_Assaultmk_ I_Hull_middle_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_FrontShape"
+			index = 6
+			texture_diffuse = "st_Rebel_01_Crane_diffuse.dds"
+			texture_normal = "st_Rebel_01_Crane_normal.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_FrontShape"
+			index = 7
+			texture_diffuse = "st_Rebel_01_Tractor_diffuse.dds"
+			texture_normal = "st_Rebel_01_Tractor_normal.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_FrontShape"
+			index = 8
+			texture_diffuse = "st_Rebel_01_MC80_Hangerlights_diffuse.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+
+		meshsettings = {
+			name = "Hull_FrontShape"
+			index = 9
+			texture_diffuse = "st_Rebel_01_MC80_Hanger_diffuse.dds"
+			texture_normal = "st_Rebel_01_MC80_Hanger_normal.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_FrontShape"
+			index = 10
+			texture_diffuse = "st_Rebel_01_MC55_Radar_diffuse.dds"
+			texture_normal = "st_Rebel_01_MC55_Radar_normal.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_FrontShape"
+			index = 11
+			texture_diffuse = "st_Rebel_01_MC_Lights_diffuse.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+
+		meshsettings = {
+			name = "Hull_FrontShape"
+			index = 12
+			texture_diffuse = "st_Rebel_01_Assaultmk_ I_Engine_diffuse.dds"
+			texture_normal = "st_Rebel_01_Assaultmk_ I_Engine_normal.dds"
+			texture_specular = "st_Rebel_01_Assaultmk_ I_Engine_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_Rebel_01_Neb_B_M2S2_mesh"
+		file = "gfx/models/ships/st_rebel_02/st_Rebel_01_Neb_B_M2S2.mesh"
+		scale = 0.75
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "st_Rebel_01_Neb_B_Hull_diffuse.dds"
+			texture_normal = "st_Rebel_01_Neb_B_Hull_normal.dds"
+			texture_specular = "st_Rebel_01_Neb_B_Hull_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 1
+			texture_diffuse = "st_Rebel_01_Neb_B_EnginesDetails_diffuse.dds"
+			texture_normal = "st_Rebel_01_Neb_B_EnginesDetails_normal.dds"
+			texture_specular = "st_Rebel_01_Neb_B_EnginesDetails_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 2
+			texture_diffuse = "st_Rebel_01_Neb_B_Armor_diffuse.dds"
+			texture_normal = "st_Rebel_01_Neb_B_Armor_normal.dds"
+			texture_specular = "st_Rebel_01_Neb_B_Armor_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 3
+			texture_diffuse = "st_Rebel_01_MTLT_diffuse.dds"
+			texture_normal = "st_Rebel_01_MTLT_normal.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 4
+			texture_diffuse = "st_Rebel_01_LLT_diffuse.dds"
+			texture_normal = "st_Rebel_01_LLT_normal.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 5
+			texture_diffuse = "st_Rebel_01_MCNEB_Lights_diffuse.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 6
+			texture_diffuse = "st_Rebel_01_Neb_B_Interrior_diffuse.dds"
+			texture_normal = "st_Rebel_01_Neb_B_Interrior_normal.dds"
+			texture_specular = "st_Rebel_01_Neb_B_Interrior_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 7
+			texture_diffuse = "st_Rebel_01_Neb_B_turret_diffuse.dds"
+			texture_normal = "st_Rebel_01_Neb_B_turret_normal.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "st_Rebel_01_Quasar_H3_mesh"
+		file = "gfx/models/ships/st_rebel_02/st_Rebel_01_Quasar_H3.mesh"
+		scale = 0.4
+
+		meshsettings = {
+			name = "QF_HullShape"
+			index = 0
+			texture_diffuse = "st_Rebel_01_Quasar_hull_diffuse.dds"
+			texture_normal = "st_Rebel_01_Quasar_hull_normal.dds"
+			texture_specular = "st_Rebel_01_Quasar_hull_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "QF_HullShape"
+			index = 1
+			texture_diffuse = "st_Rebel_01_Quasar_details_diffuse.dds"
+			texture_normal = "st_Rebel_01_Quasar_details_normal.dds"
+			texture_specular = "st_Rebel_01_Quasar_details_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "QF_HullShape"
+			index = 2
+			texture_diffuse = "st_Rebel_01_LLT_diffuse.dds"
+			texture_normal = "st_Rebel_01_LLT_normal.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "QF_HullShape"
+			index = 3
+			texture_diffuse = "st_Rebel_01_Tractor_diffuse.dds"
+			texture_normal = "st_Rebel_01_Tractor_normal.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "QF_HullShape"
+			index = 4
+			texture_diffuse = "st_Rebel_01_MC_Lights_diffuse.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+
+		meshsettings = {
+			name = "QF_HullShape"
+			index = 5
+			texture_diffuse = "st_Rebel_01_Crane_diffuse.dds"
+			texture_normal = "st_Rebel_01_Crane_normal.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "QF_HullShape"
+			index = 6
+			texture_diffuse = "st_Rebel_01_MTLT_diffuse.dds"
+			texture_normal = "st_Rebel_01_MTLT_normal.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

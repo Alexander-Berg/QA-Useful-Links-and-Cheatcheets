@@ -1,0 +1,245 @@
+###################################################################################
+###																				###
+###									WEAPONS										###
+###																				###
+###################################################################################
+
+entity = {
+	name = "st_rep_01_missle_entity"
+	pdxmesh = "st_empty_turret_mesh"
+	
+	scale = 1.25
+}
+
+entity = {
+	name = "st_rep_01_turret_energy_torpedo_entity"
+	pdxmesh = "st_empty_turret_mesh"
+	
+	scale = 0.85
+}
+
+entity = {
+	name = "st_rep_01_turret_torpedo_entity"
+	pdxmesh = "st_empty_turret_mesh"
+	
+	scale = 0.85
+}
+
+entity = {
+	name = "st_rep_01_turret_missile_large_entity"
+	pdxmesh = "st_empty_turret_mesh"
+	
+	scale = 0.85
+}
+
+entity = {
+	name = "st_rep_01_turret_missile_medium_entity"
+	pdxmesh = "st_empty_turret_mesh"
+	
+	scale = 0.85
+}
+
+entity = {
+	name = "st_rep_01_turret_missile_small_entity"
+	pdxmesh = "st_empty_turret_mesh"
+	
+	scale = 1.0
+}
+
+entity = {
+	name = "st_rep_01_large_kinetic_gun_entity"
+	pdxmesh = "st_empty_turret_mesh"
+	
+	scale = 0.85
+}
+
+entity = {
+	name = "st_rep_01_medium_kinetic_gun_entity"
+	pdxmesh = "st_empty_turret_mesh"
+	
+	scale = 0.85
+}
+
+entity = {
+	name = "st_rep_01_small_kinetic_gun_entity"
+	pdxmesh = "st_empty_turret_mesh"
+	
+	scale = 1.0
+}
+
+	
+
+
+entity = {
+	name = "st_rep_01_turret_point_defence_entity"
+	pdxmesh = "st_empty_turret_mesh"
+	
+	scale = 1.0
+}
+
+
+
+
+
+entity = {
+	name = "st_rep_01_large_laser_gun_entity"
+	pdxmesh = "st_empty_turret_mesh"
+	
+	scale = 0.85
+}
+
+entity = {
+	name = "st_rep_01_medium_laser_gun_entity"
+	pdxmesh = "st_empty_turret_mesh"
+	
+	scale = 0.85
+}
+
+entity = {
+	name = "st_rep_01_small_laser_gun_entity"
+	pdxmesh = "st_empty_turret_mesh"
+	
+	scale = 1.0
+}
+
+
+
+
+
+# ##################
+# Critter Weapons
+# ##################
+
+
+# Amoeba Weapons
+
+entity = {
+	name = "st_rep_01_small_space_amoeba_weapon_entity"
+	pdxmesh = "st_empty_turret_mesh"
+	
+	scale = 0.85
+}
+
+entity = {
+	name = "st_rep_01_medium_space_amoeba_weapon_entity"
+	pdxmesh = "st_empty_turret_mesh"
+	
+	scale = 0.85
+}
+
+entity = {
+	name = "st_rep_01_large_space_amoeba_weapon_entity"
+	pdxmesh = "st_empty_turret_mesh"
+	
+	scale = 1.0
+}
+
+# Space Cloud Weapons
+
+entity = {
+	name = "st_rep_01_small_space_cloud_weapon_entity"
+	pdxmesh = "st_empty_turret_mesh"
+	
+	scale = 0.85
+}
+
+entity = {
+	name = "st_rep_01_large_space_cloud_weapon_entity"
+	pdxmesh = "st_empty_turret_mesh"
+	
+	scale = 1.0
+}
+
+# Crystal Weapons
+
+entity = {
+	name = "st_rep_01_small_crystal_ship_weapon_entity"
+	pdxmesh = "st_empty_turret_mesh"
+	
+	scale = 0.85
+}
+
+entity = {
+	name = "st_rep_01_medium_crystal_ship_weapon_entity"
+	pdxmesh = "st_empty_turret_mesh"
+	
+	scale = 0.85
+}
+
+entity = {
+	name = "st_rep_01_large_crystal_ship_weapon_entity"
+	pdxmesh = "st_empty_turret_mesh"
+	
+	scale = 1.0
+}
+
+# Mining Drone Weapons
+
+entity = {
+	name = "st_rep_01_small_mining_drone_weapon_entity"
+	pdxmesh = "st_empty_turret_mesh"
+	
+	scale = 0.85
+}
+
+entity = {
+	name = "st_rep_01_medium_mining_drone_weapon_entity"
+	pdxmesh = "st_empty_turret_mesh"
+	
+	scale = 0.85
+}
+
+# Space Whale Weapons
+
+entity = {
+	name = "st_rep_01_small_space_whale_weapon_entity"
+	pdxmesh = "st_empty_turret_mesh"
+	
+	scale = 0.85
+}
+
+entity = {
+	name = "st_rep_01_medium_space_whale_weapon_entity"
+	pdxmesh = "st_empty_turret_mesh"
+	
+	scale = 0.85
+}
+
+entity = {
+	name = "st_rep_01_large_space_whale_weapon_entity"
+	pdxmesh = "st_empty_turret_mesh"
+	
+	scale = 1.0
+}
+
+# Swarm Weapons
+
+entity = {
+	name = "st_rep_01_small_scourge_projectile_weapon_entity"
+	pdxmesh = "st_empty_turret_mesh"
+	
+	scale = 0.85
+}
+
+entity = {
+	name = "st_rep_01_medium_scourge_projectile_weapon_entity"
+	pdxmesh = "st_empty_turret_mesh"
+	
+	scale = 0.85
+}
+
+
+entity = {
+	name = "st_rep_01_octuple_entity"
+	pdxmesh = "st_empty_turret_mesh"
+	
+	scale = 0.85
+}
+
+entity = {
+	name = "st_rep_01_sw_Superlaser_entity"
+	pdxmesh = "st_empty_turret_mesh"
+	
+	scale = 0.85
+}
+

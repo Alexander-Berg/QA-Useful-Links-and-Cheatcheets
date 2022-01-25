@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HaloUnlockInfo>
+  <!-- these entitlement IDs are not final -->
+  <!-- 
+    current valid values:
+    
+    id:
+       eUnlockItemId_testS3Visible,
+       eUnlockItemId_testS3Hidden,
+
+    type:
+        eUnlockType_S3Entitlement,
+
+    state:
+        eUnlockState_Unlocked,
+        eUnlockState_Unlocked,
+        eUnlockState_LockedHidden,
+        
+    -->
+  <!--skulls-->
+  <Unlock id="eUnlockItemId_skull_anger" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Skull" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_skull_assassins" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Skull" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_skull_black_eye" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Skull" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_skull_blind" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Skull" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_skull_catch" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Skull" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_skull_cowbell" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Skull" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_skull_envy" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Skull" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_skull_eye_patch" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Skull" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_skull_famine" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Skull" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_skull_fog" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Skull" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_skull_foreign" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Skull" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_skull_ghost" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Skull" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_skull_grunt_birthday_party" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Skull" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_skull_iron" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Skull" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_skull_iwhbyd" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Skull" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_skull_jacked" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Skull" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_skull_malfunction" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Skull" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_skull_masterblaster" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Skull" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_skull_mythic" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Skull" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_skull_prophet_birthday_party" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Skull" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_skull_recession" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Skull" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_skull_scarab" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Skull" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_skull_so_angry" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Skull" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_skull_sputnik" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Skull" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_skull_streaking" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Skull" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_skull_thats_just_wrong" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Skull" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_skull_they_come_back" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Skull" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_skull_thunderstorm" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Skull" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_skull_tilt" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Skull" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_skull_tough_luck" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Skull" state="eUnlockState_Unlocked"/>
+
+  <Unlock id="eUnlockItemId_skull_bandanna" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Skull" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_skull_bonded_pair" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Skull" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_skull_boom" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Skull" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_skull_feather" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Skull" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_skull_grunt_funeral" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Skull" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_skull_pinata" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Skull" state="eUnlockState_Unlocked"/>
+
+  <Unlock id="eUnlockItemId_skull_swarm" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Skull" state="eUnlockState_Unlocked"/>
+
+  <!--Chelan H3 launch skulls-->
+  <Unlock id="eUnlockItemId_skull_boots_off_the_ground" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Skull" state="eUnlockState_Unlocked"/>
+
+  <Unlock id="eUnlockItemId_Emblem_Valkyrie" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Emblem" state="eUnlockState_Unlocked" entitlement="a66895c2-b49e-4f8a-ba25-2a3b69959327"/>
+  <Unlock id="eUnlockItemId_Emblem_Triad" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Emblem" state="eUnlockState_Unlocked" entitlement="a66895c2-b49e-4f8a-ba25-3a3b69959327"/>
+
+  <Unlock id="eUnlockItemId_ClanId" type="eUnlockType_Achievement" category="eUnlockCategory_Clan" state="eUnlockState_Unlocked" achievementID="710"/>
+
+  <Unlock id="eUnlockItemId_Terminal_halo2_cairo_station" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Video" state="eUnlockState_Unlocked" entitlement="25e95b2e-9784-46a7-969c-caee3aec2601"/>
+  <Unlock id="eUnlockItemId_Terminal_halo2_outskirts" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Video" state="eUnlockState_Unlocked" entitlement="633a87a5-ea5a-4958-ade5-7e1cdbeadeb5"/>
+  <Unlock id="eUnlockItemId_Terminal_halo2_metropolis" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Video" state="eUnlockState_Unlocked" entitlement="1f10520b-cef4-499d-97ba-6fbf533742d2"/>
+  <Unlock id="eUnlockItemId_Terminal_halo2_the_arbiter" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Video" state="eUnlockState_Unlocked" entitlement="a45a8787-b2a1-40ae-b13d-ce7033204712"/>
+  <Unlock id="eUnlockItemId_Terminal_halo2_the_oracle" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Video" state="eUnlockState_Unlocked" entitlement="9e4e0911-2756-444a-ad6b-acca34967b38"/>
+  <Unlock id="eUnlockItemId_Terminal_halo2_delta_halo" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Video" state="eUnlockState_Unlocked" entitlement="c38f68c6-c135-4e9b-8b29-6eaa37b18149"/>
+  <Unlock id="eUnlockItemId_Terminal_halo2_regret" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Video" state="eUnlockState_Unlocked" entitlement="f0495017-7c60-4783-8b7d-1b3898c58cb8"/>
+  <Unlock id="eUnlockItemId_Terminal_halo2_sacred_icon" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Video" state="eUnlockState_Unlocked" entitlement="f97e9ff1-88f9-4d1e-9125-47ac26bd7924"/>
+  <Unlock id="eUnlockItemId_Terminal_halo2_quarantine_zone" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Video" state="eUnlockState_Unlocked" entitlement="693aa84a-e63b-4e17-98d4-23b59718c71f"/>
+  <Unlock id="eUnlockItemId_Terminal_halo2_gravemind" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Video" state="eUnlockState_Unlocked" entitlement="a0d8190c-c412-4071-af23-b95e907bd1b2"/>
+  <Unlock id="eUnlockItemId_Terminal_halo2_uprising" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Video" state="eUnlockState_Unlocked" entitlement="25991d3c-7849-4e4b-a97b-25976ac223cc"/>
+  <Unlock id="eUnlockItemId_Terminal_halo2_high_charity" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Video" state="eUnlockState_Unlocked" entitlement="7fa64767-3009-4a0f-be89-e6bf397abc71"/>
+  <Unlock id="eUnlockItemId_Terminal_halo2_the_great_journey" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Video" state="eUnlockState_Unlocked" entitlement="17f845a5-6b27-4480-9311-f8b5416db6dc"/>
+
+  <Unlock id="eUnlockItemId_NAMEPLATE_HCE_BLUE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="265"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_HCE_BRONZE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="184"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_HCE_SILVER" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="173"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_HCE_GOLD" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="209"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_HCE_PLATINUM" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="266"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_H2_BLUE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="401"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_H2_BRONZE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="307"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_H2_SILVER" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="293"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_H2_GOLD" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="337"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_H2_PLATINUM" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="405"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_H3_BLUE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="509"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_H3_BRONZE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="434"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_H3_SILVER" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="424"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_H3_GOLD" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="743"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_H3_PLATINUM" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="510"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_H4_BLUE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="602"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_H4_BRONZE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="536"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_H4_SILVER" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="527"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_H4_GOLD" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="548"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_H4_PLATINUM" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="603"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_HALO_TEXT_BLUE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="737"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_HALO_TEXT_BRONZE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="738"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_HALO_TEXT_SILVER" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="739"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_HALO_TEXT_GOLD" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="740"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_HALO_TEXT_PLATINUM" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="741"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_DMR_BLUE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="530"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_DMR_BRONZE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="531"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_DMR_SILVER" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="532"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_DMR_GOLD" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="533"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_DMR_PLATINUM" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="534"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_SNIPER_BLUE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="168"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_SNIPER_BRONZE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="169"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_SNIPER_SILVER" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="170"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_SNIPER_GOLD" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="171"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_SNIPER_PLATINUM" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="172"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_AR_BLUE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="163"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_AR_BRONZE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="164"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_AR_SILVER" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="165"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_AR_GOLD" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="166"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_AR_PLATINUM" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="167"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_BR_BLUE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="137"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_BR_BRONZE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="713"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_BR_SILVER" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="711"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_BR_GOLD" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="717"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_BR_PLATINUM" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="721"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_ROCKET_BLUE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="280"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_ROCKET_BRONZE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="281"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_ROCKET_SILVER" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="282"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_ROCKET_GOLD" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="283"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_ROCKET_PLATINUM" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="284"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_SHOTGUN_BLUE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="285"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_SHOTGUN_BRONZE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="286"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_SHOTGUN_SILVER" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="287"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_SHOTGUN_GOLD" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="288"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_SHOTGUN_PLATINUM" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="289"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_MAGNUM_BLUE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="290"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_MAGNUM_BRONZE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="291"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_MAGNUM_SILVER" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="292"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_MAGNUM_GOLD" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="294"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_MAGNUM_PLATINUM" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="295"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_SWORD_BLUE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="296"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_SWORD_BRONZE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="297"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_SWORD_SILVER" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="298"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_SWORD_GOLD" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="299"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_SWORD_PLATINUM" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="300"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_HAMMER_BLUE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="429"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_HAMMER_BRONZE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="420"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_HAMMER_SILVER" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="431"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_HAMMER_GOLD" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="432"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_HAMMER_PLATINUM" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="433"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_FRAG_BLUE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="301"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_FRAG_BRONZE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="302"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_FRAG_SILVER" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="303"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_FRAG_GOLD" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="304"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_FRAG_PLATINUM" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="305"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_PLASMAGRENADE_BLUE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="306"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_PLASMAGRENADE_BRONZE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="425"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_PLASMAGRENADE_SILVER" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="742"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_PLASMAGRENADE_GOLD" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="427"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_PLASMAGRENADE_PLATINUM" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="428"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_WARTHOG_BLUE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="708"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_WARTHOG_BRONZE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="715"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_WARTHOG_SILVER" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="719"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_WARTHOG_GOLD" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="723"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_WARTHOG_PLATINUM" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="725"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_SCORPION_BLUE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="174"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_SCORPION_BRONZE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="175"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_SCORPION_SILVER" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="176"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_SCORPION_GOLD" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="177"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_SCORPION_PLATINUM" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="178"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_GHOST_BLUE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="179"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_GHOST_BRONZE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="180"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_GHOST_SILVER" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="181"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_GHOST_GOLD" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="182"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_GHOST_PLATINUM" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="183"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_BANSHEE_BLUE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="519"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_BANSHEE_BRONZE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="520"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_BANSHEE_SILVER" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="521"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_BANSHEE_GOLD" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="522"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_BANSHEE_PLATINUM" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="523"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_MONGOOSE_BLUE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="524"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_MONGOOSE_BRONZE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="525"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_MONGOOSE_SILVER" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="526"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_MONGOOSE_GOLD" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="528"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_MONGOOSE_PLATINUM" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="529"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_FORGE_BLUE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="650"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_FORGE_BRONZE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="379"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_FORGE_SILVER" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="384"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_FORGE_GOLD" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="642"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_FORGE_PLATINUM" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="647"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_DOGTAGS_BLUE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="228"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_DOGTAGS_BRONZE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="351"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_DOGTAGS_SILVER" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="675"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_DOGTAGS_GOLD" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="677"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_DOGTAGS_PLATINUM" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="109"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_RECLAIMER_BLUE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="195"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_RECLAIMER_BRONZE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="321"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_RECLAIMER_SILVER" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="748"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_RECLAIMER_GOLD" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="544"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_RECLAIMER_PLATINUM" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="148"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_NORMAL_DIFF_BLUE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="210"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_NORMAL_DIFF_BRONZE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="347"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_NORMAL_DIFF_SILVER" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="454"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_NORMAL_DIFF_GOLD" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="545"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_NORMAL_DIFF_PLATINUM" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="145"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_HEROIC_DIFF_BLUE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="211"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_HEROIC_DIFF_BRONZE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="348"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_HEROIC_DIFF_SILVER" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="455"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_HEROIC_DIFF_GOLD" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="546"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_HEROIC_DIFF_PLATINUM" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="146"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_LEGEND_DIFF_BLUE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="212"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_LEGEND_DIFF_BRONZE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="349"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_LEGEND_DIFF_SILVER" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="456"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_LEGEND_DIFF_GOLD" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="547"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_LEGEND_DIFF_PLATINUM" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="147"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_LASO_BLUE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="229"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_LASO_BRONZE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="402"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_LASO_SILVER" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="674"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_LASO_GOLD" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="676"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_LASO_PLATINUM" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="151"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_SLAYER_BLUE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="710"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_SLAYER_BRONZE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="709"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_SLAYER_SILVER" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="716"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_SLAYER_GOLD" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="720"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_SLAYER_PLATINUM" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="724"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_CTF_BLUE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="135"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_ASSAULT_BLUE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="712"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_GRIFBALL_BLUE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="714"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_ODDBALL_BLUE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="718"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_JUG_BLUE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="722"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_RICHOCHET_BLUE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="535"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_EVENT_CHRISTMAS" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden" entitlement="294474a4-feb1-4655-be3d-5e7d4338e211"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_EVENT_VALENTINE" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden" entitlement="6e7b6826-9ede-43b0-9c86-e3187c0b0eb3"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_EVENT_YAPYAP" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden" entitlement="136e09eb-293f-4514-a6f3-f681b091d601"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_EVENT_YAPYAP_2" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden" entitlement="52bb13ec-73d1-43fc-9cc3-5d5c94059b0c"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_GRASSROOTS" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden" entitlement="62ed5ded-967e-41bc-8f62-b2a97f1c78f0"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_ASSASSINATION" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden" entitlement="b35cc26a-47e1-4ac3-9814-4aba6c6db1af"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_MSSTORE" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden" entitlement="8b99f6bd-baef-4518-b7f2-1f49ee7e1991"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_GUILTY_SPARK" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden" entitlement="d78f4354-623e-48d7-957a-7a4768a35524"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_343" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_FLAIR" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden" entitlement="d9799f25-3f4a-479b-a3a8-deb061159aeb"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_GOLD" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden" entitlement="b8840f87-45b3-48c4-a997-3a0fb17d0bd4"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_HCS_PRO" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden" entitlement="b8840f87-45b3-48c4-a997-3a0fb17d0bd4"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_MVP" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden" entitlement="b8840f87-45b3-48c4-a997-3a0fb17d0bd4"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_UNSC" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden" entitlement="b8840f87-45b3-48c4-a997-3a0fb17d0bd4"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_FIRTH" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden" entitlement="b8840f87-45b3-48c4-a997-3a0fb17d0bd4"/>
+
+  <Unlock id="eUnlockItemId_NAMEPLATE_EARLY_MCC_INSIDER" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden" entitlement="3ec4aa9e-61d8-4453-a21c-5d294096a277"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_MCC_INSIDER_PLUS" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden" entitlement="71cb9727-2dc5-4081-b179-5895b6aaf7a1"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_PTR_MVP" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden" entitlement="2b69aad6-85ad-47f7-9f74-0cb16b496232"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_COMMUNITY_MVP" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden" entitlement="eb34dc2c-02e1-4c57-b327-6c2225a1ae09"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_HCS_PRO_NEW" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden" entitlement="4fbb7919-c347-4d29-9505-2ac68c2bcbaf"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_HCS_GOLD" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden" entitlement="afd1b6ae-f844-4a1d-8490-52ad2c0fc7b0"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_FIRETEAM_RAVEN" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden" entitlement="e25cb55b-c185-4429-89b5-46d1775fa667"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_COMMUNITY_SPOTLIGHT_FIRE" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden" entitlement="d3646f65-2909-4941-a551-6d645be16a34"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_COMMUNITY_343_HEADHUNTER_ICE" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden" entitlement="778edec7-3acc-451e-944d-77ac548602aa"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_CARTOGRAPHER" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden" entitlement="17f3950c-1e46-4eb8-82ca-b64c8b223e12"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_SPIRIT_OF_FIRE" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden" entitlement="c4508088-7b0a-42a9-b9a3-c738b63f0aeb"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_BANISHED" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden" entitlement="66df1860-3692-4e12-a165-357badf88eab"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_FLOOD" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden" entitlement="63ab1c0c-1228-4376-bdd6-754637a67faf"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_GUARDIANS" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden" entitlement="270ad46f-4e91-41d1-a755-1c3ffb6de1a1"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_APOLLO" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden" entitlement="1d4c1ea3-22f4-40dc-ab95-d7e27be4e97e"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_BOAT_COPS" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden" entitlement="006f766c-09d3-48ab-a615-13ad83fcd9fc"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_DREAMHACK" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden" entitlement="0e13af18-a811-44f4-80d8-f41ee3078976"/>
+
+  <Unlock id="eUnlockItemId_nameplate_keep_it_clean_blue" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="802"/>
+  <Unlock id="eUnlockItemId_nameplate_keep_it_clean_bronze" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="859"/>
+  <Unlock id="eUnlockItemId_nameplate_keep_it_clean_silver" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="868"/>
+  <Unlock id="eUnlockItemId_nameplate_keep_it_clean_gold" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="842"/>
+  <Unlock id="eUnlockItemId_nameplate_keep_it_clean_platinum" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="869"/>
+  <Unlock id="eUnlockItemId_nameplate_superintendant_blue" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="870"/>
+  <Unlock id="eUnlockItemId_nameplate_superintendant_bronze" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="832"/>
+  <Unlock id="eUnlockItemId_nameplate_superintendant_silver" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="833"/>
+  <Unlock id="eUnlockItemId_nameplate_superintendant_gold" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="834"/>
+  <Unlock id="eUnlockItemId_nameplate_superintendant_platinum" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="835"/>
+  <Unlock id="eUnlockItemId_nameplate_new_mombasa_blue" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="879"/>
+  <Unlock id="eUnlockItemId_nameplate_new_mombasa_bronze" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="873"/>
+  <Unlock id="eUnlockItemId_nameplate_new_mombasa_silver" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="872"/>
+  <Unlock id="eUnlockItemId_nameplate_new_mombasa_gold" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="874"/>
+  <Unlock id="eUnlockItemId_nameplate_new_mombasa_platinum" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="871"/>
+
+  <!-- Reach Nameplate Unlocks -->
+  <Unlock id="eUnlockItemId_NAMEPLATE_DMR" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="900"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_ONI" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="902"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_JUN" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="903"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_GRENADE_LAUNCHER" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="904"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_JORGE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="905"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_FALCON" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="906"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_KAT" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="907"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_CARTER" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="908"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_EMILE" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="909"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_HALO_REACH" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="984"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_AUNTIE_DOT" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="973"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_FIREFIGHT" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="979"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_HEADHUNTER" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="980"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_FORKLIFT" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="988"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_INVASION" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="981"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_REMEMBER_REACH" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="977"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_SKIRMISHER" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="936"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_ASSASSIN" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="990"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_MOA" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="937"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_PLANET" type="eUnlockType_Achievement" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked" achievementID="978"/>
+
+  <Unlock id="eUnlockItemId_NAMEPLATE_VSWORLD" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_VSWORLDWIN" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_MCC_INSIDER_PC" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+
+  <Unlock id="eUnlockItemId_NAMEPLATE_FOCUS_RIFLE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_WINTER_CONTINGENCY" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_BHM" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_UNITY1" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_UNITY2" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_FIST" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+
+  <Unlock id="eUnlockItemId_NAMEPLATE_BEACHLIFE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_H1ANNIVERSARY" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_H1CHIEF" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_H1CORTANA" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_H1GUILTYSPARK" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_H1JOHNSON" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_H1CHIEF2" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_H2ANNIVERSARY" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_H2FORERUNNER" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_H2CHIEF" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_H2VISID" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_H2RING" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_H3ARK" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_H3BROMANCE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_H3WARTHOG" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_H3BUBBLESHIELD" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_H3CHASM" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_H3JOHNSON" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_H3KEYES" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_H3PELICANFRONT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_H3PELICANSIDE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_H3LEGENDARY" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_H3CHIEF" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_WARTHOGTREAD" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_GATORCHOPS" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_POISONOUS" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_SHARKTEETH" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_SNAKESKIN" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_SNOWLEOPARD" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_SPIDERWEB" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_WHITETIGER" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_REACHMETAL" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_SHOTGUNSHELL" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_CLIPTROCITY" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_SPARTANHELMET" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_STUDDED" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_TANKTREAD" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_TIGERSTRIPE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_CRACKEDVISOR" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_WOODLANDCAMO" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_POCKETCAMO" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_117ARMOR" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_ASSASSINALT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_BACON" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_BANDAGE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_BLUESPLATTER" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_GREENSPLATTER" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_PINKSPLATTER" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_BULLETHOLES" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_BULLETLINE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_BULLETPILE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_BULLETSTACK" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_CARTOONA" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_CHIEFANDCORTANA" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_CORTANAEYES" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_COVHEX" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_COWBOYSHELLS" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_CROCKSKIN" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_DEADEND" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_DIAMONDPLATE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_DINOTRACKER" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_ELITEEYES" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_HALOO" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_MCCHELMET" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_MJOLNIR" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_NOENTRY" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_H3ODSTVISID" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_MCCPC" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_PHALANX" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_CLIPTHAT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_AWAKENING" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_ADORNEDMITTS" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_RUBRICAE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_TILERFILER" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_KUP" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_BATTLEWORN" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_OMEN" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_NIGHTWALK" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_CORSAIRS" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_MAXSAX" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_NEWMOMBASA" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_ODST" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_RIPPLES" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_HELLJUMPERS" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_THELIFE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_CAPTAINKEYS" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_THEMAW" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_M7S" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_BIP" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_SHOCKTROOPS" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_PIZZATIME" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_REMEMBERREACH" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_SWIFTANDQUIET" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_MAGNUMBLAST" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_BURSTFIRE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_LICENSETOKILLTACULAR" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_THEROOKIE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_HALFJAW" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_STARRYKNIGHT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_DIDACTIC" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_REMNANTS" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_CARAPACE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_PARGVOL" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_IBIESHAN" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_COMBATSKIN" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_KNIGHTTERROR" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_QUATTRO" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_THRESHOLD" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_WRECKAGE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_REQUIEM" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_INFINITY" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_OPPORTUNITY" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_AUGMENTED" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_SYNTHESIS" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_SUNDERED" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_SHADOW" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_LIFESHAPER" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_CRYPTUM" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_HALSEY" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_QUICKDRAW" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_ANNIVERSARY" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_343DAY" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_HALODAYS" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_MOVEMBER" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_VETERAN" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_NNAHM" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_INNERCIRCLE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_TURKEY" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_LockedHidden"/>
+  <Unlock id="eUnlockItemId_NAMEPLATE_INFINITE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Nameplate" state="eUnlockState_Unlocked"/>
+
+  <Unlock id="eUnlockItemId_AVATAR_CHIEF_1" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="155"/>
+  <Unlock id="eUnlockItemId_AVATAR_CHIEF_2" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="267"/>
+  <Unlock id="eUnlockItemId_AVATAR_CHIEF_3" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="406"/>
+  <Unlock id="eUnlockItemId_AVATAR_CHIEF_4" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="124"/>
+  <Unlock id="eUnlockItemId_AVATAR_CHIEF_5" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="436"/>
+  <Unlock id="eUnlockItemId_AVATAR_CHIEF_7" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="537"/>
+  <Unlock id="eUnlockItemId_AVATAR_CHIEF_8" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="638"/>
+  <Unlock id="eUnlockItemId_AVATAR_CORTANA_1" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="272"/>
+  <Unlock id="eUnlockItemId_AVATAR_CORTANA_2" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="413"/>
+  <Unlock id="eUnlockItemId_AVATAR_CORTANA_3" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="442"/>
+  <Unlock id="eUnlockItemId_AVATAR_CORTANA_5" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="511"/>
+  <Unlock id="eUnlockItemId_AVATAR_RAMPANT_CORTANA" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="518"/>
+  <Unlock id="eUnlockItemId_AVATAR_ARBITER_1" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="270"/>
+  <Unlock id="eUnlockItemId_AVATAR_ARBITER_2" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="274"/>
+  <Unlock id="eUnlockItemId_AVATAR_ARBITER_3" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="408"/>
+  <Unlock id="eUnlockItemId_AVATAR_CHIEF_ARBITER_1" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="409"/>
+  <Unlock id="eUnlockItemId_AVATAR_CHIEF_ARBITER_2" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="441"/>
+  <Unlock id="eUnlockItemId_AVATAR_CHIEF_ARBITER_3" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="414"/>
+  <Unlock id="eUnlockItemId_AVATAR_JOHNSON_1" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="278"/>
+  <Unlock id="eUnlockItemId_AVATAR_JOHNSON_2" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="410"/>
+  <Unlock id="eUnlockItemId_AVATAR_JACOB_KEYES_1" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="156"/>
+  <Unlock id="eUnlockItemId_AVATAR_MIRANDA_KEYES_1" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="277"/>
+  <Unlock id="eUnlockItemId_AVATAR_TARTARUS" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="279"/>
+  <Unlock id="eUnlockItemId_AVATAR_PROPHET_OF_TRUTH" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="273"/>
+  <Unlock id="eUnlockItemId_AVATAR_GRAVEMIND" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="276"/>
+  <Unlock id="eUnlockItemId_AVATAR_GUILTY_SPARK_1" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="158"/>
+  <Unlock id="eUnlockItemId_AVATAR_GUILTY_SPARK_2" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="734"/>
+  <Unlock id="eUnlockItemId_AVATAR_LASKY" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="513"/>
+  <Unlock id="eUnlockItemId_AVATAR_HALSEY" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="553"/>
+  <Unlock id="eUnlockItemId_AVATAR_DIDACT" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="516"/>
+  <Unlock id="eUnlockItemId_AVATAR_PALMER_1" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="514"/>
+  <Unlock id="eUnlockItemId_AVATAR_GRUNT_MINOR" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="157"/>
+  <Unlock id="eUnlockItemId_AVATAR_GRUNT_HEAVY" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="113"/>
+  <Unlock id="eUnlockItemId_AVATAR_GRUNT_MAJOR" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="194"/>
+  <Unlock id="eUnlockItemId_AVATAR_GRUNT_SUICIDE" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="728"/>
+  <Unlock id="eUnlockItemId_AVATAR_GRUNT_RANGER" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="729"/>
+  <Unlock id="eUnlockItemId_AVATAR_STORM_GRUNT" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="539"/>
+  <Unlock id="eUnlockItemId_AVATAR_JACKAL_1" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="115"/>
+  <Unlock id="eUnlockItemId_AVATAR_JACKAL_2" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="731"/>
+  <Unlock id="eUnlockItemId_AVATAR_JACKAL_SNIPER" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="186"/>
+  <Unlock id="eUnlockItemId_AVATAR_JACKAL_HEAVY" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="540"/>
+  <Unlock id="eUnlockItemId_AVATAR_JACKAL_RANGER" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="367"/>
+  <Unlock id="eUnlockItemId_AVATAR_ELITE_MINOR_1" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="153"/>
+  <Unlock id="eUnlockItemId_AVATAR_ELITE_MINOR_2" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="114"/>
+  <Unlock id="eUnlockItemId_AVATAR_ELITE_ZEALOT" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="730"/>
+  <Unlock id="eUnlockItemId_AVATAR_ELITE_HONOR_GUARD" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="189"/>
+  <Unlock id="eUnlockItemId_AVATAR_ELITE_WARRIOR" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="541"/>
+  <Unlock id="eUnlockItemId_AVATAR_STORM_ELITE" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="121"/>
+  <Unlock id="eUnlockItemId_AVATAR_HUNTER_1" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="154"/>
+  <Unlock id="eUnlockItemId_AVATAR_HUNTER_2" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="117"/>
+  <Unlock id="eUnlockItemId_AVATAR_HUNTER_3" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="733"/>
+  <Unlock id="eUnlockItemId_AVATAR_FLOOD_INFECTION" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="159"/>
+  <Unlock id="eUnlockItemId_AVATAR_FLOOD_COMBAT_ELITE" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="275"/>
+  <Unlock id="eUnlockItemId_AVATAR_FLOOD_COMBAT_HUMAN" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="160"/>
+  <Unlock id="eUnlockItemId_AVATAR_FLOOD_COMBAT_BRUTE" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="542"/>
+  <Unlock id="eUnlockItemId_AVATAR_FLOOD_STALKER" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="240"/>
+  <Unlock id="eUnlockItemId_AVATAR_FLOOD_TANK" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="607"/>
+  <Unlock id="eUnlockItemId_AVATAR_BRUTE_1" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="116"/>
+  <Unlock id="eUnlockItemId_AVATAR_BERSERK_BRUTE" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="440"/>
+  <Unlock id="eUnlockItemId_AVATAR_BRUTE_CAPTAIN" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="732"/>
+  <Unlock id="eUnlockItemId_AVATAR_BRUTE_CHIEFTAN" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="443"/>
+  <Unlock id="eUnlockItemId_AVATAR_BRUTE_WAR_CHIEFTAN" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="435"/>
+  <Unlock id="eUnlockItemId_AVATAR_SENTINEL" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="161"/>
+  <Unlock id="eUnlockItemId_AVATAR_KNIGHT_BATTLEWAGON" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="735"/>
+  <Unlock id="eUnlockItemId_AVATAR_KNIGHT_LANCER" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="119"/>
+  <Unlock id="eUnlockItemId_AVATAR_CRAWLER_SNIPE" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="120"/>
+  <Unlock id="eUnlockItemId_AVATAR_CRAWLER_ALPHA" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="736"/>
+  <Unlock id="eUnlockItemId_AVATAR_WATCHER" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="118"/>
+  <Unlock id="eUnlockItemId_AVATAR_DRONE_1" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="112"/>
+  <Unlock id="eUnlockItemId_AVATAR_DRONE_2" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="407"/>
+  <Unlock id="eUnlockItemId_AVATAR_MARINE_1" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="268"/>
+  <Unlock id="eUnlockItemId_AVATAR_MARINE_2" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="185"/>
+  <Unlock id="eUnlockItemId_AVATAR_MARINE_3" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="538"/>
+  <Unlock id="eUnlockItemId_AVATAR_MARINE_4" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="554"/>
+  <Unlock id="eUnlockItemId_AVATAR_ODST_1" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="190"/>
+  <Unlock id="eUnlockItemId_AVATAR_ONI_SECURITY_EVA" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="191"/>
+  <Unlock id="eUnlockItemId_AVATAR_SCIENTIST_1" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="187"/>
+  <Unlock id="eUnlockItemId_AVATAR_SCIENTIST_2" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="188"/>
+  <Unlock id="eUnlockItemId_AVATAR_LORD_HOOD" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="411"/>
+  <Unlock id="eUnlockItemId_AVATAR_DEL_RIO" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="512"/>
+  <Unlock id="eUnlockItemId_AVATAR_TILSON" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="517"/>
+  <Unlock id="eUnlockItemId_AVATAR_LIBRARIAN" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="515"/>
+  <Unlock id="eUnlockItemId_AVATAR_SESA_REFUMEE" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="271"/>
+  <Unlock id="eUnlockItemId_AVATAR_SCARAB_1" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="269"/>
+  <Unlock id="eUnlockItemId_AVATAR_SCARAB_2" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="412"/>
+  <Unlock id="eUnlockItemId_AVATAR_WARTHOG_CREW" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="162"/>
+  <Unlock id="eUnlockItemId_AVATAR_BRUTE_CHOPPER" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="437"/>
+  <Unlock id="eUnlockItemId_AVATAR_GHOST_RIDER" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="192"/>
+  <Unlock id="eUnlockItemId_AVATAR_HORNET_RIDER" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="438"/>
+  <Unlock id="eUnlockItemId_AVATAR_MANTIS" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="543"/>
+  <Unlock id="eUnlockItemId_AVATAR_MONGOOSE_RIDERS" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="439"/>
+  <Unlock id="eUnlockItemId_AVATAR_BANSHEE" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="193"/>
+  <Unlock id="eUnlockItemId_AVATAR_MP_KATANA" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="136"/>
+  <Unlock id="eUnlockItemId_AVATAR_MP_RECON" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="609"/>
+  <Unlock id="eUnlockItemId_AVATAR_MP_OUTRIDER" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="672"/>
+  <Unlock id="eUnlockItemId_AVATAR_MP_CENTURION" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="667"/>
+  <Unlock id="eUnlockItemId_AVATAR_MP_WARMASTER" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="356"/>
+  <Unlock id="eUnlockItemId_AVATAR_MP_FOTUS" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="134"/>
+  <Unlock id="eUnlockItemId_AVATAR_OLD_SPARTAN" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="508"/>
+  <Unlock id="eUnlockItemId_AVATAR_OLD_ELITE" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="605"/>
+  <Unlock id="eUnlockItemId_AVATAR_FLAIR" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Avatar" state="eUnlockState_LockedHidden" entitlement="82cfcec4-b2a4-4333-9fff-762176723fd7"/>
+  <Unlock id="eUnlockItemId_AVATAR_MCBATTLE" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Avatar" state="eUnlockState_LockedHidden" entitlement="b8840f87-45b3-48c4-a997-3a0fb17d0bd4"/>
+  <Unlock id="eUnlockItemId_AVATAR_MCGOLD" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Avatar" state="eUnlockState_LockedHidden" entitlement="b8840f87-45b3-48c4-a997-3a0fb17d0bd4"/>
+  <Unlock id="eUnlockItemId_AVATAR_BEAMISH" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Avatar" state="eUnlockState_LockedHidden" entitlement="b8840f87-45b3-48c4-a997-3a0fb17d0bd4"/>
+  <Unlock id="eUnlockItemId_AVATAR_MRCHIEF_AVATAR" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Avatar" state="eUnlockState_LockedHidden" entitlement="b8840f87-45b3-48c4-a997-3a0fb17d0bd4"/>
+  <Unlock id="eUnlockItemId_AVATAR_MRCHIEF" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Avatar" state="eUnlockState_LockedHidden" entitlement="b8840f87-45b3-48c4-a997-3a0fb17d0bd4"/>
+  <Unlock id="eUnlockItemId_AVATAR_BUCK" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="848"/>
+  <Unlock id="eUnlockItemId_AVATAR_DARE" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="849"/>
+  <Unlock id="eUnlockItemId_AVATAR_DUTCH" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="844"/>
+  <Unlock id="eUnlockItemId_AVATAR_MICKEY" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="845"/>
+  <Unlock id="eUnlockItemId_AVATAR_ROMEO" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="847"/>
+  <Unlock id="eUnlockItemId_AVATAR_ROOKIE" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="843"/>
+  <Unlock id="eUnlockItemId_AVATAR_VERGIL" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="850"/>
+  <Unlock id="eUnlockItemId_AVATAR_SUPERINTENDENT" type="eUnlockType_Achievement" category="eUnlockCategory_Avatar" state="eUnlockState_Unlocked" achievementID="846"/>
+
+  <Unlock id="eUnlockItemId_EMBLEM_Zenith" type="eUnlockType_Achievement" category="eUnlockCategory_Emblem" state="eUnlockState_Unlocked" achievementID="645"/>
+  <Unlock id="eUnlockItemId_EMBLEM_Warthog" type="eUnlockType_Achievement" category="eUnlockCategory_Emblem" state="eUnlockState_Unlocked" achievementID="781"/>
+  <Unlock id="eUnlockItemId_EMBLEM_Warlock" type="eUnlockType_Achievement" category="eUnlockCategory_Emblem" state="eUnlockState_Unlocked" achievementID="652"/>
+  <Unlock id="eUnlockItemId_EMBLEM_Zanzibar" type="eUnlockType_Achievement" category="eUnlockCategory_Emblem" state="eUnlockState_Unlocked" achievementID="643"/>
+  <Unlock id="eUnlockItemId_EMBLEM_Speed_Boost" type="eUnlockType_Achievement" category="eUnlockCategory_Emblem" state="eUnlockState_Unlocked" achievementID="656"/>
+  <Unlock id="eUnlockItemId_EMBLEM_Sanctuary" type="eUnlockType_Achievement" category="eUnlockCategory_Emblem" state="eUnlockState_Unlocked" achievementID="671"/>
+  <Unlock id="eUnlockItemId_EMBLEM_Shotgun_Shells" type="eUnlockType_Achievement" category="eUnlockCategory_Emblem" state="eUnlockState_Unlocked" achievementID="655"/>
+  <Unlock id="eUnlockItemId_EMBLEM_Ricochet" type="eUnlockType_Achievement" category="eUnlockCategory_Emblem" state="eUnlockState_Unlocked" achievementID="669"/>
+  <Unlock id="eUnlockItemId_EMBLEM_Puma" type="eUnlockType_Achievement" category="eUnlockCategory_Emblem" state="eUnlockState_Unlocked" achievementID="651"/>
+  <Unlock id="eUnlockItemId_EMBLEM_Overshield" type="eUnlockType_Achievement" category="eUnlockCategory_Emblem" state="eUnlockState_Unlocked" achievementID="653"/>
+  <Unlock id="eUnlockItemId_EMBLEM_Magnum" type="eUnlockType_Achievement" category="eUnlockCategory_Emblem" state="eUnlockState_Unlocked" achievementID="386"/>
+  <Unlock id="eUnlockItemId_EMBLEM_Lockout" type="eUnlockType_Achievement" category="eUnlockCategory_Emblem" state="eUnlockState_Unlocked" achievementID="658"/>
+  <Unlock id="eUnlockItemId_EMBLEM_Hornet" type="eUnlockType_Achievement" category="eUnlockCategory_Emblem" state="eUnlockState_Unlocked" achievementID="654"/>
+  <Unlock id="eUnlockItemId_EMBLEM_Gungoose" type="eUnlockType_Achievement" category="eUnlockCategory_Emblem" state="eUnlockState_Unlocked" achievementID="657"/>
+  <Unlock id="eUnlockItemId_EMBLEM_Fusion_Coil" type="eUnlockType_Achievement" category="eUnlockCategory_Emblem" state="eUnlockState_Unlocked" achievementID="666"/>
+  <Unlock id="eUnlockItemId_EMBLEM_Diamond" type="eUnlockType_Achievement" category="eUnlockCategory_Emblem" state="eUnlockState_Unlocked" achievementID="749"/>
+  <Unlock id="eUnlockItemId_EMBLEM_Crossed_Rifles" type="eUnlockType_Achievement" category="eUnlockCategory_Emblem" state="eUnlockState_Unlocked" achievementID="389"/>
+  <Unlock id="eUnlockItemId_EMBLEM_Bomb" type="eUnlockType_Achievement" category="eUnlockCategory_Emblem" state="eUnlockState_Unlocked" achievementID="663"/>
+  <Unlock id="eUnlockItemId_EMBLEM_Coagulation" type="eUnlockType_Achievement" category="eUnlockCategory_Emblem" state="eUnlockState_Unlocked" achievementID="662"/>
+  <Unlock id="eUnlockItemId_EMBLEM_Blast_Can" type="eUnlockType_Achievement" category="eUnlockCategory_Emblem" state="eUnlockState_Unlocked" achievementID="661"/>
+  <Unlock id="eUnlockItemId_EMBLEM_Assualt_Rifle" type="eUnlockType_Achievement" category="eUnlockCategory_Emblem" state="eUnlockState_Unlocked" achievementID="378"/>
+  <Unlock id="eUnlockItemId_EMBLEM_Active_Camo" type="eUnlockType_Achievement" category="eUnlockCategory_Emblem" state="eUnlockState_Unlocked" achievementID="782"/>
+  <Unlock id="eUnlockItemId_EMBLEM_Flair" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Emblem" state="eUnlockState_LockedHidden" entitlement="655a79b6-bb26-43d3-9527-a992f58e8bb9"/>
+  <Unlock id="eUnlockItemId_EMBLEM_Sepia_1" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Emblem" state="eUnlockState_Unlocked" entitlement="9020f400-7b84-4f5e-a3a1-d2953c4ee832"/>
+  <Unlock id="eUnlockItemId_EMBLEM_Sepia_2" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Emblem" state="eUnlockState_Unlocked" entitlement="1c5118f8-844e-4b13-987e-e7aeeb161160"/>
+  <Unlock id="eUnlockItemId_EMBLEM_Sepia_3" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Emblem" state="eUnlockState_Unlocked" entitlement="38e30d18-015d-4b04-9f8d-d097de35046f"/>
+  <Unlock id="eUnlockItemId_EMBLEM_Sepia_4" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Emblem" state="eUnlockState_Unlocked" entitlement="df1ce815-1473-48c3-9ebf-94b05f4360f8"/>
+  <Unlock id="eUnlockItemId_EMBLEM_Sepia_5" type="eUnlockType_S3Entitlement" category="eUnlockCategory_Emblem" state="eUnlockState_Unlocked" entitlement="a28060be-499e-4d43-ad03-e3a427546704"/>
+  <Unlock id="eUnlockItemId_EMBLEM_FORE_CHAOS" type="eUnlockType_Achievement" category="eUnlockCategory_Emblem" state="eUnlockState_Unlocked" achievementID="851"/>
+  <Unlock id="eUnlockItemId_EMBLEM_FORE_ELEPHANT" type="eUnlockType_Achievement" category="eUnlockCategory_Emblem" state="eUnlockState_Unlocked" achievementID="852"/>
+  <Unlock id="eUnlockItemId_EMBLEM_FORE_PEACAFIST" type="eUnlockType_Achievement" category="eUnlockCategory_Emblem" state="eUnlockState_Unlocked" achievementID="853"/>
+  <Unlock id="eUnlockItemId_EMBLEM_FORE_KEEP_IT_CLEAN" type="eUnlockType_Achievement" category="eUnlockCategory_Emblem" state="eUnlockState_Unlocked" achievementID="854"/>
+  <Unlock id="eUnlockItemId_EMBLEM_FORE_SUPERINTENDENT" type="eUnlockType_Achievement" category="eUnlockCategory_Emblem" state="eUnlockState_Unlocked" achievementID="855"/>
+  <Unlock id="eUnlockItemId_EMBLEM_FORE_NEW_MOMBASA" type="eUnlockType_Achievement" category="eUnlockCategory_Emblem" state="eUnlockState_Unlocked" achievementID="856"/>
+  <Unlock id="eUnlockItemId_EMBLEM_FORE_OPTICAN" type="eUnlockType_Achievement" category="eUnlockCategory_Emblem" state="eUnlockState_Unlocked" achievementID="857"/>
+  <Unlock id="eUnlockItemId_EMBLEM_FORE_PLANET" type="eUnlockType_Achievement" category="eUnlockCategory_Emblem" state="eUnlockState_Unlocked" achievementID="858"/>
+  <Unlock id="eUnlockItemId_EMBLEM_FORE_TYCHO" type="eUnlockType_Achievement" category="eUnlockCategory_Emblem" state="eUnlockState_Unlocked" achievementID="860"/>
+  <Unlock id="eUnlockItemId_EMBLEM_FORE_ZEBRA" type="eUnlockType_Achievement" category="eUnlockCategory_Emblem" state="eUnlockState_Unlocked" achievementID="862"/>
+  <Unlock id="eUnlockItemId_EMBLEM_FORE_SUPERINTENDENT_NORMAL" type="eUnlockType_Achievement" category="eUnlockCategory_Emblem" state="eUnlockState_Unlocked" achievementID="863"/>
+  <Unlock id="eUnlockItemId_EMBLEM_FORE_SUPERINTENDENT_HAPPY" type="eUnlockType_Achievement" category="eUnlockCategory_Emblem" state="eUnlockState_Unlocked" achievementID="864"/>
+  <Unlock id="eUnlockItemId_EMBLEM_FORE_SUPERINTENDENT_WINK" type="eUnlockType_Achievement" category="eUnlockCategory_Emblem" state="eUnlockState_Unlocked" achievementID="865"/>
+  <Unlock id="eUnlockItemId_EMBLEM_FORE_SUPERINTENDENT_WORRY" type="eUnlockType_Achievement" category="eUnlockCategory_Emblem" state="eUnlockState_Unlocked" achievementID="866"/>
+  <Unlock id="eUnlockItemId_EMBLEM_FORE_SUPERINTENDENT_SAD" type="eUnlockType_Achievement" category="eUnlockCategory_Emblem" state="eUnlockState_Unlocked" achievementID="867"/>
+  <Unlock id="eUnlockItemId_EMBLEM_BACK_SNAPPY_HAT" type="eUnlockType_Achievement" category="eUnlockCategory_Emblem" state="eUnlockState_Unlocked" achievementID="861"/>
+
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_MarkVB_Base" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_MarkVB_UA" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_MarkVB_UAHUL" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_CQC_Base" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_CQC_CBRN" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_CQC_UAHUL" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_ODST_Base" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_ODST_UACNM" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_ODST_CBRNHUL" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_HAZOP_Base" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_HAZOP_CBRNHUL" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_HAZOP_CNMI" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_EOD_Base" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_EOD_CNM" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_EOD_UAHUL" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_Operator_Base" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_Operator_UAHUL" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_Operator_CNM" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_Grenadier_Base" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_Grenadier_UA" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_Grenadier_UAFC" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_AirAssault_Base" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_AirAssault_UACNM" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_AirAssault_FCI" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_Scout_Base" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_Scout_HURS" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_Scout_CBRNCNM" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_EVA_Base" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_EVA_CNM" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_EVA_UAHUL3" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_JFO_Base" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_JFO_HULI" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_JFO_UA" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_Commando_Base" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_Commando_CBRNCNM" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_Commando_UAFCI2" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_EVAC_Base" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_EVAC_CNM" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_EVAC_UAHUL3" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_MjolnirMKV_Base" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_MjolnirMKV_CNM" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_MjolnirMKV_UA" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_Pilot_Base" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_Pilot_HUL3" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_Pilot_UAHUL3" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_Pilot_Haunted" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_Recon_Base" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_Recon_HUL" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_Recon_UAHUL3" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_MjolnirMKVI_Base" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_MjolnirMKVI_FCI2" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_MjolnirMKVI_UAHULI" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_Gungnir_Base" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_Gungnir_HURS" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_Gungnir_CBRN" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_Security_Base" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_Security_UAHUL" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_Security_CBRNCNM" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_MilitaryPolice_Base" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_MilitaryPolice_CBRNHURS" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_MilitaryPolice_HURSCNM" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_CQB_Base" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_CQB_HURSCNM" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Helmet_CQB_UAHUL" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_LeftShoulder_Default" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_LeftShoulder_FJPARA" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_LeftShoulder_HAZOP" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_LeftShoulder_JFO" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_LeftShoulder_Recon" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_LeftShoulder_UAMultiThreat" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_LeftShoulder_Jumpjet" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_LeftShoulder_EVA" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_LeftShoulder_Gungnir" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_LeftShoulder_ODST" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_LeftShoulder_UABaseSecurity" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_LeftShoulder_CQC" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_LeftShoulder_Operator" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_LeftShoulder_Commando" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_LeftShoulder_Grenadier" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_LeftShoulder_Sniper" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_LeftShoulder_MjolnirMarkV" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_LeftShoulder_Security" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_RightShoulder_Default" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_RightShoulder_FJPARA" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_RightShoulder_HAZOP" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_RightShoulder_JFO" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_RightShoulder_Recon" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_RightShoulder_UAMultiThreat" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_RightShoulder_Jumpjet" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_RightShoulder_EVA" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_RightShoulder_Gungnir" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_RightShoulder_ODST" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_RightShoulder_UABaseSecurity" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_RightShoulder_CQC" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_RightShoulder_Operator" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_RightShoulder_Commando" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_RightShoulder_Grenadier" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_RightShoulder_Sniper" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_RightShoulder_MjolnirMarkV" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_RightShoulder_Security" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Chest_Default" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Chest_HPHalo" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Chest_UACounterAssault" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Chest_TacticalLRP" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Chest_UAODST" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Chest_TacticalRecon" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Chest_CollarGrenadier" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Chest_TacticalPatrol" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Chest_CollarBreacher" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Chest_AssaultSapper" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Chest_AssaultCommando" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Chest_HPParaFoil" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Chest_CollarGrenadierUA" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Chest_UABaseSecurityW" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Chest_CollarBreacherR" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Chest_HPParaFoilR" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Chest_AssaultSapperR" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Chest_UABaseSecurity" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Chest_UAMultiThreat" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Chest_UAMultiThreatW" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Wrist_Default" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Wrist_UABuckler" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Wrist_UABracer" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Wrist_TacticalTACPAD" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Wrist_TacticalUGPS" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Wrist_AssaultBreacher" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Utility_Default" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Utility_UACHOBHAM" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Utility_TacticalHardcase" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Utility_UANXRA" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Utility_TacticalTraumaKit" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Utility_TacticalSoftcase" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_VisorColor_Default" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_VisorColor_Silver" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_VisorColor_Blue" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_VisorColor_Black" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_VisorColor_Gold" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_KneeGuards_Default" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_KneeGuards_FJPARA" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_KneeGuards_Gungnir" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_KneeGuards_Grenadier" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_ArmorEffect_Default" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_ArmorEffect_BirthdayParty" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_ArmorEffect_HeartAttack" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_ArmorEffect_Pestilence" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_ArmorEffect_InclementWeather" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_ArmorEffect_Flames" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_ArmorEffect_BlueFlames" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_FirefightVoice_NobleSix" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_FirefightVoice_JorgeS052" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_FirefightVoice_JunS266" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_FirefightVoice_EmileS239" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_FirefightVoice_KatS320" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_FirefightVoice_AuntieDotAI" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_FirefightVoice_CarterS259" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_FirefightVoice_GYSGTStacker" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_FirefightVoice_GYSGTBuck" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_FirefightVoice_SGTMAJJohnson" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_FirefightVoice_CortanaAI" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_FirefightVoice_JohnS117" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Spartan_Male" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Spartan_Female" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Elite_Minor" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Elite_SpecOps" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Elite_Ranger" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Elite_Ultra" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Elite_Zealot" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Elite_General" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Elite_FieldMarshall" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Elite_Officer" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Color_Steel" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Color_Silver" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Color_White" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Color_Brown" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Color_Tan" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Color_Khaki" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Color_Sage" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Color_Olive" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Color_Drab" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Color_Forest" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Color_Green" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Color_SeaFoam" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Color_Teal" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Color_Aqua" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Color_Cyan" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Color_Blue" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Color_Cobalt" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Color_Ice" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Color_Violet" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Color_Orchid" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Color_Lavender" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Color_Maroon" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Color_Brick" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Color_Rose" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Color_Rust" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Color_Coral" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Color_Peach" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Color_Gold" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Color_Yellow" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Color_Pale" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Species_Spartan" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_HR_Species_Elite" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_PISTOL_DEFAULT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_PISTOL_GOLDEN" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_PISTOL_WOODLAND" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_PISTOL_DESERT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_PISTOL_GREATJOURNEY" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_PISTOL_BLACKCHERRY" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_PISTOL_HAZARDPAY" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_PISTOL_TOYSOLDIER" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_ASSAULTRIFLE_DEFAULT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_ASSAULTRIFLE_GOLDEN" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_ASSAULTRIFLE_WOODLAND" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_ASSAULTRIFLE_DESERT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_ASSAULTRIFLE_GREATJOURNEY" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_ASSAULTRIFLE_CORROSION" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_ASSAULTRIFLE_SQUIRT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_ASSAULTRIFLE_LUCKYSHOT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_PLASMAPISTOL_DEFAULT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_PLASMAPISTOL_ULTRA" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_PLASMAPISTOL_BRUTAL" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_PLASMAPISTOL_SCHISM" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_PLASMAPISTOL_ZEALOT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_PLASMARIFLE_DEFAULT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_PLASMARIFLE_ULTRA" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_PLASMARIFLE_BRUTAL" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_PLASMARIFLE_SCHISM" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_PLASMARIFLE_ZEALOT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_ROCKETLAUNCHER_DEFAULT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_ROCKETLAUNCHER_HUNTERSBLOOD" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_ROCKETLAUNCHER_CORROSION" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_ROCKETLAUNCHER_DESERT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_SNIPERRIFLE_DEFAULT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_SNIPERRIFLE_GOLDEN" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_SNIPERRIFLE_WOODLAND" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_SNIPERRIFLE_DESERT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_SNIPERRIFLE_GREATJOURNEY" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_SNIPERRIFLE_AVALANCHE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_SHOTGUN_DEFAULT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_SHOTGUN_GOLDEN" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_SHOTGUN_WOODLAND" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_SHOTGUN_DESERT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_SHOTGUN_GREATJOURNEY" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_SHOTGUN_HUNTERSBLOOD" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_NEEDLER_DEFAULT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_NEEDLER_ULTRA" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_NEEDLER_BRUTAL" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_NEEDLER_SCHISM" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_NEEDLER_ZEALOT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_FLAMETHROWER_DEFAULT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_FLAMETHROWER_DEARJOHN" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_FLAMETHROWER_WHITEHOT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_FLAMETHROWER_HOTPEPPER" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_FUELRODGUN_DEFAULT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_FUELRODGUN_ULTRA" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_FUELRODGUN_BRUTAL" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_FUELRODGUN_HERETIC" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_WS_FUELRODGUN_ZEALOT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VISOR_DEFAULT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VISOR_BRONZE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VISOR_SILVER" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VISOR_PLATINUM" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VISOR_OBSIDIAN" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VISOR_TRIPPY" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VISOR_RAINBOW" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VISOR_PURPLE_PASTEL" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VISOR_BLUE_PASTEL" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VISOR_GREEN_PASTEL" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VISOR_YELLOW_PASTEL" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VISOR_ORANGE_PASTEL" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VISOR_RED_PASTEL" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VISOR_DARK_PURPLE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VISOR_DARK_BLUE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VISOR_DARK_GREEN" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VISOR_DARK_YELLOW" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VISOR_DARK_ORANGE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VISOR_DARK_RED" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VISOR_PURPLE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VISOR_BLUE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VISOR_GREEN" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VISOR_YELLOW" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VISOR_ORANGE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VISOR_RED" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VISOR_PEARL_PURPLE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VISOR_PEARL_BLUE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VISOR_PEARL_GREEN" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VISOR_PEARL_YELLOW" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VISOR_PEARL_ORANGE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VISOR_PEARL_RED" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VS_WARTHOG_DEFAULT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VS_WARTHOG_HOTROD" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VS_WARTHOG_PARKRANGER" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VS_WARTHOG_RALLYHOG" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VS_ROCKETWARTHOG_DEFAULT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VS_ROCKETWARTHOG_SUPERSTAR" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VS_ROCKETWARTHOG_SHARK" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VS_ROCKETWARTHOG_CLEVERGIRL" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VS_GHOST_DEFAULT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VS_GHOST_BRUTAL" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VS_GHOST_SCHISM" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VS_GHOST_ZEALOT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VS_GHOST_ULTRA" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VS_SCORPION_DEFAULT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VS_SCORPION_BENGAL" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VS_SCORPION_GRIMREAPER" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VS_SCORPION_ARCTIC" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VS_SCORPION_THEPACKAGE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VS_BANSHEE_DEFAULT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VS_BANSHEE_BRUTAL" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VS_BANSHEE_SCHISM" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VS_BANSHEE_ZEALOT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H1S2_VS_BANSHEE_ULTRA" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S3_WS_SNIPERRIFLE_DEFAULT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S3_WS_SNIPERRIFLE_GOLDPLATE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S3_WS_SNIPERRIFLE_GLACIERCAMO" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S3_WS_SNIPERRIFLE_GREENCAMO" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S3_WS_SNIPERRIFLE_DESERTTAN" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S3_WS_MAGNUM_DEFAULT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S3_WS_MAGNUM_GOLDPLATE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S3_WS_MAGNUM_DINOBITE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S3_WS_MAGNUM_ORANGE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S3_WS_MAGNUM_WORNOUTUNBLUE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S3_WS_ASSAULTRIFLE_DEFAULT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S3_WS_ASSAULTRIFLE_GOLDPLATE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S3_WS_ASSAULTRIFLE_WASTELANDRUST" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S3_WS_ASSAULTRIFLE_GREENCAMO" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S3_WS_ASSAULTRIFLE_SUPERSQUIRT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_WS_SHOTGUN_DEFAULT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_WS_SHOTGUN_GOLDPLATE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_WS_SHOTGUN_GREENCAMO" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_WS_SHOTGUN_SAFETYORANGE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_WS_BATTLERIFLE_DEFAULT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_WS_BATTLERIFLE_FERNSTENCIL" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_WS_BATTLERIFLE_MEANSTREETSOFNEW" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_WS_BATTLERIFLE_CAMOCOOL" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_WS_BATTLERIFLE_WORNOUTREDHAZARD" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_WS_ROCKETLAUNCHER_DEFAULT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_WS_ROCKETLAUNCHER_SAFETYORANGE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_WS_ROCKETLAUNCHER_WASTERLANDRUST" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_WS_SMG_DEFAULT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_WS_SMG_DIGITALCAMOWARM" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_WS_SMG_TIGERSTRIPES" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_WS_SMG_HUNTERSBLOOD" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_WS_PLASMAPISTOL_DEFAULT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_WS_PLASMAPISTOL_COVENANTYELLOW" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_WS_PLASMARIFLE_DEFAULT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_WS_PLASMARIFLE_DEFECTORGREEN" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_WS_NEEDLER_DEFAULT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_WS_NEEDLER_COVENANTYELLOW" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_WS_FLAMETHROWER_DEFAULT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_WS_FLAMETHROWER_LAWNMOWERYELLOWANDGREEN" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_WS_FLAMETHROWER_REDHOTPEPPER" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_WS_FUELRODGUN_DEFAULT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_WS_FUELRODGUN_BANISHEDRED" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_VS_WARTHOG_DEFAULT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_VS_WARTHOG_HAZARDPAY" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_VS_WARTHOG_RALLYHOG" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_VS_WARTHOG_ARCTIC" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_VS_GAUSSWARTHOG_DEFAULT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_VS_GAUSSWARTHOG_CORROSION" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_VS_GAUSSWARTHOG_SHARK" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_VS_GAUSSWARTHOG_ARCTIC" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_VS_GHOST_DEFAULT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_VS_GHOST_ZEALOT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_VS_GHOST_SCHISM" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_VS_GHOST_ULTRA" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_VS_BANSHEE_DEFAULT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_VS_BANSHEE_BRUTAL" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_VS_BANSHEE_SCHISM" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_VS_BANSHEE_ZEALOT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_VS_SCORPION_DEFAULT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_VS_SCORPION_BENGAL" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_VS_SCORPION_GRIMREAPER" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_VS_SCORPION_ARCTIC" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3S4_VS_SCORPION_HAZARDPAY" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3_VISOR_DEFAULT" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3_VISOR_BRONZE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3_VISOR_SILVER" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3_VISOR_PLATINUM" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3_VISOR_OBSIDIAN" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3_VISOR_TRIPPY" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3_VISOR_RAINBOW" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3_VISOR_PURPLE_PASTEL" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3_VISOR_BLUE_PASTEL" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3_VISOR_GREEN_PASTEL" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3_VISOR_YELLOW_PASTEL" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3_VISOR_ORANGE_PASTEL" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3_VISOR_RED_PASTEL" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3_VISOR_DARK_PURPLE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3_VISOR_DARK_BLUE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3_VISOR_DARK_GREEN" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3_VISOR_DARK_YELLOW" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3_VISOR_DARK_ORANGE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3_VISOR_DARK_RED" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3_VISOR_PURPLE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3_VISOR_BLUE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3_VISOR_GREEN" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3_VISOR_YELLOW" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3_VISOR_ORANGE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3_VISOR_RED" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3_VISOR_PEARL_PURPLE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3_VISOR_PEARL_BLUE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3_VISOR_PEARL_GREEN" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3_VISOR_PEARL_YELLOW" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3_VISOR_PEARL_ORANGE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H3_VISOR_PEARL_RED" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_ODST_ROOKIE_WITH_HELMET" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_ODST_BUCK" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_ODST_BUCK_BUGSPLATTERED" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_ODST_DARE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_ODST_DUTCH" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_ODST_JOHNSON" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_ODST_MICKEY" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_ODST_ROMEO" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_ODST_ROMEO_INJURED" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_ODST_BUCK_WITH_HELMET" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_ODST_BUCK_BUGSPLATTERED_WITH_HELMET" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_ODST_DARE_WITH_HELMET" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_ODST_DUTCH_WITH_HELMET" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_ODST_JOHNSON_WITH_HELMET" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_ODST_MICKEY_WITH_HELMET" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_ODST_ROMEO_WITH_HELMET" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_ODST_ROMEO_INJURED_WITH_HELMET" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H4_WS_ASSAULTRIFLE_TIGER" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H4_WS_ASSAULTRIFLE_TRAUMA" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H4_WS_ASSAULTRIFLE_TURBINE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H4_WS_BATTLERIFLE_MAC_BLAST" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H4_WS_BATTLERIFLE_STEAM" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H4_WS_BATTLERIFLE_FROGMAN" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H4_WS_DMR_BLOOD" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H4_WS_DMR_MONOCLE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H4_WS_DMR_TIGER" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H4_WS_MAGNUM_BRAQUE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H4_WS_MAGNUM_COMBUSTION" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H4_WS_MAGNUM_SOLAR_FLARE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H4_WS_STORMRIFLE_COMPRESSION" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H4_WS_CARBINE_LOCOMOTIVE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H4_WS_PLASMAPISTOL_BOILERPLATE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H4_WS_SUPRESSOR_MECHANICAL" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H4_WS_LIGHTRIFLE_INDUSTRIAL" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <Unlock id="eUnlockItemId_CUSTOMIZATION_H4_WS_BOLTSHOT_ENGINE" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+
+  <Unlock id="eUnlockItemId_PLAYERFLAG_TrustedFileShare" type="eUnlockType_PlayfabInventory" category="eUnlockCategory_Customization" state="eUnlockState_Unlocked"/>
+  <!-- 
+	entitlement ID for "make good" items
+	b8840f87-45b3-48c4-a997-3a0fb17d0bd4
+	-->
+
+</HaloUnlockInfo>

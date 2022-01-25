@@ -1,0 +1,270 @@
+portraits = {
+
+	jedi01 = {greeting_sound = "human_female_greetings_05" texturefile = "gfx/models/portraits/Star_Wars/jedi/jedi.dds" }
+	jedi02 = {greeting_sound = "human_female_greetings_05" texturefile = "gfx/models/portraits/Star_Wars/jedi/jedi2.dds" }
+	jedi03 = {greeting_sound = "human_female_greetings_05" texturefile = "gfx/models/portraits/Star_Wars/jedi/jedi3.dds" }
+	jedi04 = {greeting_sound = "human_female_greetings_05" texturefile = "gfx/models/portraits/Star_Wars/jedi/jedi4.dds" }
+	jedi05 = {greeting_sound = "human_female_greetings_05" texturefile = "gfx/models/portraits/Star_Wars/jedi/jedi5.dds" }
+	jedi06 = {greeting_sound = "human_female_greetings_05" texturefile = "gfx/models/portraits/Star_Wars/jedi/jedi6.dds" }
+	jedi07 = {greeting_sound = "human_female_greetings_05" texturefile = "gfx/models/portraits/Star_Wars/jedi/jedi7.dds" }
+	jedi08 = {greeting_sound = "human_female_greetings_05" texturefile = "gfx/models/portraits/Star_Wars/jedi/jedi8.dds" }
+	jedi09 = {greeting_sound = "human_female_greetings_05" texturefile = "gfx/models/portraits/Star_Wars/jedi/jedi9.dds" }
+	jedi10 = {greeting_sound = "human_female_greetings_05" texturefile = "gfx/models/portraits/Star_Wars/jedi/jedi10.dds" }
+	jedi11 = {greeting_sound = "human_female_greetings_05" texturefile = "gfx/models/portraits/Star_Wars/jedi/jedi11.dds" }
+	jedi12 = {greeting_sound = "human_female_greetings_05" texturefile = "gfx/models/portraits/Star_Wars/jedi/jedi12.dds" }
+	jedi13 = {greeting_sound = "human_female_greetings_05" texturefile = "gfx/models/portraits/Star_Wars/jedi/jedi13.dds" }
+	jedi14 = {greeting_sound = "human_female_greetings_05" texturefile = "gfx/models/portraits/Star_Wars/jedi/jedi14.dds" }
+	jedi15 = {greeting_sound = "human_female_greetings_05" texturefile = "gfx/models/portraits/Star_Wars/jedi/jedi15.dds" }
+	jedi16 = {greeting_sound = "human_female_greetings_05" texturefile = "gfx/models/portraits/Star_Wars/jedi/jedi16.dds" }
+	jedi17 = {greeting_sound = "human_female_greetings_05" texturefile = "gfx/models/portraits/Star_Wars/jedi/jedi17.dds" }
+	jedi18 = {greeting_sound = "human_female_greetings_05" texturefile = "gfx/models/portraits/Star_Wars/jedi/jedi18.dds" }
+}
+portrait_groups = {
+	SW05_jedi = {
+		default = jedi18
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					jedi11
+					
+					
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					jedi02
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					jedi06 #awesome knight
+					jedi01
+					jedi02
+					jedi03
+					jedi04
+					jedi05
+					jedi07 #Mace Windu
+					jedi08
+					jedi09
+					jedi10
+					jedi11
+					jedi12
+					jedi13
+					jedi14
+					jedi15
+					jedi16
+					jedi17
+					jedi18
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					jedi06 #awesome knight
+					jedi01
+					jedi02
+					jedi03
+					jedi04
+					jedi05
+					jedi07 #Mace Windu
+					jedi08
+					jedi09
+					jedi10
+					jedi11
+					jedi12
+					jedi13
+					jedi14
+					jedi15
+					jedi16
+					jedi17
+					jedi18
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					jedi02
+					jedi13
+					jedi16
+					jedi17
+					jedi18
+
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					jedi01
+					jedi03
+					jedi04
+					jedi05
+					jedi06 #awesome knight
+					jedi07 #Mace Windu
+					jedi08
+					jedi09
+					jedi10
+					jedi11
+					jedi12
+					jedi14
+					jedi15
+
+				}
+			} 		
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					jedi02
+					jedi13
+					jedi16
+					jedi17
+					jedi18
+				}
+			}  
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					jedi01
+					jedi03
+					jedi04
+					jedi05
+					jedi06 #awesome knight
+					jedi07 #Mace Windu
+					jedi08
+					jedi09
+					jedi10
+					jedi11
+					jedi12
+					jedi14
+					jedi15
+				}
+			}  
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					jedi02
+					jedi13
+					jedi16
+					jedi17
+					jedi18
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					jedi01
+					jedi03
+					jedi04
+					jedi05
+					jedi06 #awesome knight
+					jedi07 #Mace Windu
+					jedi08
+					jedi09
+					jedi10
+					jedi11
+					jedi12
+					jedi14
+					jedi15
+				}
+			} 
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					jedi02
+					jedi13
+					jedi16
+					jedi17
+					jedi18
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					jedi01
+					jedi03
+					jedi04
+					jedi05
+					jedi06 #awesome knight
+					jedi07 #Mace Windu
+					jedi08
+					jedi09
+					jedi10
+					jedi11
+					jedi12
+					jedi14
+					jedi15
+				}
+			} 		
+
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					jedi02
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					
+					jedi11
+					
+					
+				}
+			}
+		}		
+	
+	}
+}
