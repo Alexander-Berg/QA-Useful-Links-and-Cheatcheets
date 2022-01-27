@@ -1,0 +1,74 @@
+using System.ComponentModel;
+using Microsoft.VisualStudio.TestTools.WebTesting;
+using Microsoft.VisualStudio.TestTools.WebTesting.Rules;
+namespace RecorderPlugin
+{
+[DisplayName("Correlate ReportSession")]
+[Description("Adds extraction rule for Report Session and binds this to querystring parameters that use
+ReportSession")]
+public class CorrelateSessionId : WebTestRecorderPlugin
+{
+public override void PostWebTestRecording(object sender, PostWebTestRecordingEventArgs e)
+{
+//first find the session id
+bool foundId = false;
+foreach (WebTestResultUnit unit in e.RecordedWebTestResult.Children)
+{
+WebTestResultPage page = unit as WebTestResultPage;
+if (page != null)
+{
+if (!foundId)
+{
+int indexOfReportSession =
+page.RequestResult.Response.BodyString.IndexOf("ReportSession");
+if (indexOfReportSession > -1)
+{
+//add an extraction rule to this request
+// Get the corresponding request in the Declarative Web performance test
+Now the code finds all the query string parameters that have ReportSession as name and change the value to
+{{SessionId}} as shown in this part of the code sample:
+// Get the corresponding request in the Declarative Web performance test
+ExtractionRuleReference ruleReference = new ExtractionRuleReference();
+ruleReference.Type = typeof(ExtractText);
+ruleReference.ContextParameterName = "SessionId";
+ruleReference.Properties.Add(new PluginOrRuleProperty("EndsWith",
+"&ControlID="));
+ruleReference.Properties.Add(new PluginOrRuleProperty("HtmlDecode", "True"));
+ruleReference.Properties.Add(new PluginOrRuleProperty("IgnoreCase", "True"));
+ruleReference.Properties.Add(new PluginOrRuleProperty("Index", "0"));
+ruleReference.Properties.Add(new PluginOrRuleProperty("Required", "True"));
+ruleReference.Properties.Add(new PluginOrRuleProperty("StartsWith",
+"ReportSession="));
+ruleReference.Properties.Add(new PluginOrRuleProperty("UseRegularExpression",
+"False"));
+WebTestRequest requestInWebTest =
+e.RecordedWebTest.GetItem(page.DeclarativeWebTestItemId) as WebTestRequest;
+if (requestInWebTest != null)
+{
+requestInWebTest.ExtractionRuleReferences.Add(ruleReference);
+e.RecordedWebTestModified = true;
+}
+foundId = true;
+}
+}
+else
+{
+//now update query string parameters
+WebTestRequest requestInWebTest =
+e.RecordedWebTest.GetItem(page.DeclarativeWebTestItemId) as WebTestRequest;
+if (requestInWebTest != null)
+{
+foreach (QueryStringParameter param in requestInWebTest.QueryStringParameters)
+{
+if (param.Name.Equals("ReportSession"))
+{
+param.Value = "{{SessionId}}";
+}
+}
+}
+}
+}
+}
+}
+}
+}

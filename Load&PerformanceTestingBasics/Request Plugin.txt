@@ -1,0 +1,18 @@
+using System;
+using System.Collections.Generic;
+using System.Windows.Forms;
+using Microsoft.VisualStudio.TestTools.WebTesting;
+namespace RequestPluginNamespace
+{
+public class MyWebRequestPlugin : WebTestRequestPlugin
+{
+public override void PostRequest(object sender, PostRequestEventArgs e)
+{
+MessageBox.Show(e.WebTest.Context.AgentName);
+}
+public override void PreRequest(object sender, PreRequestEventArgs e)
+{
+MessageBox.Show(e.Request.Url);
+}
+}
+}

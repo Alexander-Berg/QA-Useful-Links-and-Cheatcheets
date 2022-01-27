@@ -1,0 +1,45 @@
+using ContosoProject.UIMaps;
+using ContosoProject.UIMaps.HomePageClasses;
+using ContosoProject.UIMaps.ProductPageClasses;
+using ContosoProject.UIMaps.ShoppingCartClasses;
+namespace ContosoProject
+{
+public class TestRunUtility
+{
+// Private fields for the properties
+private HomePage homePage = null;
+private ProductPage productPage = null;
+private ShoppingCart shoppingCart = null;
+public TestRunUtility()
+{
+homePage = new HomePage();
+}
+// Properties that get each UI Map
+public HomePage HomePage
+{
+get { return homePage; }
+set { homePage = value; }
+}
+// Gets the ProductPage from the ProductPageMap.
+public ProductPage ProductPageObject
+{
+get
+{
+if (productPage == null)
+{
+// Instantiate a new page from the UI Map classes
+productPage = new ProductPage();
+// Since the Product Page and Home Page both use
+// the same browser page as the top level window,
+// get the top level window properties from the
+// Home Page.
+productPage.UIContosoFinalizeWindow.CopyFrom(
+HomePage.UIContosoWindowsIWindow);
+}
+return productPage;
+}
+}
+// Continue to create properties for each page, getting the
+// page object from the corresponding UI Map and copying the
+// top level window properties from the Home Page.
+}
