@@ -131,10 +131,60 @@ library and community for container images*
 - [Skipping JaCoCo Execution Due to Missing Execution Data File](http://www.ffbit.com/blog/2014/05/21/skipping-jacoco-execution-due-to-missing-execution-data-file/)
 - [QA CI Demo](https://github.com/netology-code-samples/aqa-ci-demo)
 - [Selectors lvl 4](https://www.w3.org/TR/selectors/#context)
-=======
-<video autoplay muted loop id="myVideo">
-  <source src="src/max1.mp4" type="video/mp4">
-</video>
-- 
-- 
->>>>>>> Stashed changes
+## Testing Software
+### Screen Capture
+- [Jing Screenshots](https://www.techsmith.com/screen-capture.html)
+- [Monosnap Screen capture](https://monosnap.com/)
+- [Recordit screen capture](http://recordit.co/)
+### Prototyping
+- [Balsamiq (paid) - desktop application that allows quickly creating prototypes for your software. Most of the actions have hotkeys so after some time using it becomes super effective.](https://balsamiq.com/)
+- [Pencil (FF Addon)](https://addons.mozilla.org/en-US/firefox/addon/pencil/)
+### Preparing Test Data
+- [Mockaroo](http://www.mockaroo.com/)
+- [generatedata.com](http://www.generatedata.com/)
+- [Loren Ipsum](https://lipsum.com/)
+- [Bugmagnet](https://gojko.github.io/bugmagnet/)
+- [Lorempixel](http://lorempixel.com/)
+- [Form Filler (Chrome Plugin)](https://chrome.google.com/webstore/detail/form-filler/bnjjngeaknajbdcgpfkgnonkmififhfo/related)
+###  Pairwise
+- [Pairwiser - online version seems to be shutting down, desktop version costs a lot of money.](https://inductive.no/pairwiser/)
+### Validators
+- [W3C Checklink](http://validator.w3.org/checklink)
+- [W3C HTML validator](https://validator.w3.org/)
+### Performance
+- [WebPageTest](http://www.webpagetest.org/)
+- [PageSpeed Insights](http://developers.google.com/speed/pagespeed/insights/)
+- [YSlow comes as a plugin for all popular browsers as well as a standalone utility.](http://yslow.org/)
+- [GTmetrix](https://gtmetrix.com/)
+- [Lighthouse](https://developers.google.com/web/tools/lighthouse/)
+- [BlazeMeter](http://converter.blazemeter.com/)
+### Compati bility Checkers
+- [ModernIE](https://www.modern.ie/ru-ru/virtualization-tools#downloads)
+- [Browserstack (paid)](https://www.browserstack.com/)
+- [Saucelabs.com (paid)](https://saucelabs.com/)
+- [TestObject (free & paid) - testing mobile apps on real devices.](https://testobject.com/)
+### Security
+- [XSS Me (FF Addon)](https://addons.mozilla.org/en-US/firefox/addon/xss-me/)
+- [SQL Inject Me (FF Addon)](https://addons.mozilla.org/en-US/firefox/addon/sql-inject-me/)
+### Web Proxies
+- [Fiddler](https://www.telerik.com/download/fiddler)
+- [Charles](https://www.charlesproxy.com/)
+### Generic Web Testing
+- [WebDeveloper Chrome Plugin](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm) [WebDeveloper FF Plugin](https://addons.mozilla.org/en-US/firefox/addon/web-developer/)
+### Test Management
+- [LeanTesting](https://leantesting.com/)
+- [Moqa](http://moqa.mobi/)
+- [Checkvist](https://checkvist.com/)
+- [Testpad](https://ontestpad.com/)
+- [Checklists base - plenty of ready to use checklists for popular scenarios.](https://checkvist.com/checklists/476089)
+### Mind Maps
+- [MindMup](https://www.mindmup.com/)
+- [XMind (desktop)](https://www.xmind.net/)
+- [MindMeister (paid, has plugins for Confluence)](https://www.mindmeister.com/)
+- [Coggle](https://coggle.it/)
+- [Yoikee (Confluence plugin)](https://marketplace.atlassian.com/plugins/com.keinoby.confluence.plugins.yoikee-creator/server/overview)
+- [LucidChart](https://www.lucidchart.com/)
+### Usability
+- [Userium](https://stayintech.com/info/UX)
+- [CheckMyColours](http://www.checkmycolours.com/)
+
