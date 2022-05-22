@@ -171,6 +171,8 @@ library and community for container images*
 - [Charles](https://www.charlesproxy.com/)
 ### Generic Web Testing
 - [WebDeveloper Chrome Plugin](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm) [WebDeveloper FF Plugin](https://addons.mozilla.org/en-US/firefox/addon/web-developer/)
+- [Performance tests tracking portal](http://www.perftracker.org)
+- [Google Analytics](https://analytics.google.com/analytics/web/provision/#/provision)
 ### Test Management
 - [LeanTesting](https://leantesting.com/)
 - [Moqa](http://moqa.mobi/)
