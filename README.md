@@ -158,7 +158,7 @@ library and community for container images*
 - [GTmetrix](https://gtmetrix.com/)
 - [Lighthouse](https://developers.google.com/web/tools/lighthouse/)
 - [BlazeMeter](http://converter.blazemeter.com/)
-### Compati bility Checkers
+### Compatibility Checkers
 - [ModernIE](https://www.modern.ie/ru-ru/virtualization-tools#downloads)
 - [Browserstack (paid)](https://www.browserstack.com/)
 - [Saucelabs.com (paid)](https://saucelabs.com/)
@@ -189,4 +189,7 @@ library and community for container images*
 ### Usability
 - [Userium](https://stayintech.com/info/UX)
 - [CheckMyColours](http://www.checkmycolours.com/)
+###Testing Arcticles
+- [Wikipedia Fuzzing](https://ru.wikipedia.org/wiki/Фаззинг)
+- [Wikipedia Unit Testing](https://en.wikipedia.org/wiki/Unit_testing)
 
