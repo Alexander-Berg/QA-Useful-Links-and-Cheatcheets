@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SkinConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>651</Id>
+  <Name>JRR Azure Glass</Name>
+  <Version>25.3</Version>
+  <Author>Adra</Author>
+  <InfoUrl>http://www.lotrointerface.com/downloads/info651</InfoUrl>
+  <DownloadUrl>http://www.lotrointerface.com/downloads/download651</DownloadUrl>
+  <Descriptors>
+  </Descriptors>
+  <Dependencies />
+</SkinConfig>
