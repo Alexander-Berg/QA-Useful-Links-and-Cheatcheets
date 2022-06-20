@@ -3,9 +3,9 @@
 1. [Cheatsheets](https://github.com/Alexander-Berg/QA-Useful-Links-and-Cheatcheets/tree/main/Cheatsheets) - Contains quick recap of useful knowledge for QA work
 2. [Configuration files examples](https://github.com/Alexander-Berg/QA-Useful-Links-and-Cheatcheets/tree/main/Configuration%20Files%20Examples) - config files for CI,Frameworks, other code
 3. [Load Testing Basics](https://github.com/Alexander-Berg/QA-Useful-Links-and-Cheatcheets/tree/main/Load%26PerformanceTestingBasics) - performance and load testing tips
-4. [Quality assurancce lections](https://github.com/Alexander-Berg/QA-Useful-Links-and-Cheatcheets/tree/main/Quality%20Assurance%20Lections) - QA lections for study the profession, for personal usage only
+4. [Quality assurance lections](https://github.com/Alexander-Berg/QA-Useful-Links-and-Cheatcheets/tree/main/Quality%20Assurance%20Lections) - QA lections for study the profession, for personal usage only
 5. [Testing Docs Patterns](https://github.com/Alexander-Berg/QA-Useful-Links-and-Cheatcheets/tree/main/Testing%20Docs%20Patterns) - Patterns of QA tech documentations
-6. 
+6. [Artifacts](https://github.com/Alexander-Berg/QA-Useful-Links-and-Cheatcheets/tree/main/Artifacts) - Code and QA artifacts
 
 
 ## QA & IT Useful Links
