@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite>
+	<id>S1</id>
+	<name>Master</name>
+	<description></description>
+	<sections>
+		<section>
+		<name>Test Cases</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Functional testing</name>
+		<description>Functional testing</description>
+										<sections>
+		<section>
+		<name>Mobile</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C12</id>
+				<title>Mobile Site general performance</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																				<estimate>300</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>PC with Windows OC and preinstalled Firefox, Opera, Chrome, Edge browsers</preconds>
+										<steps>1) Open site in browsers - Firefox, Opera, Chrome and Edge Browsers.
+2) Check site appearance according to provided mockup![](index.php?/attachments/get/36a537e9-3a87-47be-979a-ae496e61020f) </steps>
+										<expected>Site is opened and appearance matches the mockup</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C14</id>
+				<title>Site accordance to Mock-up on all mobile screen resolutions</title>
+												<template>Test Case (Text)</template>
+																<type>Accessibility</type>
+																<priority>High</priority>
+																				<estimate>600</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>PC/Linux/Mac desktop</preconds>
+										<steps>1. Go to testing resolutions sites - like http://whatismyscreenresolution.net/multi-screen-test
+2. Check the all common resolution from HD to 4k (10 min)</steps>
+										<expected>Al elements of the site are visible to human eye and accessible</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C15</id>
+				<title>Site availability in multiple countries of the world.</title>
+												<template>Test Case (Text)</template>
+																<type>Accessibility</type>
+																<priority>High</priority>
+																				<estimate>900</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1. Install 3 free vpns of your choice
+2. Access the site from at least 10 different countries.
+</steps>
+										<expected>Site accessible from all locations</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C11</id>
+				<title>Hyperlinks correct work</title>
+												<template>Test Case (Text)</template>
+																<type>Accessibility</type>
+																<priority>High</priority>
+																				<estimate>600</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1. Access the SUT
+2. Press all the hyperlinks of the Site
+3. Check if the hyperlinks are working
+4. Check if they are correct (according to developer documentation)</steps>
+										<expected>All links are working
+All links leading to right site</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Desktop</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C1</id>
+				<title>Desktop Site general performance</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Critical</priority>
+																				<estimate>300</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>PC with Windows OC and preinstalled Firefox, Opera, Chrome, Edge browsers</preconds>
+										<steps>1) Open site in browsers - Firefox, Opera, Chrome and Edge Browsers.
+2) Check site appearance according to provided mockup![](index.php?/attachments/get/19776725-95d1-4215-a6f4-96424e9ed3a2) </steps>
+										<expected>Site is opened and appearance matches the mockup</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C3</id>
+				<title>Site accordance to Mock-up on all desktop screen resolutions</title>
+												<template>Test Case (Text)</template>
+																<type>Accessibility</type>
+																<priority>High</priority>
+																				<estimate>600</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>PC/Linux/Mac desktop</preconds>
+										<steps>1. Go to testing resolutions sites - like http://whatismyscreenresolution.net/multi-screen-test
+2. Check the all common resolution from HD to 4k (10 min)</steps>
+										<expected>Al elements of the site are visible to human eye and accessible</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C4</id>
+				<title>Site availability in multiple countries of the world.</title>
+												<template>Test Case (Text)</template>
+																<type>Accessibility</type>
+																<priority>High</priority>
+																				<estimate>900</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1. Install 3 free vpns of your choice
+2. Access the site from at least 10 different countries.
+</steps>
+										<expected>Site accessible from all locations</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C5</id>
+				<title>Hyperlinks correct work</title>
+												<template>Test Case (Text)</template>
+																<type>Accessibility</type>
+																<priority>High</priority>
+																				<estimate>600</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1. Access the SUT
+2. Press all the hyperlinks of the Site
+3. Check if the hyperlinks are working
+4. Check if they are correct (according to developer documentation)</steps>
+										<expected>All links are working
+All links leading to right site</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>Performance Testing</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C9</id>
+				<title>Google Metrics Test (Mobile)</title>
+												<template>Test Case (Text)</template>
+																<type>Performance</type>
+																<priority>Medium</priority>
+																				<estimate>600</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Desktop with Chrome/Chromium browser
+
+
+</preconds>
+										<steps>1. Go to site https://alexander-berg.github.io
+2. Open the developer tools 
+3. Go to lighthouse tab 
+4. Press generate metrics report for Mobile button
+5. Press the 3 dots in the right top corner
+6. Press generate report, new tab will open
+7. You can see the report. Save it as pdf
+
+</steps>
+										<expected>Report Generated.Please send it to attachemts</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C10</id>
+				<title>Google Metrics Test (Desktop)</title>
+												<template>Test Case (Text)</template>
+																<type>Performance</type>
+																<priority>Medium</priority>
+																				<estimate>600</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Desktop OC with Chrome or Chromium browser</preconds>
+										<steps>Go to site https://alexander-berg.github.io
+
+Open the developer tools
+
+Go to lighthouse tab
+
+Press generate metrics report for Mobile button
+
+Press the 3 dots in the right top corner
+
+Press generate report, new tab will open
+
+You can see the report. Save it as pdf</steps>
+										<expected>Report is generated with Google metrics. Please send it to attachments of this test</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Security Testing</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C6</id>
+				<title>Security Test</title>
+												<template>Test Case (Text)</template>
+																<type>Security</type>
+																<priority>Medium</priority>
+																				<estimate>300</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Desktop PC</preconds>
+										<steps>1. As our project site doesn&apos;t contain any fields and login system and it also protected by github platform, we can only check if the security certificate is valid
+2. Go to site https://alexander-berg.github.io
+3. Press the &quot;page information&quot; button
+4. Go to &quot;connection is secure&quot;  section and open it
+5. Check the security certificate of the site
+</steps>
+										<expected>You will see message &quot;certificate is valid&quot;</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>Smoke Testing</name>
+		<description>For smoke testing after update</description>
+						<cases>
+												<case>
+				<id>C7</id>
+				<title>Fast smoke test Mobile</title>
+												<template>Test Case (Text)</template>
+																<type>Smoke &amp; Sanity</type>
+																<priority>Medium</priority>
+																				<estimate>300</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1. Open the site https://alexander-berg.github.io
+2. Check if all elements  corresponds to fresh mockup
+3. Go to the new added hyperlinks</steps>
+										<expected>All visual elements corresponds to fresh makeup
+All fresh hyperlinks working correctly
+
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C8</id>
+				<title>Fast smoke Test Desktop</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+	</sections>
+</suite>

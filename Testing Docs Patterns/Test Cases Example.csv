@@ -1,0 +1,63 @@
+ID	Title	Created By	Created On	Estimate	Expected Result	Forecast	Preconditions	Priority	References	Section	Section Depth	Section Description	Section Hierarchy	Steps	Suite	Suite ID	Type	Updated By	Updated On
+C12	Mobile Site general performance	Alexander Berg	7/6/2022 18:37	300s	Site is opened and appearance matches the mockup	300s	"PC with Windows OC and preinstalled Firefox, Opera, Chrome, Edge browsers"	Critical		Mobile	2		Test Cases > Functional testing > Mobile	"1) Open site in browsers - Firefox, Opera, Chrome and Edge Browsers.
+2) Check site appearance according to provided mockup![](index.php?/attachments/get/36a537e9-3a87-47be-979a-ae496e61020f) "	Master	S1	Functional	Alexander Berg	7/6/2022 18:47
+C14	Site accordance to Mock-up on all mobile screen resolutions	Alexander Berg	7/6/2022 18:37	600s	Al elements of the site are visible to human eye and accessible	600s	PC/Linux/Mac desktop	High		Mobile	2		Test Cases > Functional testing > Mobile	"1. Go to testing resolutions sites - like http://whatismyscreenresolution.net/multi-screen-test
+2. Check the all common resolution from HD to 4k (10 min)"	Master	S1	Accessibility	Alexander Berg	7/6/2022 18:48
+C15	Site availability in multiple countries of the world.	Alexander Berg	7/6/2022 18:37	900s	Site accessible from all locations	900s		High		Mobile	2		Test Cases > Functional testing > Mobile	"1. Install 3 free vpns of your choice
+2. Access the site from at least 10 different countries.
+"	Master	S1	Accessibility	Alexander Berg	7/6/2022 18:37
+C11	Hyperlinks correct work	Alexander Berg	7/6/2022 18:37	600s	"All links are working
+All links leading to right site"	600s		High		Mobile	2		Test Cases > Functional testing > Mobile	"1. Access the SUT
+2. Press all the hyperlinks of the Site
+3. Check if the hyperlinks are working
+4. Check if they are correct (according to developer documentation)"	Master	S1	Accessibility	Alexander Berg	7/6/2022 18:37
+C1	Desktop Site general performance	Alexander Berg	7/6/2022 12:30	300s	Site is opened and appearance matches the mockup	300s	"PC with Windows OC and preinstalled Firefox, Opera, Chrome, Edge browsers"	Critical		Desktop	2		Test Cases > Functional testing > Desktop	"1) Open site in browsers - Firefox, Opera, Chrome and Edge Browsers.
+2) Check site appearance according to provided mockup![](index.php?/attachments/get/19776725-95d1-4215-a6f4-96424e9ed3a2) "	Master	S1	Functional	Alexander Berg	7/6/2022 14:58
+C3	Site accordance to Mock-up on all desktop screen resolutions	Alexander Berg	7/6/2022 16:35	600s	Al elements of the site are visible to human eye and accessible	600s	PC/Linux/Mac desktop	High		Desktop	2		Test Cases > Functional testing > Desktop	"1. Go to testing resolutions sites - like http://whatismyscreenresolution.net/multi-screen-test
+2. Check the all common resolution from HD to 4k (10 min)"	Master	S1	Accessibility	Alexander Berg	7/6/2022 16:40
+C4	Site availability in multiple countries of the world.	Alexander Berg	7/6/2022 16:41	900s	Site accessible from all locations	900s		High		Desktop	2		Test Cases > Functional testing > Desktop	"1. Install 3 free vpns of your choice
+2. Access the site from at least 10 different countries.
+"	Master	S1	Accessibility	Alexander Berg	7/6/2022 16:44
+C5	Hyperlinks correct work	Alexander Berg	7/6/2022 16:45	600s	"All links are working
+All links leading to right site"	600s		High		Desktop	2		Test Cases > Functional testing > Desktop	"1. Access the SUT
+2. Press all the hyperlinks of the Site
+3. Check if the hyperlinks are working
+4. Check if they are correct (according to developer documentation)"	Master	S1	Accessibility	Alexander Berg	7/6/2022 16:47
+C9	Google Metrics Test (Mobile)	Alexander Berg	7/6/2022 17:55	600s	Report Generated.Please send it to attachemts	600s	"Desktop with Chrome/Chromium browser
+
+
+"	Medium		Performance Testing	1		Test Cases > Performance Testing	"1. Go to site https://alexander-berg.github.io
+2. Open the developer tools 
+3. Go to lighthouse tab 
+4. Press generate metrics report for Mobile button
+5. Press the 3 dots in the right top corner
+6. Press generate report, new tab will open
+7. You can see the report. Save it as pdf
+
+"	Master	S1	Performance	Alexander Berg	7/6/2022 18:24
+C10	Google Metrics Test (Desktop)	Alexander Berg	7/6/2022 18:26	600s	Report is generated with Google metrics. Please send it to attachments of this test	600s	Desktop OC with Chrome or Chromium browser	Medium		Performance Testing	1		Test Cases > Performance Testing	"Go to site https://alexander-berg.github.io
+
+Open the developer tools
+
+Go to lighthouse tab
+
+Press generate metrics report for Mobile button
+
+Press the 3 dots in the right top corner
+
+Press generate report, new tab will open
+
+You can see the report. Save it as pdf"	Master	S1	Performance	Alexander Berg	7/6/2022 18:27
+C6	Security Test	Alexander Berg	7/6/2022 17:07	300s	"You will see message ""certificate is valid"""	300s	Desktop PC	Medium		Security Testing	1		Test Cases > Security Testing	"1. As our project site doesn't contain any fields and login system and it also protected by github platform, we can only check if the security certificate is valid
+2. Go to site https://alexander-berg.github.io
+3. Press the ""page information"" button
+4. Go to ""connection is secure""  section and open it
+5. Check the security certificate of the site
+"	Master	S1	Security	Alexander Berg	7/6/2022 17:12
+C7	Fast smoke test Mobile	Alexander Berg	7/6/2022 17:16	300s	"All visual elements corresponds to fresh makeup
+All fresh hyperlinks working correctly
+
+"	300s		Medium		Smoke Testing	1	For smoke testing after update	Test Cases > Smoke Testing	"1. Open the site https://alexander-berg.github.io
+2. Check if all elements  corresponds to fresh mockup
+3. Go to the new added hyperlinks"	Master	S1	Smoke & Sanity	Alexander Berg	7/6/2022 17:21
+C8	Fast smoke Test Desktop	Alexander Berg	7/6/2022 17:22					Medium		Smoke Testing	1	For smoke testing after update	Test Cases > Smoke Testing		Master	S1	Other	Alexander Berg	7/6/2022 17:22
